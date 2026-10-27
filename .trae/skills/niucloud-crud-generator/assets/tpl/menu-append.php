@@ -1,0 +1,16 @@
+            // 只追加到 app/dict/menu/site.php 对应父菜单的 children 中；禁止写入 admin.php（普通业务插件平台端菜单必须为空）
+            [
+                'menu_name' => '{{MENU_NAME}}',
+                'menu_key' => '{{KEY}}_{{MODULE}}_list',
+                'menu_short_name' => '{{MENU_SHORT_NAME}}',
+                'parent_select_key' => '',
+                'menu_type' => '1',
+                'icon' => 'element List',
+                'api_url' => '{{KEY}}/{{MODULE}}',
+                'router_path' => '{{KEY}}/{{MODULE}}/list',
+                'view_path' => '{{MODULE}}/list',
+                'methods' => 'get',
+                'sort' => '100',
+                'status' => '1',
+                'is_show' => '1',
+            ],

@@ -1,0 +1,11 @@
+{
+  "title": "{{TITLE}}",
+  "desc": "{{DESC}}",
+  "key": "{{KEY}}",
+  "version": "1.0.0",
+  "author": "{{AUTHOR}}",
+  "type": "{{TYPE}}",
+  "support_app": "",
+  "compile": [],
+  "support_version": "{{SUPPORT_VERSION}}"
+}
