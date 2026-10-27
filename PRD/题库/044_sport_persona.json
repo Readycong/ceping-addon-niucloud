@@ -1,0 +1,179 @@
+{
+  "id": 44,
+  "title": "运动人格鉴定",
+  "shortName": "运动人格",
+  "category": "健康趣味",
+  "tags": ["运动", "健身", "办卡", "躺平", "朋友圈"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何体能评定、健康评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "有人练到膝盖有话说，有人办卡即运动，有人把瑜伽垫铺成了防滑垫。10 道题鉴定你的运动人设，看看你和运动之间，到底是谁先动了心。",
+  "instructions": "共 10 题，按你这一年真实的运动状态作答，别替立了 flag 的自己代答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "grinder", "name": "卷练狂"},
+    {"key": "zen", "name": "佛系动"},
+    {"key": "cardholder", "name": "办卡即运动"},
+    {"key": "couch", "name": "纯躺派"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "朋友周末约你去运动，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "好啊几点，我把训练计划顺便发你", "score": {"cat": "grinder", "points": 1}},
+        {"key": "B", "text": "行，走哪儿算哪儿，出点汗就行", "score": {"cat": "zen", "points": 1}},
+        {"key": "C", "text": "我卡都办好了，就是还没去过", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "D", "text": "下次一定，今天先躺平", "score": {"cat": "couch", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你的运动装备现状更像哪一种？",
+      "options": [
+        {"key": "A", "text": "瑜伽垫在地上——当防滑垫用", "score": {"cat": "couch", "points": 1}},
+        {"key": "B", "text": "齐全且全新，吊牌都还在", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "C", "text": "跑鞋磨了两双，心率带也换过", "score": {"cat": "grinder", "points": 1}},
+        {"key": "D", "text": "就一双鞋，穿了三年，哪儿都能去", "score": {"cat": "zen", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "运动结束之后，你通常会？",
+      "options": [
+        {"key": "A", "text": "慢慢拉伸一下，舒服就行", "score": {"cat": "zen", "points": 1}},
+        {"key": "B", "text": "立刻记录数据，看看今天达标没有", "score": {"cat": "grinder", "points": 1}},
+        {"key": "C", "text": "洗完澡躺下，今日功德圆满", "score": {"cat": "couch", "points": 1}},
+        {"key": "D", "text": "拍张健身房照片，配文发个朋友圈", "score": {"cat": "cardholder", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "对于办健身卡这件事，你的态度是？",
+      "options": [
+        {"key": "A", "text": "办！先办一年，去一次就赚一次", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "B", "text": "我只想办一张躺着也能用的卡", "score": {"cat": "couch", "points": 1}},
+        {"key": "C", "text": "不办，楼下跑两圈也挺好的", "score": {"cat": "zen", "points": 1}},
+        {"key": "D", "text": "不办卡，我自己有完整的训练安排", "score": {"cat": "grinder", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "连续一周没动，你会？",
+      "options": [
+        {"key": "A", "text": "立刻补回来，今天双倍练", "score": {"cat": "grinder", "points": 1}},
+        {"key": "B", "text": "下周再说吧，先躺一会儿", "score": {"cat": "couch", "points": 1}},
+        {"key": "C", "text": "想起那张还没用几次的卡", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "D", "text": "无所谓，身体自己会调节", "score": {"cat": "zen", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "你最认同哪一句运动口号？",
+      "options": [
+        {"key": "A", "text": "出点汗就行，别跟自己较劲", "score": {"cat": "zen", "points": 1}},
+        {"key": "B", "text": "钱都花了，怎么也得去一次", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "C", "text": "累了就先休息，明天也是一天", "score": {"cat": "couch", "points": 1}},
+        {"key": "D", "text": "今天不练，明天后悔", "score": {"cat": "grinder", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "在微信运动步数榜上，你通常？",
+      "options": [
+        {"key": "A", "text": "偶尔冲一下榜首，必须截图留念", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "B", "text": "每天稳定达标，不看榜也照练", "score": {"cat": "grinder", "points": 1}},
+        {"key": "C", "text": "多少无所谓，走到哪儿算哪儿", "score": {"cat": "zen", "points": 1}},
+        {"key": "D", "text": "常年垫底，也不太打算改", "score": {"cat": "couch", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "刷到别人的马甲线照片，你会？",
+      "options": [
+        {"key": "A", "text": "划走，顺手点了份外卖", "score": {"cat": "couch", "points": 1}},
+        {"key": "B", "text": "收藏一下，哪天有心情再说", "score": {"cat": "zen", "points": 1}},
+        {"key": "C", "text": "分析他的训练动作，今晚加练", "score": {"cat": "grinder", "points": 1}},
+        {"key": "D", "text": "打开健身 App 看看课程排期", "score": {"cat": "cardholder", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "你理想中的运动搭子是？",
+      "options": [
+        {"key": "A", "text": "会给我数数、不许我偷懒的人", "score": {"cat": "grinder", "points": 1}},
+        {"key": "B", "text": "办了卡、愿意一起去的人", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "C", "text": "不强求、随时可以取消的人", "score": {"cat": "zen", "points": 1}},
+        {"key": "D", "text": "能一起点外卖的人", "score": {"cat": "couch", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "给这一年的运动写句年终总结，你会选？",
+      "options": [
+        {"key": "A", "text": "办卡三张，到店两次", "score": {"cat": "couch", "points": 1}},
+        {"key": "B", "text": "全年无休，膝盖有话要说", "score": {"cat": "grinder", "points": 1}},
+        {"key": "C", "text": "续费成功，明年再战", "score": {"cat": "cardholder", "points": 1}},
+        {"key": "D", "text": "想动就动，没给自己压力", "score": {"cat": "zen", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "grinder",
+      "categoryKey": "grinder",
+      "name": "卷练狂",
+      "summary": "训练计划比工作日程还细，休息日也要算进周期。",
+      "detail": "你是健身房里最不需要教练催的人：目标、组数、心率、配速，样样有数。别人靠意志力启动，你靠日程表自动运行。这份自律非常能打，也确实带来了看得见的进步。只是身体不是永动机，恢复也是训练的一部分。给计划里加上「什么都不做」这一项，你会发现状态反而更稳，膝盖也会想给你发一面锦旗。",
+      "traits": ["自律拉满", "目标感强", "执行力高"],
+      "growthTip": "把休息日写进训练计划，并且像完成训练一样认真完成它。",
+      "shareCard": "运动人格鉴定：我是卷练狂，休息日也要排进训练周期。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "zen",
+      "categoryKey": "zen",
+      "name": "佛系动",
+      "summary": "出点汗就行，KPI 这种东西不进健身房。",
+      "detail": "你和运动的关系相当健康：想动就动，不想动也没有罪恶感，从不为了打卡而打卡。散步、爬楼、偶尔跑两圈，都是你的运动方式。你不太在意数据和排名，也因此避开了很多焦虑和比较。唯一的小遗憾是，因为太随缘，进步常常来得慢一点。找一个不较劲但有点新鲜感的项目，比如跟着朋友去一次没玩过的课，你的佛系里会多出一点乐趣。",
+      "traits": ["随缘自在", "不内卷", "心态稳"],
+      "growthTip": "给随缘加一点点新鲜感，偶尔尝试一项没玩过的运动。",
+      "shareCard": "运动人格鉴定：我是佛系动，出点汗就行，不卷不比不焦虑。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "cardholder",
+      "categoryKey": "cardholder",
+      "name": "办卡即运动",
+      "summary": "付费的那一刻，我感觉自己已经练过了。",
+      "detail": "你对运动的诚意主要体现在支付记录上：年卡、私教课、装备、运动 App 会员，一个不落。办卡当天你真心相信这次一定坚持，朋友圈的合影也拍得很认真。问题在于，付款带来的满足感太强，反而提前消耗了行动的动力。破局的办法很朴素：把「去一次」的门槛降到最低，比如只去十分钟就走。你需要的不是更强的意志，而是一次轻松的开机。",
+      "traits": ["付费即行动", "装备党", "开局热情高"],
+      "growthTip": "把目标从「练一小时」改成「到场十分钟」，先把门推开。",
+      "shareCard": "运动人格鉴定：我是办卡即运动，付完款就算练过了。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "couch",
+      "categoryKey": "couch",
+      "name": "纯躺派",
+      "summary": "沙发是我的主场，外卖是我的能量补给。",
+      "detail": "你和运动之间隔着一张沙发、一部手机和一份还没点的外卖。你不是不知道运动好，只是启动成本在你这里高得离谱：换衣服、出门、出汗、洗澡，每一步都能劝退你。好消息是，你对自己很诚实，没给自己编「明天一定」的谎言。真正能打动躺派的，从来不是宏大的健身目标，而是把动作塞进已有习惯里：外卖下楼拿、追剧时站着看两集，动起来其实不需要仪式感。",
+      "traits": ["诚实躺平", "启动门槛高", "享受当下"],
+      "growthTip": "别立大目标，把一个小动作挂在已有习惯上，比如取外卖顺便多走一圈。",
+      "shareCard": "运动人格鉴定：我是纯躺派，沙发和我已经融为一体。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

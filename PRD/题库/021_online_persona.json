@@ -1,0 +1,191 @@
+{
+  "id": 21,
+  "title": "网络人设鉴定",
+  "shortName": "网络人设",
+  "category": "社交/网络",
+  "tags": ["网络", "冲浪", "评论区", "表情包", "社交"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性网络行为分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从热点吃到深夜，从潜水到舌战评论区，每个网民都有自己在网上的固定工位。十道题，鉴定你的网络人设：冲浪达人、潜水员、树洞君、表情包战士还是评论区战神。",
+  "instructions": "共 10 题，请按你在网上的真实行为习惯作答，别按理想形象选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "surfer", "name": "冲浪达人"},
+    {"key": "lurker", "name": "潜水员"},
+    {"key": "treehole", "name": "树洞君"},
+    {"key": "sticker", "name": "表情包战士"},
+    {"key": "commenter", "name": "评论区战神"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "刷到一个新热点，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "立刻搜前因后果，把时间线理清楚", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "默默看完，什么都不留下", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "转给朋友，说说自己的感受", "score": {"cat": "treehole", "points": 1}},
+        {"key": "D", "text": "保存几个表情包，准备派上用场", "score": {"cat": "sticker", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "在一个热门话题下面，你最常做的事是？",
+      "options": [
+        {"key": "A", "text": "把相关讨论和科普全部翻一遍", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "只看不说话，偶尔点个赞", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "发一条长文记录此刻的心情", "score": {"cat": "treehole", "points": 1}},
+        {"key": "D", "text": "输出观点，评论区一条接一条", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "在微信群里，你最显眼的特征是？",
+      "options": [
+        {"key": "A", "text": "转发最新消息，永远知道大家在聊什么", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "几乎不出现，但其实都看到了", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "发言基本全靠表情包", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "接梗最快，金句频出", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "深夜的互联网上，你最可能在干什么？",
+      "options": [
+        {"key": "A", "text": "追热点追到凌晨，第二天照样清醒", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "写一段只有自己看得懂的小作文", "score": {"cat": "treehole", "points": 1}},
+        {"key": "C", "text": "疯狂收藏和制作表情包", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "在评论区一路舌战到天亮", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你的账号主页更像是哪一种？",
+      "options": [
+        {"key": "A", "text": "空空荡荡，几乎没发过什么东西", "score": {"cat": "lurker", "points": 1}},
+        {"key": "B", "text": "一堆深夜情绪和碎碎念", "score": {"cat": "treehole", "points": 1}},
+        {"key": "C", "text": "表情包博物馆和沙雕截图", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "评论截图和辩论战绩", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "看到一条让你很有感触的内容，你会？",
+      "options": [
+        {"key": "A", "text": "顺手查证一下，再决定信不信", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "默默收藏，自己慢慢消化", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "私聊分享给最懂我的那个人", "score": {"cat": "treehole", "points": 1}},
+        {"key": "D", "text": "截个图，做成新的表情包", "score": {"cat": "sticker", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "朋友会怎么形容你在网上的存在感？",
+      "options": [
+        {"key": "A", "text": "“热点百科全书，问他准没错”", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "“神出鬼没，偶尔冒个泡”", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "“有心事大家都爱来跟他说”", "score": {"cat": "treehole", "points": 1}},
+        {"key": "D", "text": "“评论区常驻选手，嘴特别利索”", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "遇到一个有争议的话题，你的做法是？",
+      "options": [
+        {"key": "A", "text": "把各方说法都看一遍再下判断", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "只看不评，远离战场", "score": {"cat": "lurker", "points": 1}},
+        {"key": "C", "text": "发个表情包表达我的态度", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "直接下场，有理有据地讲清楚", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "你的手机相册里数量最多的是？",
+      "options": [
+        {"key": "A", "text": "新闻截图和资料长图", "score": {"cat": "surfer", "points": 1}},
+        {"key": "B", "text": "深夜写下的文字备忘录", "score": {"cat": "treehole", "points": 1}},
+        {"key": "C", "text": "各种表情包和沙雕图", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "评论区截图和聊天记录", "score": {"cat": "commenter", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果互联网给你颁个奖，你拿到的会是？",
+      "options": [
+        {"key": "A", "text": "“最佳隐身奖”", "score": {"cat": "lurker", "points": 1}},
+        {"key": "B", "text": "“深夜电台主播奖”", "score": {"cat": "treehole", "points": 1}},
+        {"key": "C", "text": "“表情包终身成就奖”", "score": {"cat": "sticker", "points": 1}},
+        {"key": "D", "text": "“评论区最佳辩手奖”", "score": {"cat": "commenter", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "surfer",
+      "categoryKey": "surfer",
+      "name": "冲浪达人",
+      "summary": "热点永远比你先到一步，你就是朋友圈的时事播报员。",
+      "detail": "你有一套自己的信息雷达：新梗刚冒头你就知道了，热点刚发酵你已经理完时间线，还能顺手补上背景资料。你不满足于看个热闹，总要搞清楚来龙去脉，这份求真让身边人免了不少被带节奏的坑。唯一要留意的是信息过载——冲浪虽爽，也别忘了定时上岸看看现实生活。",
+      "traits": ["消息灵通", "爱查证", "热点雷达"],
+      "growthTip": "给自己设一个“冲浪时段”，比如早晚各二十分钟，其余时间专注线下；看到情绪化内容时，先等一小时再转发。",
+      "shareCard": "网络人设鉴定：我是冲浪达人，热点永远比我慢半拍。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "lurker",
+      "categoryKey": "lurker",
+      "name": "潜水员",
+      "summary": "你什么都不发，但互联网上发生的事你全知道。",
+      "detail": "你是网络世界里最安静的观察者：不发状态、不抢热评、不参与争论，但群里的每个梗你都懂，每条八卦你都看过。潜水不是社恐，而是一种克制——你把表达欲收起来，把判断力留给自己。这种姿态让你远离了不少无谓的消耗，代价是偶尔会错过一些本该属于你的连接。",
+      "traits": ["低调观察", "信息全知", "不爱表态"],
+      "growthTip": "偶尔冒个泡并不会打破人设：给喜欢的内容点个赞、留一句真诚评论，你可能会收获意想不到的回应。",
+      "shareCard": "网络人设鉴定：我是潜水员，什么都不发但全都看到了。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "treehole",
+      "categoryKey": "treehole",
+      "name": "树洞君",
+      "summary": "深夜的长文和只对你说的悄悄话，都落在你这里。",
+      "detail": "你把网络当成一本公开的日记：深夜写下碎碎念，把说不出口的情绪安放在文字里。神奇的是，这种真诚会吸引别人也对你敞开心扉，于是你的私信和评论区常常变成朋友们的树洞。你的文字有安抚人的力量，也要记得给自己留一块不对外开放的私密角落。",
+      "traits": ["真诚细腻", "善于表达", "值得信任"],
+      "growthTip": "发之前给自己留十分钟冷静期，避免深夜情绪被放大；同时也可以建一个仅自己可见的账号，存放那些不想被看见的真心话。",
+      "shareCard": "网络人设鉴定：我是树洞君，深夜长文都写在我这儿。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "sticker",
+      "categoryKey": "sticker",
+      "name": "表情包战士",
+      "summary": "没什么是一张表情包解决不了的，如果有就发三张。",
+      "detail": "你的表达系统高度图像化：开心有图、无语有图、想骂人有图、连想静静都有图。你收藏表情包的速度堪比进货，还擅长把聊天截图二次创作成新素材。表情包在你的手里不只是搞笑，更是一种社交润滑剂，能用最轻的方式化解最僵的场面。",
+      "traits": ["图库丰富", "幽默高效", "气氛担当"],
+      "growthTip": "遇到需要认真沟通的场合，记得切换回文字模式；另外给表情包做个分类整理，关键时刻才不会翻半天找不到那张对的图。",
+      "shareCard": "网络人设鉴定：我是表情包战士，我的图库能撑起一场群聊。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "commenter",
+      "categoryKey": "commenter",
+      "name": "评论区战神",
+      "summary": "金句频出的地方，通常都有你的 ID。",
+      "detail": "你反应快、嘴皮子利索，擅长在评论区精准接梗，也能在争议话题里条理清晰地讲道理。你的留言常常比原内容还精彩，点赞数说明了一切。这份表达力是你的招牌，也请记得：赢得漂亮比吵赢更重要，遇到不讲理的对象，及时收手才是战神的体面。",
+      "traits": ["反应极快", "逻辑在线", "金句制造机"],
+      "growthTip": "下场前先问一句“对方是想讨论还是想吵”，判断完再出手；遇到情绪上头的时刻，把评论写下来但先不发，第二天再看要不要发。",
+      "shareCard": "网络人设鉴定：我是评论区战神，金句区常驻选手。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

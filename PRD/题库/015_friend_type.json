@@ -1,0 +1,191 @@
+{
+  "id": 15,
+  "title": "你是哪种朋友",
+  "shortName": "朋友类型",
+  "category": "社交",
+  "tags": ["社交", "朋友", "朋友圈", "人设", "聚会"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性社交风格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "在朋友圈里，总有一个位置是非你莫属的：有人负责组局，有人负责接住深夜的情绪，有人负责把群聊盘活。十道题，测出你在友谊里的固定工位。",
+  "instructions": "共 10 题，请按你在朋友面前的真实反应作答，别按理想人设选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "organizer", "name": "饭局组织者"},
+    {"key": "listener", "name": "深夜倾听者"},
+    {"key": "memelord", "name": "梗王"},
+    {"key": "vibe", "name": "气氛组"},
+    {"key": "logistic", "name": "靠谱后勤"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "朋友群里有人发了句“好无聊啊”，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "立刻开组：今晚吃啥，我来定", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "私聊问一句：怎么了，要不要聊聊", "score": {"cat": "listener", "points": 1}},
+        {"key": "C", "text": "甩一张梗图，群里秒活", "score": {"cat": "memelord", "points": 1}},
+        {"key": "D", "text": "连发几个表情把气氛撑起来", "score": {"cat": "vibe", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "朋友过生日，你最可能负责什么？",
+      "options": [
+        {"key": "A", "text": "订餐厅、定时间、拉群通知一条龙", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "写一段只有你们才懂的祝福", "score": {"cat": "listener", "points": 1}},
+        {"key": "C", "text": "做一张丑到离谱的祝福图", "score": {"cat": "memelord", "points": 1}},
+        {"key": "D", "text": "提前买好蛋糕礼物并准时送到", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "朋友半夜发来一句“在吗”，你会？",
+      "options": [
+        {"key": "A", "text": "秒回“在，说吧”，陪他聊到困", "score": {"cat": "listener", "points": 1}},
+        {"key": "B", "text": "发个抱抱表情，让他先缓缓", "score": {"cat": "vibe", "points": 1}},
+        {"key": "C", "text": "问清情况，第二天帮他落实方案", "score": {"cat": "logistic", "points": 1}},
+        {"key": "D", "text": "直接问：“要不要现在出来坐会儿”", "score": {"cat": "organizer", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "一桌人聚会，你通常坐在哪、在干什么？",
+      "options": [
+        {"key": "A", "text": "中间位，负责点菜和控流程", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "角落里那个负责制造笑点的人", "score": {"cat": "memelord", "points": 1}},
+        {"key": "C", "text": "哪桌冷了就去哪桌补气氛", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "靠门口，方便买单、叫车、收尾", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友发来一条 60 秒的吐槽语音，你会？",
+      "options": [
+        {"key": "A", "text": "认真听完，一条条回应", "score": {"cat": "listener", "points": 1}},
+        {"key": "B", "text": "听完总结一句精辟吐槽", "score": {"cat": "memelord", "points": 1}},
+        {"key": "C", "text": "边听边发表情，让他知道有人在", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "听完直接给一套可操作的建议", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "周末被朋友临时放鸽子，你的反应是？",
+      "options": [
+        {"key": "A", "text": "立刻启动备选方案，转手再约别人", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "先关心对方是不是出了状况", "score": {"cat": "listener", "points": 1}},
+        {"key": "C", "text": "发个自嘲段子，然后安心刷剧", "score": {"cat": "memelord", "points": 1}},
+        {"key": "D", "text": "顺势在群里喊一嗓子，把局续上", "score": {"cat": "vibe", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "朋友搬家求助，你最可能是那个？",
+      "options": [
+        {"key": "A", "text": "拉时间表，安排人手和车", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "提前到场，边打包边听他吐槽", "score": {"cat": "listener", "points": 1}},
+        {"key": "C", "text": "人到就行，顺便承包整场笑料", "score": {"cat": "memelord", "points": 1}},
+        {"key": "D", "text": "带齐胶带、纸箱和矿泉水", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "群聊冷场三小时，你会怎么做？",
+      "options": [
+        {"key": "A", "text": "抛个新话题：这周末去哪玩", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "私聊问问大家最近状态如何", "score": {"cat": "listener", "points": 1}},
+        {"key": "C", "text": "发个小红包把人炸出来", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "把之前说好的计划整理同步一遍", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "朋友之间闹了点小别扭，你通常怎么处理？",
+      "options": [
+        {"key": "A", "text": "把大家叫出来当面说清楚", "score": {"cat": "organizer", "points": 1}},
+        {"key": "B", "text": "用一句玩笑先把尴尬化掉", "score": {"cat": "memelord", "points": 1}},
+        {"key": "C", "text": "先把气氛缓回来，再慢慢聊", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "分别了解情况，给个实在方案", "score": {"cat": "logistic", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "朋友对你的固定印象，最可能是哪句？",
+      "options": [
+        {"key": "A", "text": "“有心事第一个想到的就是他”", "score": {"cat": "listener", "points": 1}},
+        {"key": "B", "text": "“他的表情包我存了一整个相册”", "score": {"cat": "memelord", "points": 1}},
+        {"key": "C", "text": "“有他在场，就不会尴尬”", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "“交代他的事，从没掉过链子”", "score": {"cat": "logistic", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "organizer",
+      "categoryKey": "organizer",
+      "name": "饭局组织者",
+      "summary": "没有你，这顿饭大概率聊到一半就散了。",
+      "detail": "你是朋友圈里的发动机：定时间、选餐厅、拉群、催到场，一条龙服务从不喊累。你享受把人聚在一起的成就感，也确实擅长让不同性格的人坐在同一张桌子上不尴尬。唯一要留意的，是别让“我来安排”变成“我来兜底”——组织者也有权只负责吃饭。",
+      "traits": ["组局达人", "执行力强", "人脉枢纽"],
+      "growthTip": "试着把订位、买单这类琐事轮流交给别人，你只负责出主意；聚会前也给自己留一句“今天我也可以什么都不安排”。",
+      "shareCard": "你是哪种朋友：我是饭局组织者，没有我这顿饭多半黄了。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "listener",
+      "categoryKey": "listener",
+      "name": "深夜倾听者",
+      "summary": "别人的心事，总在你这里找到落点。",
+      "detail": "你是那种凌晨一点也会回消息的人。你不急着给建议，也不随便评判，只是认真听完，再轻轻回一句“我在”。这种稳定而安静的陪伴非常珍贵，很多人正是因为你在，才敢把话说出口。只是长期承接别人的情绪也会耗电，记得倾听不该以掏空自己为代价。",
+      "traits": ["共情力强", "守口如瓶", "稳得住"],
+      "growthTip": "给倾听设个边界：太晚的消息可以第二天回，超负荷时直接说“我今天电量不太够”。你也值得被人认真听一次。",
+      "shareCard": "你是哪种朋友：我是深夜倾听者，凌晨一点也在线。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "memelord",
+      "categoryKey": "memelord",
+      "name": "梗王",
+      "summary": "你的表情包库存，够撑起整个群的社交生活。",
+      "detail": "你总能在最合适的时间甩出最离谱的那张图，一句话把沉闷的空气戳破。你的幽默不是硬凹，而是对生活和热点的敏锐捕捉，别人还在反应，你已经接上第二层笑点。梗王的隐藏技能是解压——你让朋友在面对烂事时还能笑出来，这本身就是一种高级的善意。",
+      "traits": ["笑点密集", "反应快", "自带喜感"],
+      "growthTip": "玩笑开到七分最好，遇到朋友真的难过时，记得切换成认真模式；偶尔也把梗用在自己身上，会更讨喜。",
+      "shareCard": "你是哪种朋友：我是梗王，我的表情包养活了整个群。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "vibe",
+      "categoryKey": "vibe",
+      "name": "气氛组",
+      "summary": "有你在的地方，空气都是流动的。",
+      "detail": "你天生会读空气：谁被冷落了、哪里快冷场了、什么时候该递个台阶，你都能第一时间补位。你不一定是最会讲段子的那个，但你一定是让每个人都参与进来的那个。朋友聚会因为有你而变得松弛，这种暖场能力看起来轻松，其实很花心思，也请珍惜自己的那份热乎劲。",
+      "traits": ["会暖场", "体贴周到", "感染力强"],
+      "growthTip": "不用每次都把气氛扛在自己肩上，冷场也可以冷一会儿；给自己留点不说话、纯享受聚会的空间。",
+      "shareCard": "你是哪种朋友：我是气氛组，有我在场就不会冷。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "logistic",
+      "categoryKey": "logistic",
+      "name": "靠谱后勤",
+      "summary": "交代给你的事，从来不需要再问第二遍。",
+      "detail": "你是朋友圈里的定心丸：证件带没带、车叫了没、东西收好没，你都提前想好了。你不太爱抢风头，却在关键时刻总能拿出胶带、充电宝、雨伞和备用方案。这种可靠的背后是极强的责任心，但也容易变成“大家默认你来收拾”。靠谱很值钱，前提是别让它变成无限责任。",
+      "traits": ["极度靠谱", "未雨绸缪", "细节到位"],
+      "growthTip": "学会把任务明确分出去，比如直接点名“这次充电宝你带”；做完之后也别急着隐身，让朋友知道你付出了什么。",
+      "shareCard": "你是哪种朋友：我是靠谱后勤，交代我的事从没掉过链子。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": 42,
+  "title": "星际人格鉴定：你是哪个外星种族",
+  "shortName": "星际人格",
+  "category": "脑洞/玄学",
+  "tags": ["脑洞", "外星人", "星际", "人设", "趣味"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何心理评估或医学诊断，纯属脑洞设定。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "如果地球只是你的暂住证，你老家究竟在哪片星区？10 道题给你安排一个外星种族身份，附赠族徽性格、舱室审美和社交方式。科学含量为 0，快乐含量拉满。",
+  "instructions": "共 10 题，凭第一直觉选，不要计算哪个听起来更酷（虽然我知道你很想）。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "solari", "name": "炽阳族"},
+    {"key": "abyssi", "name": "深蓝族"},
+    {"key": "zephyr", "name": "风行族"},
+    {"key": "crystal", "name": "晶石族"},
+    {"key": "darkmatter", "name": "暗物质族"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "第一次踏上陌生星球，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "冲在最前面，把周围照亮看个清楚", "score": {"cat": "solari", "points": 1}},
+        {"key": "B", "text": "先安静观察地形和气候，再决定落脚点", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "C", "text": "随便挑个方向就飘过去，反正都能回来", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "D", "text": "隐入阴影，先把这里的规则摸清楚", "score": {"cat": "darkmatter", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你的飞船能量核心更接近哪一种？",
+      "options": [
+        {"key": "A", "text": "一直在流动，停下来就会熄火", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "B", "text": "结构稳定，内部层层折射着光", "score": {"cat": "crystal", "points": 1}},
+        {"key": "C", "text": "表面平静，深处压力大到没人敢测", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "D", "text": "持续燃烧，越热越亮", "score": {"cat": "solari", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "星际议会要你提一个提案，你会？",
+      "options": [
+        {"key": "A", "text": "提一个没人敢碰的冷门议题", "score": {"cat": "darkmatter", "points": 1}},
+        {"key": "B", "text": "先把大家的热情点起来，干就完了", "score": {"cat": "solari", "points": 1}},
+        {"key": "C", "text": "给出一套漂亮的结构化方案", "score": {"cat": "crystal", "points": 1}},
+        {"key": "D", "text": "提议先去勘测几个没人去过的星区", "score": {"cat": "zephyr", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "遇到一场宇宙级大堵车，你会？",
+      "options": [
+        {"key": "A", "text": "安静排队，顺便把星图复习一遍", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "B", "text": "列出三种绕行方案并附上时间表", "score": {"cat": "crystal", "points": 1}},
+        {"key": "C", "text": "打开广播，找最近的补给站聊两句", "score": {"cat": "solari", "points": 1}},
+        {"key": "D", "text": "找条没人走的小路，悄悄穿出去", "score": {"cat": "darkmatter", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你的私人舱室大概长什么样？",
+      "options": [
+        {"key": "A", "text": "墙上贴满去过的地方和合照", "score": {"cat": "solari", "points": 1}},
+        {"key": "B", "text": "窗边永远放着没看完的书和票根", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "C", "text": "灯很暗，只有屏幕发出一点光", "score": {"cat": "darkmatter", "points": 1}},
+        {"key": "D", "text": "东西不多，但每件都有来历", "score": {"cat": "abyssi", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "星际集市上，你最容易为什么掏钱？",
+      "options": [
+        {"key": "A", "text": "一颗据说有故事的稀有晶石", "score": {"cat": "crystal", "points": 1}},
+        {"key": "B", "text": "一张手绘的深空航行图", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "C", "text": "能让飞船立刻起飞的燃料和加速器", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "D", "text": "能照亮整个舱室的大功率灯", "score": {"cat": "solari", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你的种族天赋更像哪一种？",
+      "options": [
+        {"key": "A", "text": "在完全黑暗里也能看清一切", "score": {"cat": "darkmatter", "points": 1}},
+        {"key": "B", "text": "把混乱信息瞬间整理成清晰结构", "score": {"cat": "crystal", "points": 1}},
+        {"key": "C", "text": "能感知到别人没说出口的情绪暗流", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "D", "text": "想去哪儿，一阵风就到了", "score": {"cat": "zephyr", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "和同伴闹别扭，你的处理方式更像？",
+      "options": [
+        {"key": "A", "text": "先出去飞一圈，回来就当没事了", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "B", "text": "当晚就打过去，把话说透", "score": {"cat": "solari", "points": 1}},
+        {"key": "C", "text": "写一段很有条理的文字，说清各自的问题", "score": {"cat": "crystal", "points": 1}},
+        {"key": "D", "text": "默默消失几天，想清楚了再出现", "score": {"cat": "darkmatter", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "一年一度的星际庆典，你最想？",
+      "options": [
+        {"key": "A", "text": "站上舞台中心，把气氛拉到最满", "score": {"cat": "solari", "points": 1}},
+        {"key": "B", "text": "找个安静角落，看别人热闹", "score": {"cat": "abyssi", "points": 1}},
+        {"key": "C", "text": "负责流程表，让一切严丝合缝", "score": {"cat": "crystal", "points": 1}},
+        {"key": "D", "text": "不出现在名单上，但你知道全场的细节", "score": {"cat": "darkmatter", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "给你的种族写一句自我介绍，你会选？",
+      "options": [
+        {"key": "A", "text": "我们的文明建在最严谨的结构之上", "score": {"cat": "crystal", "points": 1}},
+        {"key": "B", "text": "我们从不在一个星系停留太久", "score": {"cat": "zephyr", "points": 1}},
+        {"key": "C", "text": "我们更喜欢研究看不见的东西", "score": {"cat": "darkmatter", "points": 1}},
+        {"key": "D", "text": "我们的海，比你们的天空更深", "score": {"cat": "abyssi", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "solari",
+      "categoryKey": "solari",
+      "name": "炽阳族",
+      "summary": "自带发光体质，走到哪儿哪儿亮堂。",
+      "detail": "炽阳族出生在恒星附近，天生热量超标，靠近他们的人都会被烘得暖洋洋。你是人群里的启动键：冷场时第一个开口，没人敢接的活儿第一个举手，情绪来得快去得也快。你的热情很有感染力，但也有个副作用——容易把别人的冷淡当成针对自己。记住，不是所有人都扛得住满功率照射，偶尔调成小夜灯模式，反而能让身边的人待得更久。",
+      "traits": ["热情外放", "行动力强", "气氛发动机"],
+      "growthTip": "把光留给愿意靠近的人，也给自己留一段不发热的冷却时间。",
+      "shareCard": "星际人格鉴定：我是炽阳族，自带发光体质，靠近我请注意防晒。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "abyssi",
+      "categoryKey": "abyssi",
+      "name": "深蓝族",
+      "summary": "表面风平浪静，底下是整片深海。",
+      "detail": "深蓝族的家园被液态海洋覆盖，族人习惯在高压里安静思考。你话不多，但每句话都在脑子里过了好几遍；别人以为你只是安静，其实你正在感知全场最细微的情绪变化。你的深度和共情是稀缺资源，麻烦在于太习惯独自消化，把很多话沉到了海底。试着把深处的想法打捞上来一点点，你会发现愿意听的人比想象中多。",
+      "traits": ["内敛深沉", "共情细腻", "观察力强"],
+      "growthTip": "不用一次说尽，把心里话说出三成就已经是一次潜水成功。",
+      "shareCard": "星际人格鉴定：我是深蓝族，表面平静，内心压强未知。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "zephyr",
+      "categoryKey": "zephyr",
+      "name": "风行族",
+      "summary": "不在一个星系停留太久，也不打算道歉。",
+      "detail": "风行族没有固定疆域，整个族群都在漂移，讲究的是此刻想去哪儿。你对新鲜事物上头极快，对重复性的日子则容易倦怠，计划表在你手里基本活不过三天。你的轻盈和即兴让人很放松，也总能带来意外的好点子。稍微留一点锚点——比如一件坚持很久的小事——你就不会在风里彻底失去方向。",
+      "traits": ["自由洒脱", "适应力强", "即兴玩家"],
+      "growthTip": "保留一件长期坚持的小事当锚，风再大也吹不走你。",
+      "shareCard": "星际人格鉴定：我是风行族，计划表在我手里活不过三天。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "crystal",
+      "categoryKey": "crystal",
+      "name": "晶石族",
+      "summary": "万物皆可分类，混乱在你手里会被重新排列。",
+      "detail": "晶石族的身体由规则晶格构成，天生对结构和秩序上瘾。看到乱糟糟的表格、混乱的流程、含糊的表达，你的第一反应是动手整理。你靠谱、严谨、交付稳定，是团队里的承重结构。唯一需要警惕的是过度打磨：当「还可以更整齐」变成无限循环时，完成比完美更值得庆祝。允许一点点无序存在，世界并不会塌。",
+      "traits": ["严谨可靠", "结构化思维", "细节控"],
+      "growthTip": "给每件事设一个「够好就交」的标准，把省下的力气拿去休息。",
+      "shareCard": "星际人格鉴定：我是晶石族，看到乱表格手就痒。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "darkmatter",
+      "categoryKey": "darkmatter",
+      "name": "暗物质族",
+      "summary": "占宇宙质量的大头，但谁也看不见你。",
+      "detail": "暗物质族几乎不与光发生作用，习惯隐身在可见范围之外默默观察。你多半是那个不在群里发言、却把聊天记录全部看完的人；重要的场合你可能缺席合影，但全场细节都在你脑子里。你的存在感靠结果而非音量建立，值得注意的只有一点：不出现，别人就真的不知道你在。偶尔主动露一次面，你的影响力会立刻翻倍。",
+      "traits": ["低调神秘", "洞察入微", "结果导向"],
+      "growthTip": "每季度主动展示一次成果，让存在感不只停留在你的脑子里。",
+      "shareCard": "星际人格鉴定：我是暗物质族，我一直在场，只是你没看到。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

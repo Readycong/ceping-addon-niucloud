@@ -1,0 +1,191 @@
+{
+  "id": 18,
+  "title": "决策风格测试",
+  "shortName": "决策风格",
+  "category": "职场",
+  "tags": ["决策", "职场", "思维方式", "选择困难", "效率"],
+  "copyrightStatus": "public_domain",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性决策风格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "General Decision-Making Style（Scott & Bruce 1995）五维度：理性、直觉、依赖、回避、自发",
+    "sourceType": "public_domain",
+    "reference": "本测题为基于公开学术量表结构的原创自编改编，非官方逐字题面"
+  },
+  "description": "从点外卖到换工作，每个人按下决定的方式都不一样：有人列 Excel，有人凭第六感，有人等别人先表态。十道题，测出你的决策风格属于哪一派。",
+  "instructions": "共 10 题，请按你在真实情境中的习惯作答，别按“正确做法”选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "rational", "name": "理性分析型"},
+    {"key": "intuitive", "name": "直觉判断型"},
+    {"key": "dependent", "name": "依赖参考型"},
+    {"key": "avoidant", "name": "回避拖延型"},
+    {"key": "spontaneous", "name": "即兴冲动型"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "面对一个需要马上拍板的选择，你通常？",
+      "options": [
+        {"key": "A", "text": "列条件、比数据、算清楚利弊", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "凭第一感觉，跟着直觉走", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "先问问身边人怎么看", "score": {"cat": "dependent", "points": 1}},
+        {"key": "D", "text": "能拖就拖，拖到有人替我定", "score": {"cat": "avoidant", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "中午点外卖时，你的操作更像？",
+      "options": [
+        {"key": "A", "text": "看评分、销量和评价，比较后再点", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "凭当下最想吃的那口来选", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "先问同事点什么，跟着一起", "score": {"cat": "dependent", "points": 1}},
+        {"key": "D", "text": "随便划到哪家就哪家", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "买一件单价不低的东西，你会？",
+      "options": [
+        {"key": "A", "text": "先做功课，参数全查一遍", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "摸到实物那一刻就知道要不要", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "一直在购物车里躺着没结算", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "看到心动当场就下单", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "会上被要求给方案意见，你一般？",
+      "options": [
+        {"key": "A", "text": "给出带数据和逻辑的明确结论", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "先听听领导和同事的倾向", "score": {"cat": "dependent", "points": 1}},
+        {"key": "C", "text": "含糊带过，不轻易表态", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "当场拍脑袋先给个方向", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友问“周末去哪玩”，你的回答更像？",
+      "options": [
+        {"key": "A", "text": "“跟着感觉走，到了再说”", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "B", "text": "“你们定，我都可以”", "score": {"cat": "dependent", "points": 1}},
+        {"key": "C", "text": "“再说吧，临时再约”", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "“现在就走，我随时能出发”", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "回顾自己做过的重大决定，你觉得？",
+      "options": [
+        {"key": "A", "text": "多数经过论证，不太后悔", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "基本靠直觉，结果还不错", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "很多都是听了别人的建议", "score": {"cat": "dependent", "points": 1}},
+        {"key": "D", "text": "不少是拖到最后被逼出来的", "score": {"cat": "avoidant", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "两难选择里，你最难忍受的是？",
+      "options": [
+        {"key": "A", "text": "信息还没搞清楚就要下判断", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "违背自己心里那个声音", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "身边连个能商量的人都没有", "score": {"cat": "dependent", "points": 1}},
+        {"key": "D", "text": "被流程绑住，不能马上行动", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "群里投票选聚餐地点，你会？",
+      "options": [
+        {"key": "A", "text": "先看哪家性价比最高", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "跟着大多数人选的那个", "score": {"cat": "dependent", "points": 1}},
+        {"key": "C", "text": "随便投一个，懒得再想", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "直接跳出来说“就这家，走”", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "做完一个决定之后，你更常？",
+      "options": [
+        {"key": "A", "text": "复盘整个过程，下次优化", "score": {"cat": "rational", "points": 1}},
+        {"key": "B", "text": "相信这就是对的，不再回头看", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "C", "text": "还是会反复怀疑", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "立刻去做，做完再说", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "别人评价你的决策方式更像哪句？",
+      "options": [
+        {"key": "A", "text": "“他第六感挺准的”", "score": {"cat": "intuitive", "points": 1}},
+        {"key": "B", "text": "“他挺愿意听建议的”", "score": {"cat": "dependent", "points": 1}},
+        {"key": "C", "text": "“他做决定有点慢”", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "“他想到什么就干什么”", "score": {"cat": "spontaneous", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "rational",
+      "categoryKey": "rational",
+      "name": "理性分析型",
+      "summary": "决策之前先建模型，你相信数据比感觉靠谱。",
+      "detail": "你做决定前习惯收集信息、列条件、比较方案，甚至会默默给各选项打分。这种方式让你在大额消费和职业选择上很少踩坑，也让你成为团队里那个“说得出为什么”的人。需要注意的是，理性也有成本：信息永远收集不完，过度分析会把机会拖没。给重要的决定设一个截止时间，比追求完美答案更实用。",
+      "traits": ["逻辑清晰", "重视依据", "结论可靠"],
+      "growthTip": "给分析设时间盒：重要决定最多调研两天，然后强制进入决策环节；小事上刻意练习“三十秒决断”，把分析力留给真正的大事。",
+      "shareCard": "决策风格测试：我是理性分析型，先列 Excel 再说话。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "intuitive",
+      "categoryKey": "intuitive",
+      "name": "直觉判断型",
+      "summary": "第六感在线，你常常说不出理由但就是知道。",
+      "detail": "你下判断的速度很快，往往在别人还在列清单时，你心里已经有了答案。这种直觉不是凭空来的，而是过往经验被大脑快速压缩后的结果，在信息不全、时间紧迫的场景里尤其好用。你的优势是果断、不内耗，值得留意的是别把直觉用在不熟悉的领域——那更可能是偏见。",
+      "traits": ["判断迅速", "相信感觉", "不内耗"],
+      "growthTip": "重要决定上给直觉配一道“复核”：写下三个支持理由，看看是否站得住；陌生领域则主动多查资料，别让手感代替事实。",
+      "shareCard": "决策风格测试：我是直觉判断型，说不出理由但就是知道。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "dependent",
+      "categoryKey": "dependent",
+      "name": "依赖参考型",
+      "summary": "先听听大家怎么说，你再做自己的决定。",
+      "detail": "你习惯在决策前收集他人的意见：问朋友、看评价、参考前辈的经验。这让你少走弯路，也让你在团队中显得合作、好沟通。你擅长的其实是整合信息，而不是没主见。需要留意的是，别人的经验有各自的处境，照搬可能水土不服，最后拿主意的人还是你自己。",
+      "traits": ["善于请教", "整合力强", "合作度高"],
+      "growthTip": "征求意见时同步说明自己的处境，让建议更对症；收集完后留出十分钟独自判断，写下“我真正想要的是什么”，再做最终决定。",
+      "shareCard": "决策风格测试：我是依赖参考型，先听听大家怎么说。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "avoidant",
+      "categoryKey": "avoidant",
+      "name": "回避拖延型",
+      "summary": "能晚点决定就晚点决定，最好有人替你定。",
+      "detail": "你不是不会选，而是不太喜欢做选择这件事本身：选错了要负责，选之前要纠结，干脆先放着。短期确实省心，长期却会让机会溜走，也会让小问题攒成大问题。好消息是，回避往往来自对后果的过度放大，只要把决定的代价拆小，你会发现多数选择没那么可怕。",
+      "traits": ["谨慎保守", "不爱担责", "容易搁置"],
+      "growthTip": "把“要不要做”换成“先做哪一步”：给每个悬而未决的事设一个截止日，到点必须给个方向；同时告诉自己，多数决定是可以修正的。",
+      "shareCard": "决策风格测试：我是回避拖延型，能明天定就明天定。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "spontaneous",
+      "categoryKey": "spontaneous",
+      "name": "即兴冲动型",
+      "summary": "想做就做，你的行动速度经常快过思考。",
+      "detail": "你是那种说走就走的人：看到心动就下单，想到点子就开干，讨厌被流程和等待拖住。这种即兴让你抓住了不少别人还在犹豫的机会，也让生活充满新鲜感。需要平衡的是，冲动的另一面是返工率——在不可逆的决定上多停三秒，你的效率会真正转化为成果。",
+      "traits": ["行动迅速", "敢试敢闯", "讨厌等待"],
+      "growthTip": "给自己设一条“不可逆清单”（辞职、大额消费、签约），清单内的事强制冷却一晚；清单外的小事继续保持你的速度优势。",
+      "shareCard": "决策风格测试：我是即兴冲动型，想到就干不等明天。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

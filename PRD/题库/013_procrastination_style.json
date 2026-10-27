@@ -1,0 +1,191 @@
+{
+  "id": 13,
+  "title": "拖延症流派鉴定与破解",
+  "shortName": "拖延症流派",
+  "category": "自我成长",
+  "tags": ["拖延", "自我成长", "效率", "打工人", "时间管理"],
+  "copyrightStatus": "public_domain",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性习惯分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "General Procrastination Scale（Lay 1986）与拖延认知量表 TPS",
+    "sourceType": "public_domain",
+    "reference": "本测题为基于公开学术量表结构的原创自编改编，非官方逐字题面"
+  },
+  "description": "同样是拖，有人拖在完美主义，有人拖在不敢开始，还有人专门等到最后一刻才上线手感。测出你的拖延流派，顺便带走一份能立刻用的破解法。",
+  "instructions": "共 10 题，请按你最近三个月的真实状态作答，别按“我想成为的样子”选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "perfectionist", "name": "完美主义拖延"},
+    {"key": "avoidant", "name": "逃避型拖延"},
+    {"key": "thrill", "name": "刺激寻求型"},
+    {"key": "indecisive", "name": "决策瘫痪型"},
+    {"key": "lowenergy", "name": "能量不足型"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "一个重要任务今晚必须交，你现在的状态更像？",
+      "options": [
+        {"key": "A", "text": "反复改开头，总觉得还不够好", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "B", "text": "文档打开又关掉，顺手刷起了手机", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "C", "text": "先干一堆别的小事，准备最后冲刺", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "卡在“到底先做哪部分”，一直没开工", "score": {"cat": "indecisive", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "拖延时你最常对自己说的那句话是？",
+      "options": [
+        {"key": "A", "text": "“这样交出去会被说不专业”", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "B", "text": "“做了也做不好，不如晚点再说”", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "C", "text": "“我就喜欢 deadline 前的效率”", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "“脑子转不动了，先歇会儿”", "score": {"cat": "lowenergy", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "待办清单上挂最久的那条，卡在哪儿？",
+      "options": [
+        {"key": "A", "text": "标准定太高，怎么改都不满意", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "B", "text": "一想到就烦，能躲一天是一天", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "C", "text": "一动手就累，电量常年见底", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "D", "text": "可选方向太多，选不出来", "score": {"cat": "indecisive", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "晚上八点的你，通常更像哪一种？",
+      "options": [
+        {"key": "A", "text": "还在抠细节，越抠越晚", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "B", "text": "已经瘫进沙发，什么都干不动", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "C", "text": "突然来了精神，准备挑灯夜战", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "计划列了三版，一版都没执行", "score": {"cat": "indecisive", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "面对一个大项目，你的“第一步”通常是？",
+      "options": [
+        {"key": "A", "text": "先干点轻松的缓冲一下情绪", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "B", "text": "先补觉充电，等有力气再说", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "C", "text": "拖到最后，靠一次爆发解决", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "反复比较各种做法，迟迟不定", "score": {"cat": "indecisive", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "什么情况下你反而能立刻开工？",
+      "options": [
+        {"key": "A", "text": "被催到不行，硬着头皮也得干", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "B", "text": "拿到了明确的评分标准，心里有底", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "C", "text": "只剩两小时，刺激感一下就来了", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "有人替我把方向拍了板", "score": {"cat": "indecisive", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "赶完之后，你的心情更接近？",
+      "options": [
+        {"key": "A", "text": "惊险又刺激，甚至有点爽", "score": {"cat": "thrill", "points": 1}},
+        {"key": "B", "text": "直接累瘫，只想原地躺平", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "C", "text": "后悔没早点开始，本可以做得更好", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "D", "text": "松了一口气，然后继续躲下一件", "score": {"cat": "avoidant", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "周末计划写的东西一个字没动，你在干嘛？",
+      "options": [
+        {"key": "A", "text": "在两个选题之间来回横跳", "score": {"cat": "indecisive", "points": 1}},
+        {"key": "B", "text": "反复改大纲，正文始终空白", "score": {"cat": "perfectionist", "points": 1}},
+        {"key": "C", "text": "点了外卖，追剧追到天黑", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "D", "text": "睡了一觉又一觉，越睡越困", "score": {"cat": "lowenergy", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "拖着的时候，身体给你的信号更像？",
+      "options": [
+        {"key": "A", "text": "电量长期偏低，怎么睡都不够", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "B", "text": "选项太多，脑容量直接过载", "score": {"cat": "indecisive", "points": 1}},
+        {"key": "C", "text": "平时没劲，deadline 前反而清醒", "score": {"cat": "thrill", "points": 1}},
+        {"key": "D", "text": "脑子停不下来，一直想继续优化", "score": {"cat": "perfectionist", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果要给拖延找个借口，你的版本是？",
+      "options": [
+        {"key": "A", "text": "“我得先把自己充满电”", "score": {"cat": "lowenergy", "points": 1}},
+        {"key": "B", "text": "“状态不对，等状态来了再说”", "score": {"cat": "avoidant", "points": 1}},
+        {"key": "C", "text": "“信息还不够，再调研一下”", "score": {"cat": "indecisive", "points": 1}},
+        {"key": "D", "text": "“有压力才有产出”", "score": {"cat": "thrill", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "perfectionist",
+      "categoryKey": "perfectionist",
+      "name": "完美主义拖延",
+      "summary": "不是不想开始，是怕开始得不够好。",
+      "detail": "你的拖延来自高标准：作品还没成型，你已经在脑子里评审了八遍。于是改大纲、换开头、调格式，时间全花在“让它配得上我”上面。好处是你的成品下限很高，坏处是永远觉得差一口气，交付变成一场和自己谈判的拉锯战。你需要的不是更努力，而是允许自己先交一版丑的。",
+      "traits": ["标准偏高", "细节控", "自我要求严格"],
+      "growthTip": "破解法：给自己设一个“丑初稿配额”——先写满 200 字的烂版本，再允许修改。同时把标准写成清单（如“三个要点齐全即可交”），达标即停手，用客观条件替代主观感觉。",
+      "shareCard": "拖延症流派鉴定：我是完美主义拖延，卡在“还不够好”。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "avoidant",
+      "categoryKey": "avoidant",
+      "name": "逃避型拖延",
+      "summary": "一想到那件事，手指就自动点开了别的应用。",
+      "detail": "你的拖延不是懒，是回避。任务越重要，越容易触发“做了可能被否定”的压力，于是大脑自动给你安排刷手机、整理桌面、回无关消息等缓冲动作。短期确实舒服了，长期却让压力越滚越大。你真正缺的不是自律，而是一个足够小的入口，让开始这件事不再可怕。",
+      "traits": ["压力敏感", "需要缓冲", "容易绕路"],
+      "growthTip": "破解法：把任务切成“两分钟版本”——只打开文档、只写标题、只填第一格。配合“先做五分钟再说停”的规则，做完可以真停。另外把最难的事放在一天中精力最好的时段，别留给深夜的自己。",
+      "shareCard": "拖延症流派鉴定：我是逃避型拖延，一开工就想刷手机。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "thrill",
+      "categoryKey": "thrill",
+      "name": "刺激寻求型",
+      "summary": "没有 deadline，就没有生产力。",
+      "detail": "你是典型的压力驱动型选手：平时提不起劲，倒计时一开始，专注力和效率突然满格，甚至有点享受那种惊险感。你确实能在短时间内爆发，但代价是质量波动、熬夜伤身，还容易把身边人一起拉进紧急状态。你的能力没问题，问题在于把风险当成燃料，长期看很费电池。",
+      "traits": ["临场爆发", "抗压兴奋", "节奏偏后"],
+      "growthTip": "破解法：自己提前制造“假 deadline”，把交付日往前挪两天，并公开同步给同事或朋友。再配一个“倒计时冲刺时段”（如每天 17:00—18:00 只做最重要那一件），把刺激感搬到可控的时间盒里，不用每次都赌上熬夜。",
+      "shareCard": "拖延症流派鉴定：我是刺激寻求型，deadline 才是我的启动键。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "indecisive",
+      "categoryKey": "indecisive",
+      "name": "决策瘫痪型",
+      "summary": "不是没动手，是卡在了“到底选哪条路”。",
+      "detail": "你面对一个任务时，往往同时冒出好几种做法，每种看着都有道理，于是不停查资料、比方案、问别人，时间就在比较里流走。你的思考深度是优势，但过多选项会把大脑直接挤爆，最后干脆什么都不做。你需要的是给自己一个截止思考的时间点，而不是更完美的答案。",
+      "traits": ["想得深", "选项过载", "谨慎犹豫"],
+      "growthTip": "破解法：给自己设“思考预算”——调研不超过 30 分钟，最多比较 3 个方案，然后强制选一个并记录理由。小决定（吃什么、穿什么）直接随机或听第一个念头，把决策力省给真正重要的选择。",
+      "shareCard": "拖延症流派鉴定：我是决策瘫痪型，卡在“选哪个”。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "lowenergy",
+      "categoryKey": "lowenergy",
+      "name": "能量不足型",
+      "summary": "不是不上进，是电池真的只剩百分之几。",
+      "detail": "你的拖延最诚实：脑子想干活，身体已经关机。长期睡眠不足、连轴转、信息过载，会把意志力消耗殆尽，这时候再谈自律就是空谈。你看起来是在“摆烂”，其实是在被动节能。与其责备自己，不如先把电量充回来——很多任务不是难，只是你太累了。",
+      "traits": ["电量告急", "需要恢复", "节奏偏慢"],
+      "growthTip": "破解法：先补基础电量——固定睡够、白天晒十分钟太阳、喝水吃饭别省。任务安排改成“高峰做难事、低谷做杂事”，并把一天中最重要的工作压缩成 90 分钟一段。状态差时只做最低限度版本，把完整版留给状态好的那天。",
+      "shareCard": "拖延症流派鉴定：我是能量不足型，脑子在线但身体已关机。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

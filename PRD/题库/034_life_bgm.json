@@ -1,0 +1,191 @@
+{
+  "id": 34,
+  "title": "你的人生 BGM 是哪一首",
+  "shortName": "人生BGM",
+  "category": "脑洞/音乐",
+  "tags": ["音乐", "BGM", "脑洞", "氛围感", "歌单"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "如果人生是一部电影，总得有条配乐。从清晨闹钟、通勤地铁到周末深夜，测一测你的专属 BGM 属于哪一种曲风。",
+  "instructions": "共 10 题，凭第一直觉选最像你的那个答案，不用想太久。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "epic", "name": "史诗交响"},
+    {"key": "jazz", "name": "慵懒爵士"},
+    {"key": "rock", "name": "热血摇滚"},
+    {"key": "healing", "name": "治愈轻音乐"},
+    {"key": "edm", "name": "电子迷幻"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "清晨闹钟响起，你希望配什么音乐？",
+      "options": [
+        {"key": "A", "text": "层层推进的弦乐，像大片开场", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "慵懒的钢琴和萨克斯", "score": {"cat": "jazz", "points": 1}},
+        {"key": "C", "text": "一段炸裂的吉他前奏", "score": {"cat": "rock", "points": 1}},
+        {"key": "D", "text": "轻轻的木吉他，慢慢苏醒", "score": {"cat": "healing", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "通勤地铁上，你的耳机里在放什么？",
+      "options": [
+        {"key": "A", "text": "宏大的电影原声，走路带风", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "节奏感强的电子节拍", "score": {"cat": "edm", "points": 1}},
+        {"key": "C", "text": "音色干净的纯音乐", "score": {"cat": "healing", "points": 1}},
+        {"key": "D", "text": "鼓点很猛的摇滚现场版", "score": {"cat": "rock", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "你要交一个重要项目，开工时的背景音是？",
+      "options": [
+        {"key": "A", "text": "史诗级战歌，这一步必须赢", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "燃到爆的摇滚，边听边干", "score": {"cat": "rock", "points": 1}},
+        {"key": "C", "text": "循环的电子节拍，进入心流", "score": {"cat": "edm", "points": 1}},
+        {"key": "D", "text": "咖啡馆爵士，从容不迫", "score": {"cat": "jazz", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "周末下午，阳光正好，你脑子里自动播放？",
+      "options": [
+        {"key": "A", "text": "慵懒的爵士三重奏", "score": {"cat": "jazz", "points": 1}},
+        {"key": "B", "text": "轻快温柔的钢琴曲", "score": {"cat": "healing", "points": 1}},
+        {"key": "C", "text": "氛围感电子，像漂在云里", "score": {"cat": "edm", "points": 1}},
+        {"key": "D", "text": "波澜壮阔的交响诗", "score": {"cat": "epic", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友聚会你负责点歌，你会选？",
+      "options": [
+        {"key": "A", "text": "全场能跟着吼的大合唱摇滚", "score": {"cat": "rock", "points": 1}},
+        {"key": "B", "text": "节奏上头的电子舞曲", "score": {"cat": "edm", "points": 1}},
+        {"key": "C", "text": "氛围感爵士，聊天不打架", "score": {"cat": "jazz", "points": 1}},
+        {"key": "D", "text": "温柔的民谣小调", "score": {"cat": "healing", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "深夜加班到十一点，你需要什么配乐？",
+      "options": [
+        {"key": "A", "text": "持续推进的电子节拍，稳定输出", "score": {"cat": "edm", "points": 1}},
+        {"key": "B", "text": "燃的摇滚，给自己打气", "score": {"cat": "rock", "points": 1}},
+        {"key": "C", "text": "安静的钢琴，别再刺激我了", "score": {"cat": "healing", "points": 1}},
+        {"key": "D", "text": "史诗战歌，这是在打最终 boss", "score": {"cat": "epic", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "想象你人生的高光时刻，配乐是？",
+      "options": [
+        {"key": "A", "text": "交响乐全奏，全场起立", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "电吉他独奏，燃到落泪", "score": {"cat": "rock", "points": 1}},
+        {"key": "C", "text": "一段温柔的弦乐，安静但有力", "score": {"cat": "healing", "points": 1}},
+        {"key": "D", "text": "层层堆叠的电子音墙", "score": {"cat": "edm", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你最想要的歌词气质是？",
+      "options": [
+        {"key": "A", "text": "「我们终将抵达那片海」", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "「就这样慢慢浪费一个下午」", "score": {"cat": "jazz", "points": 1}},
+        {"key": "C", "text": "「烧完了也要再亮一次」", "score": {"cat": "rock", "points": 1}},
+        {"key": "D", "text": "「没关系，慢慢来」", "score": {"cat": "healing", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "下雨天窝在家里，你会放？",
+      "options": [
+        {"key": "A", "text": "轻柔的吉他和雨声白噪音", "score": {"cat": "healing", "points": 1}},
+        {"key": "B", "text": "老唱片质感的爵士", "score": {"cat": "jazz", "points": 1}},
+        {"key": "C", "text": "迷幻电子，像在雨里发光", "score": {"cat": "edm", "points": 1}},
+        {"key": "D", "text": "气势磅礴的电影配乐", "score": {"cat": "epic", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果人生电影要出片尾曲，你希望是？",
+      "options": [
+        {"key": "A", "text": "气吞山河的交响大合奏", "score": {"cat": "epic", "points": 1}},
+        {"key": "B", "text": "一杯酒配爵士的从容收尾", "score": {"cat": "jazz", "points": 1}},
+        {"key": "C", "text": "吉他扫弦，热血未凉", "score": {"cat": "rock", "points": 1}},
+        {"key": "D", "text": "一段留白很多的纯音乐", "score": {"cat": "healing", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "epic",
+      "categoryKey": "epic",
+      "name": "史诗交响",
+      "summary": "人生自带大片质感，走路都像在走红毯。",
+      "detail": "你的 BGM 是宏大叙事那一挂：弦乐铺底、鼓点推进、情绪层层堆叠。再普通的一天，被你过出来都带点使命感——开会是决战前夜，交项目是最终战役，连下楼买杯咖啡都配得上一段渐强。你享受那种被音乐托起来的感觉，也确实比别人更容易把平淡日子过成有章节的故事。只是别总把生活当战场，有些段落用安静的配乐反而更有力量。",
+      "traits": ["气场十足", "仪式感强", "目标感重"],
+      "growthTip": "留几段不用高潮的日常，安静的段落同样是好电影的一部分。",
+      "shareCard": "我的人生 BGM：史诗交响，连下楼倒垃圾都像大片开场。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "jazz",
+      "categoryKey": "jazz",
+      "name": "慵懒爵士",
+      "summary": "随性摇摆派，人生不需要卡在节拍上。",
+      "detail": "你的配乐永远慢半拍，但那半拍就是风格。你懂得享受留白，也能接受计划之外的即兴。别人赶时间的时候，你在想这家咖啡馆的歌单不错；别人焦虑 KPI，你在想周末该去哪家店坐一下午。这种从容很珍贵，它让你在高压环境里依然能保有自己的节奏。你需要注意的只有一件事：随性不等于放弃，重要的事还是要给它一个落点。",
+      "traits": ["松弛自在", "审美在线", "享受当下"],
+      "growthTip": "给重要的事定一个哪怕很松的期限，随性会更安心。",
+      "shareCard": "我的人生 BGM：慵懒爵士，慢半拍是我的风格。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "rock",
+      "categoryKey": "rock",
+      "name": "热血摇滚",
+      "summary": "电量永远满格，遇事就是干。",
+      "detail": "你的 BGM 由失真吉他和密集鼓点组成，主打一个燃。困难在你面前不是障碍而是副本，越难越来劲。你是团队里最容易带动气氛的那个，也是最容易在关键时刻冲在前面的人。这种能量很能成事，但也要小心一直踩油门带来的磨损——真正的爆发力需要间歇，别把每一次日常都当成总决赛。",
+      "traits": ["能量外放", "行动力强", "不服就干"],
+      "growthTip": "给自己的热情排个优先级，把最燃的那股劲留给真正重要的事。",
+      "shareCard": "我的人生 BGM：热血摇滚，困难在我这儿只是副本。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "healing",
+      "categoryKey": "healing",
+      "name": "治愈轻音乐",
+      "summary": "温柔有韧性，是很多人心里的背景板。",
+      "detail": "你的配乐是干净的钢琴和木吉他，不抢戏但一直都在。你习惯照顾别人的情绪，也擅长把紧绷的氛围轻轻抚平。你不是没有脾气，只是更愿意用柔和的方式解决问题。这种温柔很有力量，它让身边的人愿意靠近你、信任你。要记得的是：温柔不该只对外，给自己留一份同样的耐心，别把所有委屈都调成静音。",
+      "traits": ["温柔稳定", "共情力强", "不抢风头"],
+      "growthTip": "把照顾别人的那份耐心分一半给自己，不想做的事可以直接说不。",
+      "shareCard": "我的人生 BGM：治愈轻音乐，不抢戏但一直都在。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "edm",
+      "categoryKey": "edm",
+      "name": "电子迷幻",
+      "summary": "活在未来感里，脑内自带灯光和延迟。",
+      "detail": "你的 BGM 有清晰的节拍和层叠的音墙，理性中带着迷幻。你很容易进入心流，一旦开始做事就能长时间沉浸其中。你对新鲜事物敏感，喜欢探索各种可能性，也乐于接受不同的生活方式。你享受孤独创作的状态，但偶尔也需要提醒自己：从音墙里探出头来，看看现实里等着你的人。",
+      "traits": ["沉浸专注", "好奇心强", "未来感足"],
+      "growthTip": "心流很宝贵，记得设个提醒，从沉浸里抬头看看现实。",
+      "shareCard": "我的人生 BGM：电子迷幻，脑内自带灯光和混响。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

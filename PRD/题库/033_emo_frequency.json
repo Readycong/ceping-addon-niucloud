@@ -1,0 +1,175 @@
+{
+  "id": 33,
+  "title": "emo 频率与治愈方式图鉴",
+  "shortName": "emo 频率",
+  "category": "轻情绪",
+  "tags": ["emo", "情绪", "治愈", "深夜", "充电"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "娱乐性质，不代表专业心理评估。本测试仅做情绪状态的趣味描述与治愈方式推荐，不构成任何诊断或医学建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从深夜刷手机、单曲循环到发完又秒删的动态，测一测你的 emo 来得有多勤，以及哪一种治愈方式最适合你。情绪掉电很正常，找到充电口更重要。",
+  "instructions": "共 10 题，请回想最近一个月的真实状态作答，凭第一直觉选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "threshold",
+  "bands": [
+    {"key": "sunny", "name": "晴天常驻型", "min": 0, "max": 7},
+    {"key": "cloudy", "name": "偶尔多云型", "min": 8, "max": 14},
+    {"key": "cycling", "name": "周期循环型", "min": 15, "max": 21},
+    {"key": "midnight", "name": "深夜常客型", "min": 22, "max": 30}
+  ],
+  "tieBreak": "总分按 bands 区间直接命中；若分数落在区间边界，取更高一档。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "最近一个月，深夜突然觉得电量见底的次数大概是？",
+      "options": [
+        {"key": "A", "text": "基本没有，沾枕头就睡", "score": {"points": 0}},
+        {"key": "B", "text": "一两次，很快过去", "score": {"points": 1}},
+        {"key": "C", "text": "一周一两次", "score": {"points": 2}},
+        {"key": "D", "text": "隔三差五，已成固定节目", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "情绪掉电的时候，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "睡一觉，第二天就好了", "score": {"points": 0}},
+        {"key": "B", "text": "吃点好吃的缓缓", "score": {"points": 1}},
+        {"key": "C", "text": "戴上耳机单曲循环", "score": {"points": 2}},
+        {"key": "D", "text": "翻遍聊天记录找一个能说话的人", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "朋友圈或动态发完又秒删，这事你？",
+      "options": [
+        {"key": "A", "text": "从没干过", "score": {"points": 0}},
+        {"key": "B", "text": "偶尔手滑式删过一次", "score": {"points": 1}},
+        {"key": "C", "text": "常干，删完还要回味一会儿", "score": {"points": 2}},
+        {"key": "D", "text": "发删反复，已经形成流程", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "突然听到一首很久以前的老歌，你会？",
+      "options": [
+        {"key": "A", "text": "跟着哼，心情挺好", "score": {"points": 0}},
+        {"key": "B", "text": "有点感慨，很快就过去了", "score": {"points": 1}},
+        {"key": "C", "text": "陷入回忆十分钟", "score": {"points": 2}},
+        {"key": "D", "text": "直接原地进入省电模式", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "周末突然空下来没事做，你的状态是？",
+      "options": [
+        {"key": "A", "text": "挺舒服，终于能好好躺", "score": {"points": 0}},
+        {"key": "B", "text": "有点不知道该干嘛", "score": {"points": 1}},
+        {"key": "C", "text": "莫名有点空落落", "score": {"points": 2}},
+        {"key": "D", "text": "越空越容易胡思乱想", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "emo 的时候，你更常做的是？",
+      "options": [
+        {"key": "A", "text": "出门走走或者去运动", "score": {"points": 0}},
+        {"key": "B", "text": "看剧刷视频转移注意力", "score": {"points": 1}},
+        {"key": "C", "text": "写点东西，或者发条仅自己可见", "score": {"points": 2}},
+        {"key": "D", "text": "躺在床上盯着天花板", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "朋友说「你最近好像不太一样」，你会？",
+      "options": [
+        {"key": "A", "text": "没有啊，我挺好的", "score": {"points": 0}},
+        {"key": "B", "text": "可能最近有点累吧", "score": {"points": 1}},
+        {"key": "C", "text": "确实有点说不上来", "score": {"points": 2}},
+        {"key": "D", "text": "终于有人发现了", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你一般刷手机刷到几点？",
+      "options": [
+        {"key": "A", "text": "十一点前就睡了", "score": {"points": 0}},
+        {"key": "B", "text": "十二点左右", "score": {"points": 1}},
+        {"key": "C", "text": "一两点，越刷越清醒", "score": {"points": 2}},
+        {"key": "D", "text": "天快亮了，通常是手机先没电", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "下列哪一种最能快速把你充满电？",
+      "options": [
+        {"key": "A", "text": "睡一觉，啥事没有", "score": {"points": 0}},
+        {"key": "B", "text": "一顿好吃的，热量即正义", "score": {"points": 1}},
+        {"key": "C", "text": "朋友的一句回应", "score": {"points": 2}},
+        {"key": "D", "text": "好像什么都不太管用", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "回想上一次 emo，它是怎么结束的？",
+      "options": [
+        {"key": "A", "text": "自己慢慢就过去了", "score": {"points": 0}},
+        {"key": "B", "text": "忙起来就忘了", "score": {"points": 1}},
+        {"key": "C", "text": "找人聊了聊才好起来", "score": {"points": 2}},
+        {"key": "D", "text": "记不清了，好像还在进行中", "score": {"points": 3}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "sunny",
+      "name": "晴天常驻型",
+      "summary": "电量管理大师，情绪掉电也能自己充满。",
+      "detail": "你的情绪底盘很稳，偶尔低落也多半是一阵风，睡一觉就过去了。你不太容易在深夜反复回想白天的事，也不太会被一首老歌拖进回忆里。这种稳定的来源通常是规律作息和充足的运动量，而不是你天生比别人坚强。你的治愈方式：保持身体节奏，睡够、动够、晒够太阳，比任何心灵鸡汤都有效。",
+      "traits": ["情绪稳定", "恢复快", "作息规律"],
+      "growthTip": "你的稳定性是资源，可以分一点给身边容易掉电的朋友，一句关心就够。",
+      "shareCard": "emo 频率：晴天常驻型，睡一觉就能满血复活。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "cloudy",
+      "name": "偶尔多云型",
+      "summary": "大部分时间晴朗，偶尔来一场小阵雨。",
+      "detail": "你总体状态不错，但会被一些特定场景击中：空下来的周末、深夜的歌单、久未联系的人。低落来得快去得也快，通常靠一顿好吃的或者一出好看的剧就能解决。你不需要大动干戈地自我修复，只要别在掉电时硬撑着做重要决定就好。你的治愈方式：给自己准备一份「应急清单」，喜欢的店、能循环播放的歌、随时能打电话的人。",
+      "traits": ["偶发低落", "自愈力强", "有点感性"],
+      "growthTip": "低落时先别急着下判断，睡一觉再回头看，很多事会自动变小。",
+      "shareCard": "emo 频率：偶尔多云型，一顿烧烤就能转晴。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "cycling",
+      "name": "周期循环型",
+      "summary": "emo 有固定周期，熟悉得像老朋友。",
+      "detail": "你的低落有明显的规律：可能是深夜、可能是周末、也可能是每个月的某几天。你已经很熟悉这套流程，甚至能预判它什么时候来。它的好处是你知道它会走，坏处是你容易在等待中消耗自己。你的治愈方式：用记录代替硬扛，把每次掉电的时间和触发点写下来，规律一旦被看见，威力就会减半；再给自己安排一件掉电期也能做的低门槛小事。",
+      "traits": ["周期性", "敏感细腻", "自我觉察"],
+      "growthTip": "给掉电期预留缓冲，别在最空的时段安排最难的事。",
+      "shareCard": "emo 频率：周期循环型，它来的时候我都知道几点。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "midnight",
+      "name": "深夜常客型",
+      "summary": "深夜是你的主场，也是电量最容易见底的时候。",
+      "detail": "你的 emo 多半发生在凌晨：手机屏幕是唯一光源，刷什么都没意思但又停不下来。白天你看起来一切正常，只有夜里那段空白最难熬。这不是你不够好，只是你的情绪需要一个出口，而深夜恰好是最安静也最容易放大的时刻。你的治愈方式：先从小改动开始，睡前一小时把手机放远一点，把深夜的念头写下来而不是发出去；白天找一个人，哪怕只说一句「我今天有点累」。",
+      "traits": ["深夜敏感", "内心戏丰富", "习惯硬扛"],
+      "growthTip": "别把所有情绪都留到凌晨处理，白天的一小句倾诉，抵得过深夜的一万字。",
+      "shareCard": "emo 频率：深夜常客型，我的电量总在凌晨见底。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

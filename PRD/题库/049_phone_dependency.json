@@ -1,0 +1,179 @@
+{
+  "id": 49,
+  "title": "手机依赖人格鉴定（娱乐版）",
+  "shortName": "手机依赖人格",
+  "category": "网络",
+  "tags": ["手机", "刷短视频", "屏幕时间", "微信", "打工人"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性质，不代表专业心理评估，也不构成任何医学或心理判断；题面为原创自编，不引用任何量表原题。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "参考手机成瘾量表 MPAI（Mobile Phone Addiction Index，熊婕等）与智能手机使用量表 SAS（Smartphone Addiction Scale, Kwon et al., 2013）所关注的使用行为维度；本测题为完全原创自编的娱乐版，仅借用「高频使用行为」这一通俗话题，不使用任何量表原题，也不作任何判断。",
+    "sourceType": "theory",
+    "reference": "本测题为原创自编娱乐版，不含任何量表原题，不涉及任何判断或诊断"
+  },
+  "description": "一天里你拿起手机多少次？电量低于 20% 时心跳有没有加速？10 道题娱乐化测一测你和手机的黏合度。纯属自嘲向盘点，不是任何形式的评估。",
+  "instructions": "共 10 题，按你这一年的真实使用习惯作答。本测试为娱乐性质，不代表专业心理评估。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "threshold",
+  "bands": [
+    {"key": "calm", "name": "冷静在线型", "min": 10, "max": 17},
+    {"key": "casual", "name": "随手一刷型", "min": 18, "max": 25},
+    {"key": "attached", "name": "机不离手型", "min": 26, "max": 32},
+    {"key": "fused", "name": "人机合一型", "min": 33, "max": 40}
+  ],
+  "tieBreak": "分数落在档位边界时取高一级。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "出门后发现手机没带，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "难得清静，继续走", "score": {"points": 1}},
+        {"key": "B", "text": "有点不习惯，但没关系", "score": {"points": 2}},
+        {"key": "C", "text": "有点心慌，今天怎么过", "score": {"points": 3}},
+        {"key": "D", "text": "立刻回家拿，宁可迟到", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "睡前做的最后一件事，通常是？",
+      "options": [
+        {"key": "A", "text": "关灯睡觉，手机在客厅充电", "score": {"points": 1}},
+        {"key": "B", "text": "看两眼消息就放下", "score": {"points": 2}},
+        {"key": "C", "text": "刷到困得不行才放下", "score": {"points": 3}},
+        {"key": "D", "text": "眼睛都睁不开了，还要再看一条", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "手机电量掉到 20% 以下，你会？",
+      "options": [
+        {"key": "A", "text": "无所谓，回家再充", "score": {"points": 1}},
+        {"key": "B", "text": "稍微注意一下用量", "score": {"points": 2}},
+        {"key": "C", "text": "马上找充电宝", "score": {"points": 3}},
+        {"key": "D", "text": "立刻开省电模式，并开始盯电量", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "吃饭的时候，你的手机放在哪里？",
+      "options": [
+        {"key": "A", "text": "包里或口袋，吃完再说", "score": {"points": 1}},
+        {"key": "B", "text": "放桌上，偶尔瞄一眼", "score": {"points": 2}},
+        {"key": "C", "text": "放手边，边吃边刷", "score": {"points": 3}},
+        {"key": "D", "text": "拿在手里，看屏幕比看菜多", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "去洗手间的时候，你会带手机吗？",
+      "options": [
+        {"key": "A", "text": "基本不带", "score": {"points": 1}},
+        {"key": "B", "text": "偶尔顺手带上", "score": {"points": 2}},
+        {"key": "C", "text": "基本每次都带", "score": {"points": 3}},
+        {"key": "D", "text": "不带总觉得少了点什么", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "你每天的屏幕使用时间大概是？",
+      "options": [
+        {"key": "A", "text": "没看过，应该不多", "score": {"points": 1}},
+        {"key": "B", "text": "两三小时左右", "score": {"points": 2}},
+        {"key": "C", "text": "五六小时跑不掉", "score": {"points": 3}},
+        {"key": "D", "text": "不敢看报告，怕吓到自己", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "手机响一声或震一下，你会？",
+      "options": [
+        {"key": "A", "text": "等手头的事忙完再看", "score": {"points": 1}},
+        {"key": "B", "text": "过一会儿看一眼", "score": {"points": 2}},
+        {"key": "C", "text": "立刻拿起来看", "score": {"points": 3}},
+        {"key": "D", "text": "没响的时候也总觉得它震了", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "和朋友面对面聊天时，你的手机？",
+      "options": [
+        {"key": "A", "text": "收起来，专心聊", "score": {"points": 1}},
+        {"key": "B", "text": "放桌上，基本不看", "score": {"points": 2}},
+        {"key": "C", "text": "时不时看一下消息", "score": {"points": 3}},
+        {"key": "D", "text": "聊几句就低头刷一会儿", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "周末待在家里，你拿起手机的频率是？",
+      "options": [
+        {"key": "A", "text": "有事才拿起来", "score": {"points": 1}},
+        {"key": "B", "text": "一小时几次", "score": {"points": 2}},
+        {"key": "C", "text": "十几分钟一次", "score": {"points": 3}},
+        {"key": "D", "text": "基本就没放下过", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "假如有一天只能用手机打电话，你会觉得？",
+      "options": [
+        {"key": "A", "text": "挺好，正好清静一天", "score": {"points": 1}},
+        {"key": "B", "text": "有点无聊，但撑得住", "score": {"points": 2}},
+        {"key": "C", "text": "很难熬，会一直想摸手机", "score": {"points": 3}},
+        {"key": "D", "text": "光是想想就已经开始不适应", "score": {"points": 4}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "calm",
+      "name": "冷静在线型",
+      "bands": [{"key": "calm", "name": "冷静在线型", "min": 10, "max": 17}],
+      "summary": "手机是工具，不是器官，这话你是认真的。",
+      "detail": "你和手机的关系相当清爽：需要时用，用完就放，电量见底也不慌，吃饭时它是真的不参与。你能长时间专注在一件事上，也不需要靠刷屏填补空隙，这在今天其实是一种稀缺能力。值得留意的是，偶尔也可能因此错过一些需要及时回应的消息。给自己定一个固定的查看时段，既不打扰专注，也不会让别人找不到你。",
+      "traits": ["专注力强", "边界清楚", "不焦虑"],
+      "growthTip": "保持这份清爽，同时固定几个查看消息的时段，别让重要消息等你太久。",
+      "shareCard": "手机依赖人格鉴定：我是冷静在线型，手机只是我的工具，不是我的器官。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "casual",
+      "name": "随手一刷型",
+      "bands": [{"key": "casual", "name": "随手一刷型", "min": 18, "max": 25}],
+      "summary": "用得不少，但放得下，属于健康区间的常规操作。",
+      "detail": "你每天的手机使用量属于大多数人的水平：通勤刷一刷、睡前看两眼、等外卖时打发几分钟。它能帮你消解零碎时间，也不至于挤掉正事。你基本能控制住自己，只是偶尔会因为「再刷一条」而晚睡几分钟。想让状态更舒服，可以从最容易的地方下手：睡前把手机放到伸手够不着的地方，第二天早上的你会明显精神一些。",
+      "traits": ["张弛有度", "会放松", "基本自控"],
+      "growthTip": "睡前把手机放到伸手够不着的地方，睡眠质量会给你正反馈。",
+      "shareCard": "手机依赖人格鉴定：我是随手一刷型，刷得动也放得下。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "attached",
+      "name": "机不离手型",
+      "bands": [{"key": "attached", "name": "机不离手型", "min": 26, "max": 32}],
+      "summary": "手机在手里的时间，比在任何地方都长。",
+      "detail": "你的手机几乎参与了所有场景：吃饭、走路、睡前、甚至洗手间。你已经习惯了随时在线，一旦闲下来手就会自动伸向屏幕，很多时候并不是真的要看什么，只是需要一个填充动作。这种高频使用让你信息灵通、反应迅速，但也悄悄吃掉了不少整块时间。试试给每天划出一两段「无手机时间」，比如吃饭的前十分钟，你会重新注意到很多被忽略的细节。",
+      "traits": ["随时在线", "信息灵通", "习惯性刷屏"],
+      "growthTip": "每天划出一两段无手机时间，比如吃饭前十分钟，让注意力回到眼前。",
+      "shareCard": "手机依赖人格鉴定：我是机不离手型，手机比我更懂我的手。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "fused",
+      "name": "人机合一型",
+      "bands": [{"key": "fused", "name": "人机合一型", "min": 33, "max": 40}],
+      "summary": "手机电量就是你的电量，掉一格心就紧一下。",
+      "detail": "你和手机基本完成了物理层面的融合：出门忘带会折返回家，睡前最后一眼和醒来第一眼都是它，电量告急时连心情都会跟着变。你不是不知道这样有点累，只是手比脑子快。好消息是，这类习惯通常来自环境触发，而不是意志力问题：把最容易无意识刷的那几个 App 从首屏移走、把充电器放到卧室外面，物理距离比决心管用得多。",
+      "traits": ["随时在线", "反射式刷屏", "电量敏感"],
+      "growthTip": "把最容易无意识打开的 App 移出首屏，用物理距离替代意志力。",
+      "shareCard": "手机依赖人格鉴定：我是人机合一型，手机电量就是我的心情电量。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

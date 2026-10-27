@@ -1,0 +1,179 @@
+{
+  "id": 36,
+  "title": "你的时间人格是什么",
+  "shortName": "时间人格",
+  "category": "生活/自我",
+  "tags": ["时间管理", "拖延", "作息", "效率", "chronotype"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分类，参考时间管理风格与作息时型的日常概念，不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "参考时间管理风格与 chronotype（个体作息时型差异）的公开概念，用于描述日常时间安排偏好。",
+    "sourceType": "theory",
+    "reference": "本测题为原创自编，仅借鉴公开概念，不采用任何量表原文。"
+  },
+  "description": "从闹钟、待办清单、周末作息到截止日前的那三天，看看你和时间到底是什么关系。有人把时间切成块，有人和时间谈恋爱，也有人一直跟它躲猫猫。",
+  "instructions": "共 10 题，按最近三个月的真实状态作答，别按理想中的自己选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "planner", "name": "规划控"},
+    {"key": "goflow", "name": "随性派"},
+    {"key": "procrastinator", "name": "拖延共生体"},
+    {"key": "multitasker", "name": "多线程选手"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "你的待办清单长什么样？",
+      "options": [
+        {"key": "A", "text": "分层分类，还有截止时间", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "记在脑子里，想起就做", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "写在便签上，越积越厚", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "三个工具同时记，同步很重要", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "周一早上，你通常怎么开始？",
+      "options": [
+        {"key": "A", "text": "先看本周排期，把重点标出来", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "看心情，从最容易的那件开始", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "先处理上周五留下的尾巴", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "边开晨会边回消息，顺手排好今天", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "一个任务还有三天到期，你现在的状态是？",
+      "options": [
+        {"key": "A", "text": "已经过半，剩下两天很从容", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "还没开始，但完全不慌", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "还没开始，而且有点慌", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "同时在处理三件事，这个排在第二", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "截止日前一晚，你通常？",
+      "options": [
+        {"key": "A", "text": "正常睡觉，早就做完了", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "才开始，但效率惊人", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "C", "text": "边听歌边做，顺便回几条消息", "score": {"cat": "multitasker", "points": 1}},
+        {"key": "D", "text": "做多少算多少，明天再说", "score": {"cat": "goflow", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你的手机闹钟设置是？",
+      "options": [
+        {"key": "A", "text": "一个就够，作息很固定", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "五六个，每隔五分钟响一次", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "C", "text": "看明天有没有事，临时设", "score": {"cat": "goflow", "points": 1}},
+        {"key": "D", "text": "不同地点不同提醒，靠系统帮我记", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "你的高效时段一般在？",
+      "options": [
+        {"key": "A", "text": "上午，越早越好", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "深夜，世界终于安静了", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "C", "text": "不确定，状态来了就行", "score": {"cat": "goflow", "points": 1}},
+        {"key": "D", "text": "碎片时间都能用，随时切换", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "计划突然被打乱，你的反应？",
+      "options": [
+        {"key": "A", "text": "立刻重排一遍，把损失降到最小", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "无所谓，本来也没定死", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "有点烦，但先拖一会儿再说", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "正好，把另一条线上的事提前", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "周末你的时间基本？",
+      "options": [
+        {"key": "A", "text": "提前约好，行程表已排满", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "醒来再说，走到哪儿算哪儿", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "一半在补上周没做完的事", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "同时开着好几个兴趣项目", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "你最常用的效率工具是？",
+      "options": [
+        {"key": "A", "text": "日历和甘特图，视觉化很关键", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "番茄钟加待办 App，双开", "score": {"cat": "multitasker", "points": 1}},
+        {"key": "C", "text": "备忘录，写完基本不看", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "不用工具，靠感觉", "score": {"cat": "goflow", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果一天多出两小时，你会？",
+      "options": [
+        {"key": "A", "text": "排进计划，做最该做的那件", "score": {"cat": "planner", "points": 1}},
+        {"key": "B", "text": "什么也不安排，享受一下", "score": {"cat": "goflow", "points": 1}},
+        {"key": "C", "text": "补上之前欠下的进度", "score": {"cat": "procrastinator", "points": 1}},
+        {"key": "D", "text": "开启一个一直想试的新项目", "score": {"cat": "multitasker", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "planner",
+      "categoryKey": "planner",
+      "name": "规划控",
+      "summary": "时间是你的积木，怎么拼你说了算。",
+      "detail": "你和时间的相处方式是「先设计再使用」。待办有优先级，日程有缓冲带，连休息都排进了计划。这种掌控感让你很少临时救火，也让你在团队里常常是那个兜底的人。你的效率来自前置思考，而不是临场爆发。要留意的是计划过密带来的僵硬：给每天留一格空白，意外来的时候你才不会全线崩盘。",
+      "traits": ["条理清晰", "前置思考", "守时"],
+      "growthTip": "每天留一格不安排的空白，专门用来处理意外。",
+      "shareCard": "时间人格：规划控，我的日程表自带缓冲带。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "goflow",
+      "categoryKey": "goflow",
+      "name": "随性派",
+      "summary": "时间跟着感觉走，计划赶不上心情。",
+      "detail": "你和时间的相处方式是「跟着状态走」。你不爱被日程绑死，相信状态来了效率自然高。你的灵活性很强，突发事件打不乱你，因为你本来就没把计划钉死。这种松弛让你在高压环境里更容易自洽，但也可能让重要的事一直往后排。折中的办法不是变成规划控，而是只给最重要的一件事定死时间。",
+      "traits": ["灵活", "松弛", "抗扰动"],
+      "growthTip": "只给最重要的那一件事定死时间，其余的继续随缘。",
+      "shareCard": "时间人格：随性派，计划赶不上我的心情。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "procrastinator",
+      "categoryKey": "procrastinator",
+      "name": "拖延共生体",
+      "summary": "和截止日期相爱相杀，最后一刻效率爆表。",
+      "detail": "你和时间的相处方式是「先共存，再爆发」。前三分之二的时间你在和各种小事纠缠，最后三分之一你突然进入无人之境，效率堪比开挂。你不是懒，只是需要压力作为启动燃料。这套模式的代价是长期紧绷和睡眠负债。更可持续的做法是把大任务提前拆成几个小截止日，让压力分批到达，而不是一次性砸下来。",
+      "traits": ["爆发力强", "压力驱动", "夜猫子"],
+      "growthTip": "把大任务拆成三个小截止日，让压力分批到达而不是集中砸下。",
+      "shareCard": "时间人格：拖延共生体，最后一刻的我效率爆表。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "multitasker",
+      "categoryKey": "multitasker",
+      "name": "多线程选手",
+      "summary": "脑子里同时跑着好几个进程，还都不卡。",
+      "detail": "你和时间的相处方式是「并行处理」。你能一边开会一边回消息，一边写方案一边跟进另一个项目，碎片时间在你手里也能被用起来。你的调度能力很强，是团队里推进多条线的关键角色。需要小心的是切换成本：看起来同时在跑，实际上每次换挡都会损失一点专注。给最需要深度的工作留一段单线程时间，产出会更稳。",
+      "traits": ["调度强", "反应快", "善用碎片"],
+      "growthTip": "每天留一小时只跑一个进程，深度工作的产出远高于并行。",
+      "shareCard": "时间人格：多线程选手，我的脑子常年开着好几个标签页。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

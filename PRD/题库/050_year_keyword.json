@@ -1,0 +1,247 @@
+{
+  "id": 50,
+  "title": "年度关键词生成",
+  "shortName": "年度关键词",
+  "category": "玄学/总结",
+  "tags": ["年终总结", "年度关键词", "朋友圈", "仪式感", "梗"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何心理评估、运势预测或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评（年终总结梗）",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "又到了写年终总结的时候。12 道题帮你从一堆混乱的日常里，捞出那个最贴切的年度关键词：重启、沉淀、破局、治愈、折腾、稳定、断舍离，还是出发？",
+  "instructions": "共 12 题，回看这一年的真实状态作答，选最像你的那一个，不要选最想成为的那个。",
+  "estimatedMinutes": 3,
+  "questionCount": 12,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "restart", "name": "重启"},
+    {"key": "settle", "name": "沉淀"},
+    {"key": "breakthrough", "name": "破局"},
+    {"key": "healing", "name": "治愈"},
+    {"key": "tinker", "name": "折腾"},
+    {"key": "steady", "name": "稳定"},
+    {"key": "declutter", "name": "断舍离"},
+    {"key": "depart", "name": "出发"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "回看这一年，第一句浮上心头的话是？",
+      "options": [
+        {"key": "A", "text": "好多事，我都重新来过了一遍", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "我终于把一件事做扎实了", "score": {"cat": "settle", "points": 1}},
+        {"key": "C", "text": "卡了很久的局，被我撬开了", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "D", "text": "我慢慢把自己哄好了", "score": {"cat": "healing", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "这一年你做得最多的事情是？",
+      "options": [
+        {"key": "A", "text": "折腾各种新东西，失败了也不亏", "score": {"cat": "tinker", "points": 1}},
+        {"key": "B", "text": "按部就班，日子过得稳稳的", "score": {"cat": "steady", "points": 1}},
+        {"key": "C", "text": "扔东西、退群、清理关系", "score": {"cat": "declutter", "points": 1}},
+        {"key": "D", "text": "收拾行李，去新的地方", "score": {"cat": "depart", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "手机相册里，最能代表这一年的一张照片是？",
+      "options": [
+        {"key": "A", "text": "新工牌、新本子，一个全新的开始", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "一摞看过的书或记满的笔记本", "score": {"cat": "settle", "points": 1}},
+        {"key": "C", "text": "做到一半的小项目或手工作品", "score": {"cat": "tinker", "points": 1}},
+        {"key": "D", "text": "每月都差不多的那条通勤路", "score": {"cat": "steady", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "今年最有成就感的一件事，更像哪一种？",
+      "options": [
+        {"key": "A", "text": "解决了大家都说难搞的问题", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "B", "text": "终于允许自己停下来好好休息", "score": {"cat": "healing", "points": 1}},
+        {"key": "C", "text": "清掉了压在心里很久的一堆东西", "score": {"cat": "declutter", "points": 1}},
+        {"key": "D", "text": "迈出那一步，去了新的地方或岗位", "score": {"cat": "depart", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "面对一个卡住很久的问题，你今年选择了？",
+      "options": [
+        {"key": "A", "text": "推翻重来，干脆换条路走", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "正面硬刚，把它撬开", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "C", "text": "换三四种方法反复试", "score": {"cat": "tinker", "points": 1}},
+        {"key": "D", "text": "先把不相关的杂事清掉再说", "score": {"cat": "declutter", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "今年你最想感谢自己的那个瞬间是？",
+      "options": [
+        {"key": "A", "text": "沉住气，把一件事从头做到尾", "score": {"cat": "settle", "points": 1}},
+        {"key": "B", "text": "好好吃饭好好睡觉，把自己养回来", "score": {"cat": "healing", "points": 1}},
+        {"key": "C", "text": "守住节奏，没被外界带跑", "score": {"cat": "steady", "points": 1}},
+        {"key": "D", "text": "敢在不确定里迈出那一步", "score": {"cat": "depart", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "朋友圈里，你今年发得最多的内容是？",
+      "options": [
+        {"key": "A", "text": "重新开始的打卡和各种新 flag", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "学习、读书、长期坚持的记录", "score": {"cat": "settle", "points": 1}},
+        {"key": "C", "text": "终于搞定某件事的战报", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "D", "text": "猫、夕阳、饭，一些柔软的东西", "score": {"cat": "healing", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "这一年你的购物车里最多的是？",
+      "options": [
+        {"key": "A", "text": "新奇小玩意和各种工具", "score": {"cat": "tinker", "points": 1}},
+        {"key": "B", "text": "一直复购的日常必需品", "score": {"cat": "steady", "points": 1}},
+        {"key": "C", "text": "收纳箱和打包袋", "score": {"cat": "declutter", "points": 1}},
+        {"key": "D", "text": "旅行装备和车票机票", "score": {"cat": "depart", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "如果给今年配一首 BGM，它的情绪是？",
+      "options": [
+        {"key": "A", "text": "前奏结束，一切重新来过", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "慢下来，一个音一个音弹清楚", "score": {"cat": "settle", "points": 1}},
+        {"key": "C", "text": "试试新乐器，看能出什么声音", "score": {"cat": "tinker", "points": 1}},
+        {"key": "D", "text": "节拍稳定，让人安心", "score": {"cat": "steady", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "今年你做过最勇敢的一件事是？",
+      "options": [
+        {"key": "A", "text": "撬开僵住的局，不再绕着走", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "B", "text": "承认自己累了，认真休息了一阵", "score": {"cat": "healing", "points": 1}},
+        {"key": "C", "text": "断掉一段一直消耗自己的人或事", "score": {"cat": "declutter", "points": 1}},
+        {"key": "D", "text": "开始了一件完全陌生的事", "score": {"cat": "depart", "points": 1}}
+      ]
+    },
+    {
+      "no": 11,
+      "stem": "给明年的自己留一句寄语，你会写？",
+      "options": [
+        {"key": "A", "text": "清零，再来一次", "score": {"cat": "restart", "points": 1}},
+        {"key": "B", "text": "别绕了，正面把局破掉", "score": {"cat": "breakthrough", "points": 1}},
+        {"key": "C", "text": "继续折腾，别怕失败", "score": {"cat": "tinker", "points": 1}},
+        {"key": "D", "text": "少即是多，该扔的扔", "score": {"cat": "declutter", "points": 1}}
+      ]
+    },
+    {
+      "no": 12,
+      "stem": "这一年你的日历上，出现最多的是？",
+      "options": [
+        {"key": "A", "text": "长期坚持的打卡和学习安排", "score": {"cat": "settle", "points": 1}},
+        {"key": "B", "text": "休息日、散步和好好吃饭的时间", "score": {"cat": "healing", "points": 1}},
+        {"key": "C", "text": "雷打不动的固定作息", "score": {"cat": "steady", "points": 1}},
+        {"key": "D", "text": "出发、抵达和一个个新地点", "score": {"cat": "depart", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "restart",
+      "categoryKey": "restart",
+      "name": "重启",
+      "summary": "这一年你按了不止一次 Ctrl+Alt+Del。",
+      "detail": "你的年度关键词是「重启」：换过节奏、推翻过方案、也重新开始过不止一件事。别人看来这可能叫折腾，但你自己清楚，每一次归零都是为了不再将就。敢重来的人，往往比硬撑的人更早走出死胡同。新的一年不用怕「又从头开始」，你已经证明过自己有这个能力，只需要在重启之前多问一句：这次改掉的到底是哪一步。",
+      "traits": ["敢归零", "适应力强", "不怕重来"],
+      "growthTip": "重启之前先写清楚这次要改的具体环节，避免下一次卡在同一个地方。",
+      "shareCard": "我的年度关键词是「重启」，这一年我按了不止一次重新开始。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "settle",
+      "categoryKey": "settle",
+      "name": "沉淀",
+      "summary": "不声不响，你把一件事做成了自己的底子。",
+      "detail": "你的年度关键词是「沉淀」：这一年你可能没什么惊天动地的战报，但读书、学习、练习、复盘，你一样没落下。别人看到的是你突然变厉害了，只有你知道那是无数个不起眼的晚上换来的。沉淀的难点在于它不提供即时反馈，很容易让人怀疑自己在原地踏步。请继续，时间会替你把这笔账算清楚，而且利息相当可观。",
+      "traits": ["长期主义", "踏实积累", "耐得住"],
+      "growthTip": "给积累加一个可见的记录方式，让自己在看不到反馈时也能确认在前进。",
+      "shareCard": "我的年度关键词是「沉淀」，没人看见的那些晚上都在算数。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "breakthrough",
+      "categoryKey": "breakthrough",
+      "name": "破局",
+      "summary": "卡了很久的那个局，今年被你撬开了。",
+      "detail": "你的年度关键词是「破局」：那个所有人都说难搞、你也绕了很久的问题，今年终于被你正面解决。你不是靠运气，而是靠死磕到底的那股劲。破局之后的你会明显更自信，因为你知道自己真的能啃硬骨头。值得留意的是，破局很耗能量，别把每一件事都当成必须攻下的堡垒，有些问题放一放，它自己会松开。",
+      "traits": ["敢硬刚", "解决力强", "抗压高"],
+      "growthTip": "破局之后记得给自己一段恢复期，不是每个问题都需要正面强攻。",
+      "shareCard": "我的年度关键词是「破局」，那个卡了很久的局今年被我撬开了。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "healing",
+      "categoryKey": "healing",
+      "name": "治愈",
+      "summary": "这一年你最重要的事，是把自己哄好了。",
+      "detail": "你的年度关键词是「治愈」：好好的饭、好好的觉、几只猫、几场日落，还有那些柔软的小事，构成了你这一年的主旋律。你可能没完成什么大目标，但你把自己从疲惫里一点点捞了回来，这件事一点都不比升职加薪简单。治愈不是躺平，而是先把自己修好再上路。新的一年，把这份照顾自己的习惯继续保留下来。",
+      "traits": ["自我照顾", "温柔有力", "节奏柔和"],
+      "growthTip": "把照顾自己固化成日程里的一项，而不是只在撑不住的时候才启用。",
+      "shareCard": "我的年度关键词是「治愈」，这一年我把自己重新哄好了。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "tinker",
+      "categoryKey": "tinker",
+      "name": "折腾",
+      "summary": "你的年度总结大概是一份实验记录。",
+      "detail": "你的年度关键词是「折腾」：新工具、新项目、新玩法，你一年里开过的头比很多人一辈子都多。失败？那叫数据。你享受动手的过程，也从不怕出丑，这种实验精神让你学得比谁都快。唯一可惜的是，很多事停在半成品状态。挑一个你最舍不得的项目，把它做到能拿出手，折腾就会从经历变成作品。",
+      "traits": ["动手派", "不怕失败", "学得快"],
+      "growthTip": "从一堆半成品里挑一个最舍不得的，做到能拿出手为止。",
+      "shareCard": "我的年度关键词是「折腾」，开过的项目比我看过的剧还多。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "steady",
+      "categoryKey": "steady",
+      "name": "稳定",
+      "summary": "没什么大风大浪，但你一步都没掉队。",
+      "detail": "你的年度关键词是「稳定」：作息、通勤、工作节奏，你都稳稳地守住了。在大家都被各种变化推着跑的一年里，能保持自己的节奏本身就是一种能力。你的年终总结可能写不出什么大事件，但这种可预期的生活，正是很多人求而不得的东西。新的一年，可以在稳定里加入一个小小的变量，让稳不再等于一成不变。",
+      "traits": ["节奏感强", "可靠稳重", "抗波动"],
+      "growthTip": "在稳定的日常里加入一个小变量，让稳的同时也保持一点点新鲜。",
+      "shareCard": "我的年度关键词是「稳定」，这一年我一步都没掉队。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "declutter",
+      "categoryKey": "declutter",
+      "name": "断舍离",
+      "summary": "你今年扔掉的东西，比买回来的多。",
+      "detail": "你的年度关键词是「断舍离」：衣柜清了、群退了、一些消耗自己的人和事也放下了。你意识到空间被占满的时候，人也很难喘气，于是动手给自己腾出了位置。断舍离最难的不是扔，而是承认「我已经不需要它了」。做完这一轮清理的你，会明显感到轻松。新的一年，记得把「进一件出一件」变成常规操作。",
+      "traits": ["果断清理", "清醒克制", "空间感强"],
+      "growthTip": "把「进一件出一件」设成默认规则，让清爽状态维持下去。",
+      "shareCard": "我的年度关键词是「断舍离」，扔掉的东西比买回来的还多。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "depart",
+      "categoryKey": "depart",
+      "name": "出发",
+      "summary": "这一年你至少有一次，说走就走了。",
+      "detail": "你的年度关键词是「出发」：新的城市、新的岗位、新的关系，或者只是一场说走就走的旅行。你在不确定性里反而更有精神，陌生的环境会让你整个人活过来。出发的人最宝贵的不是勇敢，而是愿意承担未知。新的一年，继续走没关系，只是记得给自己留一个可以随时回去的落脚点，走得远也需要有地方歇脚。",
+      "traits": ["敢出发", "适应陌生", "行动力强"],
+      "growthTip": "继续出发的同时，给自己留一个能随时回去歇脚的固定落脚点。",
+      "shareCard": "我的年度关键词是「出发」，这一年我至少说过一次走就走。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

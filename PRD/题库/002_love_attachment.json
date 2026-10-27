@@ -1,0 +1,171 @@
+{
+  "id": 2,
+  "title": "恋爱依恋类型（安全/焦虑/回避/恐惧）",
+  "shortName": "恋爱依恋类型",
+  "category": "情感",
+  "tags": ["恋爱", "依恋", "关系模式", "双人可玩"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性关系模式分类，不代表专业心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "成人依恋理论：Hazan & Shaver（1987）三分类与 Bartholomew & Horowitz（1991）四象限；ECR-R 亲密关系经历量表（Brennan、Clark & Shaver，1998）",
+    "sourceType": "theory",
+    "reference": "依据公开理论框架原创编写生活化题目，非任何量表原题。"
+  },
+  "description": "从亲密关系中的安全感需求与距离偏好两个方向，看看你更常用哪种恋爱相处模式。结果适合自我观察，也可以和伴侣互测聊聊。",
+  "instructions": "共 8 题，请按你在多数恋爱场景中的自然反应作答，不要选择你认为更体面的答案。",
+  "estimatedMinutes": 2,
+  "questionCount": 8,
+  "scoringModel": "dimension",
+  "axes": [
+    {
+      "key": "anxiety",
+      "name": "关系安全感需求",
+      "poles": [
+        {"key": "high", "label": "焦虑偏高"},
+        {"key": "low", "label": "焦虑偏低"}
+      ]
+    },
+    {
+      "key": "avoid",
+      "name": "亲密距离偏好",
+      "poles": [
+        {"key": "high", "label": "回避偏高"},
+        {"key": "low", "label": "回避偏低"}
+      ]
+    }
+  ],
+  "tieBreak": "某轴高低票数相同时默认取 low；两轴组合后命中对应结果。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "对方半天没回微信，你更接近哪种反应？",
+      "options": [
+        {"key": "A", "text": "反复看聊天框，猜是不是哪里惹到TA", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "B", "text": "默认TA在忙，先做自己的事", "score": {"axis": "anxiety", "pole": "low"}},
+        {"key": "C", "text": "忍不住连发几个表情确认存在感", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "D", "text": "晚点自然再聊，不急着下结论", "score": {"axis": "anxiety", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "看到对方和新朋友聊得很投机，你通常会？",
+      "options": [
+        {"key": "A", "text": "表面淡定，心里已经脑补好几集", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "B", "text": "觉得正常，也愿意认识对方的新朋友", "score": {"axis": "anxiety", "pole": "low"}},
+        {"key": "C", "text": "马上想确认自己在TA心里的位置", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "D", "text": "相信现有关系，不把社交等同于威胁", "score": {"axis": "anxiety", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "发生小摩擦后，对方说想先冷静一下，你会？",
+      "options": [
+        {"key": "A", "text": "希望立刻说清楚，不然整晚都惦记", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "B", "text": "约好稍后再谈，各自缓一缓", "score": {"axis": "anxiety", "pole": "low"}},
+        {"key": "C", "text": "担心冷静着冷静着关系就凉了", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "D", "text": "把它当作暂停键，不当作结束键", "score": {"axis": "anxiety", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "恋爱中最让你踏实的状态是？",
+      "options": [
+        {"key": "A", "text": "经常收到明确又具体的爱意确认", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "B", "text": "彼此信任，忙时少联系也不慌", "score": {"axis": "anxiety", "pole": "low"}},
+        {"key": "C", "text": "TA的动态和计划大多向我同步", "score": {"axis": "anxiety", "pole": "high"}},
+        {"key": "D", "text": "需要时能沟通，平时各有节奏", "score": {"axis": "anxiety", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "对方想和你聊很深的感受时，你更可能？",
+      "options": [
+        {"key": "A", "text": "有点不自在，想把话题转轻松", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "B", "text": "愿意听，也会慢慢说出自己的感受", "score": {"axis": "avoid", "pole": "low"}},
+        {"key": "C", "text": "觉得没必要聊太细，行动到位就行", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "D", "text": "把这当作一次靠近彼此的机会", "score": {"axis": "avoid", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "周末对方提议两天都黏在一起，你的第一感觉是？",
+      "options": [
+        {"key": "A", "text": "有点缺氧，想赶紧保住独处时间", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "B", "text": "可以商量，一起玩也留一点个人时间", "score": {"axis": "avoid", "pole": "low"}},
+        {"key": "C", "text": "下意识想找理由推掉部分安排", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "D", "text": "觉得挺开心，有需要也能直接说", "score": {"axis": "avoid", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "当你遇到打工大难题时，会怎么对伴侣开口？",
+      "options": [
+        {"key": "A", "text": "先自己扛，实在不行也不太想说", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "B", "text": "会讲清需要的是安慰还是建议", "score": {"axis": "avoid", "pole": "low"}},
+        {"key": "C", "text": "只说处理结果，不展示狼狈过程", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "D", "text": "愿意让TA看见自己不那么能扛的一面", "score": {"axis": "avoid", "pole": "low"}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "关于恋爱里的个人空间，你更认同？",
+      "options": [
+        {"key": "A", "text": "关系再好，也别过多进入我的内心地盘", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "B", "text": "边界可以沟通，亲密和独立能同时存在", "score": {"axis": "avoid", "pole": "low"}},
+        {"key": "C", "text": "靠得太近容易麻烦，保持距离更轻松", "score": {"axis": "avoid", "pole": "high"}},
+        {"key": "D", "text": "我喜欢稳定靠近，也尊重彼此的小世界", "score": {"axis": "avoid", "pole": "low"}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "secure",
+      "name": "安全型",
+      "match": {"anxiety": "low", "avoid": "low"},
+      "summary": "能靠近也能独立，恋爱频道信号稳定。",
+      "detail": "你通常相信自己值得被喜欢，也愿意相信对方的善意。需要陪伴时能开口，想独处时也能说明，不太会把一次晚回微信脑补成关系大结局。遇到分歧，你更倾向于把问题放到桌面上谈，在亲密与个人空间之间找到舒服的弹性。",
+      "traits": ["稳定沟通", "信任感", "边界清晰"],
+      "growthTip": "保持直接表达，也别把自己的稳定当成对方一定懂你的理由。",
+      "shareCard": "我的恋爱依恋类型是安全型：能黏也能各忙各的。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "anxious",
+      "name": "焦虑型（痴迷型）",
+      "match": {"anxiety": "high", "avoid": "low"},
+      "summary": "爱意接收器灵敏，最怕信号突然掉线。",
+      "detail": "你很重视亲密和回应，对关系里的细小变化格外敏锐。对方语气短一点、消息慢一点，都可能让你的脑内弹幕提前开播。你的投入和热情很珍贵，只是偶尔会把确认爱意变成高频刷新。关系更舒服的关键，是把猜测换成具体提问，也给自己留一块稳定的生活主场。",
+      "traits": ["投入热烈", "感受敏锐", "需要回应"],
+      "growthTip": "想确认时说需求，不用用试探题考验对方，也别暂停自己的生活。",
+      "shareCard": "我的恋爱依恋类型是焦虑型，爱意雷达全天在线。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "avoidant",
+      "name": "回避型（疏离型）",
+      "match": {"anxiety": "low", "avoid": "high"},
+      "summary": "独立值拉满，亲密靠近时会先看安全距离。",
+      "detail": "你习惯自己处理事情，也很看重个人空间。面对高浓度表达或连续追问，你可能本能地后退一步，用忙碌、讲道理或沉默恢复掌控感。这不代表你不在乎，更多时候只是你更相信行动和自理。若愿意多说一句真实感受，让对方不用全靠猜，亲密关系会少很多误读。",
+      "traits": ["独立自主", "冷静克制", "重视空间"],
+      "growthTip": "不必一次说很多，先练习用一句话交代感受和你需要的距离。",
+      "shareCard": "我的恋爱依恋类型是回避型，独处电量必须保住。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "fearful",
+      "name": "恐惧型（矛盾型）",
+      "match": {"anxiety": "high", "avoid": "high"},
+      "summary": "想靠近又怕受伤，恋爱按钮偶尔反复横跳。",
+      "detail": "你既期待被坚定选择，又会在关系升温时担心失去主动，于是可能一边想要回应，一边把真正需求藏起来。靠近让你心动，距离又让你暂时松口气，这种拉扯容易让双方都猜题。你真正需要的不是强行勇敢，而是更可预测的沟通节奏和一点点建立起来的信任。",
+      "traits": ["内心细腻", "谨慎靠近", "重视安全感"],
+      "growthTip": "把忽冷忽热换成提前说明，从小事开始练习稳定表达。",
+      "shareCard": "我的恋爱依恋类型是恐惧型，靠近和退后都很认真。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

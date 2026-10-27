@@ -1,0 +1,191 @@
+{
+  "id": 10,
+  "title": "你的内在小孩类型",
+  "shortName": "内在小孩类型",
+  "category": "心理概念娱乐化",
+  "tags": ["内在小孩", "自我观察", "成长", "趣味分类"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "娱乐性质，不代表专业心理评估",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "内在小孩概念（John Bradshaw，源自 Winnicott 与荣格）",
+    "sourceType": "theory",
+    "reference": "依据公开概念原创编写生活化题目，非任何专业量表原题。"
+  },
+  "description": "用轻松的生活场景观察你心里那个“小小的自己”更常以哪种方式出现，结果用于自我理解与趣味表达。",
+  "instructions": "共 10 题，请选择最像你自然反应的选项。无需追溯具体经历，也没有标准答案。",
+  "estimatedMinutes": 3,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "overlooked", "name": "被忽视的小孩"},
+    {"key": "pleaser", "name": "讨好的小孩"},
+    {"key": "free", "name": "自由的小孩"},
+    {"key": "resilient", "name": "受伤但倔强的小孩"},
+    {"key": "curious", "name": "永远好奇的小孩"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "一群人讨论周末去哪，你更可能？",
+      "options": [
+        {"key": "A", "text": "先听大家决定，自己的想法可以不说", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "B", "text": "主动照顾每个人偏好，怕有人失望", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "C", "text": "提议一个好玩的，先把气氛带起来", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "有想法就坚持，不轻易被否定带走", "score": {"cat": "resilient", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "收到一份意外的小礼物，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "好奇它怎么选到的，立刻研究细节", "score": {"cat": "curious", "points": 1}},
+        {"key": "B", "text": "有点不习惯被关注，但会悄悄珍藏", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "C", "text": "赶紧想该怎么回礼才不欠人情", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "D", "text": "开心写在脸上，当场拆开分享快乐", "score": {"cat": "free", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "计划被别人随口否定时，你通常？",
+      "options": [
+        {"key": "A", "text": "先把难受收起来，再证明自己能做到", "score": {"cat": "resilient", "points": 1}},
+        {"key": "B", "text": "想知道对方为什么这样判断，继续追问", "score": {"cat": "curious", "points": 1}},
+        {"key": "C", "text": "不再多说，默认自己的想法不重要", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "D", "text": "马上调整说法，希望对方能满意", "score": {"cat": "pleaser", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "路过一个有趣的街头装置，你会？",
+      "options": [
+        {"key": "A", "text": "直接过去互动，先玩了再说", "score": {"cat": "free", "points": 1}},
+        {"key": "B", "text": "哪怕没人陪，也想亲自试试看", "score": {"cat": "resilient", "points": 1}},
+        {"key": "C", "text": "研究它为什么会动、是谁设计的", "score": {"cat": "curious", "points": 1}},
+        {"key": "D", "text": "站远处看看，不太想引起注意", "score": {"cat": "overlooked", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友临时请你帮忙，但你本来很累，你会？",
+      "options": [
+        {"key": "A", "text": "多半先答应，拒绝的话说不出口", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "B", "text": "看心情和体力，坦率给出答案", "score": {"cat": "free", "points": 1}},
+        {"key": "C", "text": "能帮就扛住，不想被看成做不到", "score": {"cat": "resilient", "points": 1}},
+        {"key": "D", "text": "先问清细节，再找更聪明的办法", "score": {"cat": "curious", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "生日时大家问你想要什么，你更像？",
+      "options": [
+        {"key": "A", "text": "说都可以，其实心里有偏好没讲", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "B", "text": "先考虑什么礼物不会让别人破费", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "C", "text": "大方列愿望清单，快乐不必猜", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "想要一件能代表自己努力的东西", "score": {"cat": "resilient", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "学一项完全陌生的新技能，你会？",
+      "options": [
+        {"key": "A", "text": "从原理到教程都想翻一遍", "score": {"cat": "curious", "points": 1}},
+        {"key": "B", "text": "担心自己跟不上，习惯默默坐后排", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "C", "text": "很在意老师评价，努力成为好学生", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "D", "text": "边学边玩，不怕做出奇怪成品", "score": {"cat": "free", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "努力很久却没得到认可，你更可能？",
+      "options": [
+        {"key": "A", "text": "咬咬牙继续做，用成果替自己说话", "score": {"cat": "resilient", "points": 1}},
+        {"key": "B", "text": "换个角度研究，看看还能怎么改", "score": {"cat": "curious", "points": 1}},
+        {"key": "C", "text": "告诉自己别期待，也就不会落空", "score": {"cat": "overlooked", "points": 1}},
+        {"key": "D", "text": "加倍满足别人的标准，希望被肯定", "score": {"cat": "pleaser", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "房间里突然多出一大块空地，你想？",
+      "options": [
+        {"key": "A", "text": "铺上地毯，随时跳舞、发呆或打滚", "score": {"cat": "free", "points": 1}},
+        {"key": "B", "text": "摆一件提醒自己一路走来的纪念品", "score": {"cat": "resilient", "points": 1}},
+        {"key": "C", "text": "做成实验角、阅读角或新爱好基地", "score": {"cat": "curious", "points": 1}},
+        {"key": "D", "text": "暂时空着，不确定自己配不配独占它", "score": {"cat": "overlooked", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "当别人明显不开心时，你会？",
+      "options": [
+        {"key": "A", "text": "立刻想办法让对方好起来，哪怕先放下自己", "score": {"cat": "pleaser", "points": 1}},
+        {"key": "B", "text": "陪一会儿，也允许自己保持原本心情", "score": {"cat": "free", "points": 1}},
+        {"key": "C", "text": "不太会说软话，但会用行动站在对方身边", "score": {"cat": "resilient", "points": 1}},
+        {"key": "D", "text": "先问发生了什么，认真听完整故事", "score": {"cat": "curious", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "overlooked",
+      "categoryKey": "overlooked",
+      "name": "被忽视的小孩",
+      "summary": "你习惯安静待在角落，其实也期待有人认真问一句。",
+      "detail": "你常常先观察环境，再决定要不要表达需要。很多时候，你把“我都可以”说得很熟练，却可能忘了自己的偏好同样值得占一个位置。你很能独处，也懂得体谅他人，这些都是珍贵能力。现在可以试着把音量调高一点，让喜欢与不喜欢都被听见。",
+      "traits": ["安静敏感", "善于观察", "需求含蓄"],
+      "growthTip": "从小选择开始练习表达，比如直接说出今天真正想吃的外卖。",
+      "shareCard": "我的内在小孩是被忽视的小孩，安静但也想被认真看见。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "pleaser",
+      "categoryKey": "pleaser",
+      "name": "讨好的小孩",
+      "summary": "你很会照顾全场，也值得被放进自己的优先列表。",
+      "detail": "你对别人的情绪和期待很敏锐，常能提前发现谁需要帮忙、哪句话该换个说法。你带来的体贴让关系更顺畅，却也容易把自己的疲惫藏在“没事，我来吧”后面。真正稳定的连接不需要靠一直满足所有人维持，适度拒绝并不会抹掉你的善意。",
+      "traits": ["体贴周到", "在意和谐", "乐于付出"],
+      "growthTip": "答应前给自己十秒钟，先确认这件事是否真的愿意、也有余力。",
+      "shareCard": "我的内在小孩是讨好的小孩，很会照顾人，也在学习照顾自己。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "free",
+      "categoryKey": "free",
+      "name": "自由的小孩",
+      "summary": "你的快乐雷达灵敏，生活随时可以临时加一场游戏。",
+      "detail": "你保留着直接表达喜欢、迅速投入体验的能力，对新鲜玩法和即时快乐很有响应。和你相处的人常被带得更松弛，因为你提醒大家生活不只有待办清单。自由不是没有边界，而是能在承担必要责任后，仍给好奇、玩耍和真实感受留出空间。",
+      "traits": ["自在真诚", "富有活力", "会享受当下"],
+      "growthTip": "继续保留玩心，也给重要承诺一个清晰安排，让自由更有底气。",
+      "shareCard": "我的内在小孩是自由的小孩，生活随时能切换游乐场模式。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "resilient",
+      "categoryKey": "resilient",
+      "name": "受伤但倔强的小孩",
+      "summary": "你把不服输写进骨气里，跌一下也会自己站起来。",
+      "detail": "你对否定和失望并非毫无感觉，只是更习惯把它们转成继续前进的力气。你珍惜尊严，也希望用结果证明自己，因此常给人可靠、能扛的印象。只是一直独自撑住会很累，接受帮助并不会削弱你的坚强，反而能让这份韧性用在真正重要的地方。",
+      "traits": ["坚韧独立", "行动有骨气", "不轻言放弃"],
+      "growthTip": "累的时候允许自己说一句“我需要帮忙”，并给支持你的人一个入口。",
+      "shareCard": "我的内在小孩是受伤但倔强的小孩，跌倒也要帅气站起来。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "curious",
+      "categoryKey": "curious",
+      "name": "永远好奇的小孩",
+      "summary": "你的世界总有下一扇门，问号就是随身钥匙。",
+      "detail": "你对陌生事物天然感兴趣，一个新概念、一条岔路或奇怪装置都能触发探索模式。你喜欢理解“为什么”，也愿意不断更新自己的答案。好奇心让你的生活保持新鲜，但收藏太多入口也可能分散注意。选一个真正着迷的问题深入下去，会发现更大的世界。",
+      "traits": ["探索欲强", "学习力好", "思维开放"],
+      "growthTip": "把一个问号变成小项目，用行动完成从发现到深入的全过程。",
+      "shareCard": "我的内在小孩是永远好奇的小孩，问号多到能串成钥匙链。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

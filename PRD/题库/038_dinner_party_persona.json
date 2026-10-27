@@ -1,0 +1,191 @@
+{
+  "id": 38,
+  "title": "饭局生存人格鉴定",
+  "shortName": "饭局人格",
+  "category": "社交",
+  "tags": ["饭局", "聚餐", "社交", "职场", "中国人情"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从点菜、敬酒、转桌到散场，饭局是中国人最微妙的社交场。测一测你在饭桌上最稳定的生存姿势是哪一种。",
+  "instructions": "共 10 题，请按真实饭局表现作答，别按你希望的样子选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "host", "name": "主陪"},
+    {"key": "topic_king", "name": "话题王"},
+    {"key": "eater", "name": "埋头吃"},
+    {"key": "server", "name": "服务员型"},
+    {"key": "leaver", "name": "先溜型"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "刚被通知今晚有个局，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "问清都有谁，好提前安排座位", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "挺好，又有新的人可以聊", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "提前问一句有没有忌口，好跟店里交代", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "先确认几点能走，心里有个底", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "人到齐了，菜单传到你手上？",
+      "options": [
+        {"key": "A", "text": "我来统筹，荤素凉热和忌口一次问全", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "边点边聊，顺便问问大家最近在忙啥", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "直奔招牌菜，别的都随意", "score": {"cat": "eater", "points": 1}},
+        {"key": "D", "text": "快速划完，赶紧把菜单传下去", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "上菜了，转盘正好停在你面前？",
+      "options": [
+        {"key": "A", "text": "先照顾主位和长辈，再转回来", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "边转边夸这道菜，顺手带出一个话题", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "先给自己来一筷子，等这道菜等半天了", "score": {"cat": "eater", "points": 1}},
+        {"key": "D", "text": "先给旁边空着碗的人添上", "score": {"cat": "server", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "有人开始讲一个又长又没人接的段子，你？",
+      "options": [
+        {"key": "A", "text": "礼貌听完，再自然把话头递给别人", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "低头认真吃，等这段过去", "score": {"cat": "eater", "points": 1}},
+        {"key": "C", "text": "给他续点茶，让人有个台阶下", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "看一眼手机，盘算这段还要多久", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "桌上有人杯子空了，你？",
+      "options": [
+        {"key": "A", "text": "正好借这个空档跟他搭上话", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "B", "text": "没太注意，我正研究这道菜怎么做", "score": {"cat": "eater", "points": 1}},
+        {"key": "C", "text": "直接起身给他满上", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "注意到了，但不太想起身", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "有人迟到了二十分钟才到，你？",
+      "options": [
+        {"key": "A", "text": "起身给他腾位置，顺便补一句菜还热着", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "拿他开个玩笑，把气氛接上", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "帮他把餐具和杯子摆好", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "心里算了算，这局又得往后延", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "聊到一半，话题转到了你不熟的领域？",
+      "options": [
+        {"key": "A", "text": "把话头往大家都能接的方向带一带", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "不懂就问，问着问着就聊开了", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "不插话，专心对付面前那盘", "score": {"cat": "eater", "points": 1}},
+        {"key": "D", "text": "安静听着，开始盘算待会儿怎么退场", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "一道硬菜上桌，分量刚好不够分？",
+      "options": [
+        {"key": "A", "text": "张罗着先给主客和年长的分", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "起哄说这道得配个故事，把气氛顶上去", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "C", "text": "眼疾手快，这种时候不能客气", "score": {"cat": "eater", "points": 1}},
+        {"key": "D", "text": "说自己不饿，让别人先来", "score": {"cat": "server", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "饭吃到八分饱，节奏慢下来了，你？",
+      "options": [
+        {"key": "A", "text": "看一眼表，差不多该收尾了", "score": {"cat": "host", "points": 1}},
+        {"key": "B", "text": "主打一个不浪费，把剩的慢慢扫完", "score": {"cat": "eater", "points": 1}},
+        {"key": "C", "text": "把桌上的空盘和杂物收一收", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "找个合适的空档起身，说先走一步", "score": {"cat": "leaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "散场之后，你最常做的事是？",
+      "options": [
+        {"key": "A", "text": "还在门口跟人聊，又续上了第二轮", "score": {"cat": "topic_king", "points": 1}},
+        {"key": "B", "text": "复盘一下今天哪道菜最值得", "score": {"cat": "eater", "points": 1}},
+        {"key": "C", "text": "确认大家都到家了才放心", "score": {"cat": "server", "points": 1}},
+        {"key": "D", "text": "一出门就长出一口气，终于自由了", "score": {"cat": "leaver", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "host",
+      "categoryKey": "host",
+      "name": "主陪",
+      "summary": "场子由你撑着，谁都没被落下。",
+      "detail": "你是饭局里的隐形主持人：安排座位、点菜问忌口、冷场时提议碰一个、散场张罗买单。你享受把一切安排妥当的感觉，也确实擅长让每个人都舒服。你的周到是真心实意，不是客套，所以大家都愿意叫你来组局。要记得的是：主陪也是客人，别把自己完全忘了，偶尔让别人接一次班，你会轻松很多。",
+      "traits": ["周到", "控场", "照顾全局"],
+      "growthTip": "把一部分张罗交给别人，你也该好好吃几口菜。",
+      "shareCard": "饭局生存人格：主陪，冷场时我会提议碰一个。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "topic_king",
+      "categoryKey": "topic_king",
+      "name": "话题王",
+      "summary": "有你在，桌上就不会出现三秒钟冷场。",
+      "detail": "你是饭局的空气循环系统。冷场三秒之内你必然抛出新话题，谁被晾在一边你会主动拉进来，还能把不熟的人聊成熟人。你的表达欲和观察力让饭局始终有流动感，也让你成为大家默认想约的人。唯一的小提醒：话题之外也要留白，别人需要说话的空间，饭局不是你的个人脱口秀。",
+      "traits": ["会聊天", "救场专业户", "带动气氛"],
+      "growthTip": "抛完话题后多问一句「你觉得呢」，把舞台分一半出去。",
+      "shareCard": "饭局生存人格：话题王，冷场在我这儿活不过三秒。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "eater",
+      "categoryKey": "eater",
+      "name": "埋头吃",
+      "summary": "社交可以没有，但这道菜不能不吃。",
+      "detail": "你来饭局的核心目标非常清晰：把这顿饭吃明白。别人在敬酒，你在研究这家的招牌做法；别人在寒暄，你在等转盘转到你面前。你不是不懂社交，只是觉得与其硬聊不如认真对待桌上的菜。你的存在让饭局保持了最朴素的快乐。偶尔抬头接两句话，你会发现气氛其实也没那么难。",
+      "traits": ["目标明确", "真诚不装", "美食优先"],
+      "growthTip": "抬头接一句别人抛来的话，社交没你想的那么耗电。",
+      "shareCard": "饭局生存人格：埋头吃，社交可以没有，这道菜必须有。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "server",
+      "categoryKey": "server",
+      "name": "服务员型",
+      "summary": "全场最忙的人，茶水纸巾全靠你。",
+      "detail": "你在饭局上几乎没怎么坐着：茶没了你喊人，碗空了你添饭，新菜上桌你先给别人转过去。你的体贴是本能反应，看到别人不方便就忍不住上手。你是桌上最让人安心的存在，但也常常因此吃不到几口热菜。体贴很好，只是别让它变成义务——照顾别人的同时，也允许自己被照顾一次。",
+      "traits": ["眼里有活", "体贴", "默默兜底"],
+      "growthTip": "先给自己盛一碗再照顾别人，你的体贴不该以饿肚子为代价。",
+      "shareCard": "饭局生存人格：服务员型，全场茶水都由我盯着。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "leaver",
+      "categoryKey": "leaver",
+      "name": "先溜型",
+      "summary": "从入座开始就在计算撤退时间。",
+      "detail": "你的饭局时钟从落座那一刻就开始走动：什么时候礼貌地走、用什么理由走、需不需要先跟主位说一声。你不讨厌人，只是长时间社交确实耗电，独处才是你的充电方式。你懂得体面地退场，这是种成熟。可以改进的是退场时机：把该建立的连接在离开前完成，溜得早也不会错过重要的事。",
+      "traits": ["边界清晰", "省电优先", "退场体面"],
+      "growthTip": "走之前把该聊的两句聊完，早退也能留下好印象。",
+      "shareCard": "饭局生存人格：先溜型，从落座起就在算撤退时间。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

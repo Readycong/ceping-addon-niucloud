@@ -1,0 +1,223 @@
+{
+  "id": 35,
+  "title": "你的幸运守护兽是哪一只",
+  "shortName": "幸运守护兽",
+  "category": "玄学",
+  "tags": ["玄学", "守护兽", "瑞兽", "运势", "脑洞"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分类，取材于传统瑞兽形象的文化意象，不代表任何心理评估、命理推算或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "白虎、青龙、朱雀、玄武、麒麟、白泽，六只瑞兽各守一种气质。从你面对麻烦、选择朋友到发朋友圈的习惯，看看哪一只正在默默给你撑腰。纯属娱乐，图个好彩头。",
+  "instructions": "共 12 题，凭第一直觉选，别纠结哪只兽更厉害。",
+  "estimatedMinutes": 3,
+  "questionCount": 12,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "white_tiger", "name": "白虎"},
+    {"key": "azure_dragon", "name": "青龙"},
+    {"key": "vermilion", "name": "朱雀"},
+    {"key": "black_tortoise", "name": "玄武"},
+    {"key": "qilin", "name": "麒麟"},
+    {"key": "baize", "name": "白泽"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "朋友临时拉你去一个完全没计划的局，你？",
+      "options": [
+        {"key": "A", "text": "先弄清楚这是什么局、都有谁，再决定去不去", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "B", "text": "问清时间地点，能排进日程就去", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "C", "text": "换身像样的衣服再出门，场合不能太随便", "score": {"cat": "qilin", "points": 1}},
+        {"key": "D", "text": "去，正好见见没见过的人", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "微信群里突然吵起来了，你？",
+      "options": [
+        {"key": "A", "text": "先看明白争的是什么，再决定要不要开口", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "B", "text": "出来打个圆场，先把气氛缓下来", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "觉得吵得没水准，退出免得拉低格调", "score": {"cat": "qilin", "points": 1}},
+        {"key": "D", "text": "默默往上翻记录，把来龙去脉理清楚", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "有一笔不大不小的闲钱，你会？",
+      "options": [
+        {"key": "A", "text": "看它能不能换来更大的选择空间", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "B", "text": "请朋友们搓一顿，热闹一回", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "存起来，当不动的底仓", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "买书、买课、买没体验过的东西", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "团队里缺一个牵头的人，你？",
+      "options": [
+        {"key": "A", "text": "先看这件事值不值得做，再决定站不站出来", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "B", "text": "站出来喊一声，先把人聚齐", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "不抢位置，但最繁琐的那部分我扛", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "可以牵头，但得按我的标准来，不能糊弄", "score": {"cat": "qilin", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "发现有人在背后说你闲话，你？",
+      "options": [
+        {"key": "A", "text": "直接找他当面说清楚", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "先不动，看这事会不会自己过去", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "C", "text": "不屑回应，把精力放回手上的活", "score": {"cat": "qilin", "points": 1}},
+        {"key": "D", "text": "琢磨一下他为什么会这么说", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "周末突然多出一整天空白，你？",
+      "options": [
+        {"key": "A", "text": "约人去打一场，出出汗才叫休息", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "拉人组局，一个人待着太可惜", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "泡茶、收拾屋子，把日子过出点样子", "score": {"cat": "qilin", "points": 1}},
+        {"key": "D", "text": "钻进一个完全没了解过的领域看看", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "项目截止日期突然提前一半，你？",
+      "options": [
+        {"key": "A", "text": "先顶上去，把最硬的那块啃下来", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "招呼大家别慌，先把士气稳住", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "重排一遍计划，按顺序保证交付", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "想想有没有别人没试过的捷径", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "被推上去做一个公开发言，你？",
+      "options": [
+        {"key": "A", "text": "上就上，气势先拉满", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "讲点大家爱听的，先把场子热起来", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "C", "text": "提前把稿子过三遍，稳稳讲完", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "内容和排版都打磨到满意，才肯上台", "score": {"cat": "qilin", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "遇到一件明显不公平的事，你？",
+      "options": [
+        {"key": "A", "text": "当场就提出来，不能装没看见", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "先判断值不值得为它消耗，再做打算", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "C", "text": "记下来，按流程一步步反映", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "好奇规则是怎么被钻空的，研究一下", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "挑一件礼物送重要的人，你？",
+      "options": [
+        {"key": "A", "text": "看中了当场拿下，纠结最费时间", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "先想清楚对方真正缺的是什么", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "C", "text": "选实用耐用的，别整虚的", "score": {"cat": "black_tortoise", "points": 1}},
+        {"key": "D", "text": "要有质感，包装也不能马虎", "score": {"cat": "qilin", "points": 1}}
+      ]
+    },
+    {
+      "no": 11,
+      "stem": "换到一个全新环境（新城市、新公司），你？",
+      "options": [
+        {"key": "A", "text": "主动出击，先把关键的人认识一遍", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "先摸清这里的规则和利益结构", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "C", "text": "先跟人熟起来，有人就踏实", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "D", "text": "到处逛、到处问，什么都新鲜", "score": {"cat": "baize", "points": 1}}
+      ]
+    },
+    {
+      "no": 12,
+      "stem": "回头看这一年，你最想给自己加的一个字是？",
+      "options": [
+        {"key": "A", "text": "敢", "score": {"cat": "white_tiger", "points": 1}},
+        {"key": "B", "text": "远", "score": {"cat": "azure_dragon", "points": 1}},
+        {"key": "C", "text": "暖", "score": {"cat": "vermilion", "points": 1}},
+        {"key": "D", "text": "精", "score": {"cat": "qilin", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "white_tiger",
+      "categoryKey": "white_tiger",
+      "name": "白虎",
+      "summary": "开山辟路的那位，遇事正面迎上去。",
+      "detail": "白虎守的是一股锐气。你不喜欢拖泥带水，别人还在权衡利弊时你已经迈出第一步。你的存在本身就是队伍的定心丸，因为大家都知道关键时刻你会顶上去。这股冲劲很能破局，但也容易在不需要硬碰的地方消耗自己。真正厉害的锐气，是知道什么时候该出拳，什么时候该收力。",
+      "traits": ["果敢", "行动力强", "护短"],
+      "growthTip": "冲锋之前先花三秒判断对手，省下的力气能多打三场。",
+      "shareCard": "我的幸运守护兽：白虎，遇事先赢一波气势。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "azure_dragon",
+      "categoryKey": "azure_dragon",
+      "name": "青龙",
+      "summary": "抬头看天的人，擅长在乱局里找方向。",
+      "detail": "青龙守的是视野。你习惯先站高一点看全局，再决定从哪儿下手。你讨厌被束缚，喜欢保留转圜空间，也因此比别人更容易找到别人看不见的路径。你给朋友的建议常常一针见血，因为你看到的是结构而不是细节。要留意的是：看得太远有时会忘了脚下的第一步，方向定了就该落地。",
+      "traits": ["格局大", "善于判断", "不爱受限"],
+      "growthTip": "想清楚之后给自己设一个启动日，别让完美方案停在草稿里。",
+      "shareCard": "我的幸运守护兽：青龙，先看全局再落子。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "vermilion",
+      "categoryKey": "vermilion",
+      "name": "朱雀",
+      "summary": "自带光和热的那个，走到哪儿哪儿亮。",
+      "detail": "朱雀守的是人气。你天生有把场子烧热的能力，冷场在你面前活不过三分钟。你重视连接，也确实擅长让人感到被看见。你的热情很真诚，不是表演，所以别人愿意靠近你。只是火焰也要有燃料：别把所有能量都用来温暖别人，留一些给自己，你的光才能烧得久。",
+      "traits": ["感染力", "热情", "连接力强"],
+      "growthTip": "热闹之外留一段安静时间，独处能让你的热度更持久。",
+      "shareCard": "我的幸运守护兽：朱雀，冷场在我这儿活不过三分钟。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "black_tortoise",
+      "categoryKey": "black_tortoise",
+      "name": "玄武",
+      "summary": "稳如老城墙，交给你就没人再操心。",
+      "detail": "玄武守的是底盘。你不一定最亮眼，但一定最让人放心。你做事讲节奏、讲底线，不轻易承诺，承诺了就一定做到。别人慌的时候你反而更稳，这份定力在关键时刻价值连城。你需要注意的不是能力，而是弹性：偶尔给自己一次不按计划的尝试，世界不会因此塌掉。",
+      "traits": ["靠谱", "情绪稳定", "耐力足"],
+      "growthTip": "允许计划里留一格「随便发生点什么」，生活会更有意思。",
+      "shareCard": "我的幸运守护兽：玄武，交给我你就不用再操心。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "qilin",
+      "categoryKey": "qilin",
+      "name": "麒麟",
+      "summary": "讲究质感的那位，出手就要有分量。",
+      "detail": "麒麟守的是格调。你对粗糙的东西容忍度很低，宁可慢一点也不肯将就。你做出来的东西往往自带完成度，别人一看就知道用了心。你重视仪式感，也愿意为喜欢的事多花力气。要提醒的是：追求完美有时会拖慢开始，先做出一版六十分，再把它打磨到九十分，往往比憋一个大招更有效。",
+      "traits": ["有品位", "追求质感", "慢工出细活"],
+      "growthTip": "给每件事设一个「可以交卷」的标准，别让打磨无限延长。",
+      "shareCard": "我的幸运守护兽：麒麟，宁可慢一点也不将就。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "baize",
+      "categoryKey": "baize",
+      "name": "白泽",
+      "summary": "什么都知道一点的百科全书型选手。",
+      "detail": "白泽守的是见识。你对世界保持着旺盛的好奇心，冷知识、奇闻、偏门技能都能信手拈来。你不一定追求成为焦点，但只要话题打开，你总能让对话变得有意思。你的广度是优势，也让你更容易在不同圈子间穿梭。唯一的小建议是：把分散的兴趣收拢到一两个方向深耕，见识会变成真正的实力。",
+      "traits": ["好奇心强", "涉猎广", "脑洞清奇"],
+      "growthTip": "在感兴趣的领域里挑一个深挖，把知道变成做到。",
+      "shareCard": "我的幸运守护兽：白泽，冷知识储备常年满仓。你呢？",
+      "adSlot": "info_feed"
+    }
+  ]
+}

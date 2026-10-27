@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>中国心理测评应用市场数据看板</title>
+<style>
+  :root{
+    --bg:#f7f8fa; --card:#ffffff; --ink:#1f2733; --sub:#6b7585;
+    --line:#e7ebf0; --brand:#2f6df0; --brand2:#13b5a6; --warn:#e8833a;
+    --pink:#e867a8; --purple:#7b61ff; --green:#27a567;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);padding:28px;line-height:1.6}
+  .wrap{max-width:1180px;margin:0 auto}
+  header{margin-bottom:22px}
+  h1{font-size:26px;font-weight:800;letter-spacing:.5px}
+  .tag{display:inline-block;background:#eef3ff;color:var(--brand);font-size:12px;padding:3px 10px;border-radius:20px;margin-top:8px;font-weight:600}
+  .grid{display:grid;gap:16px}
+  .kpis{grid-template-columns:repeat(4,1fr);margin-bottom:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;box-shadow:0 1px 3px rgba(20,30,60,.04)}
+  .kpi .v{font-size:30px;font-weight:800;color:var(--brand)}
+  .kpi .v2{font-size:30px;font-weight:800;color:var(--brand2)}
+  .kpi .l{font-size:13px;color:var(--sub);margin-top:4px}
+  .kpi .s{font-size:11px;color:#9aa3b2;margin-top:6px}
+  .sec-title{font-size:16px;font-weight:800;margin:26px 0 12px;display:flex;align-items:center;gap:8px}
+  .sec-title:before{content:"";width:5px;height:18px;background:var(--brand);border-radius:3px;display:inline-block}
+  .two{grid-template-columns:1.3fr 1fr}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--sub);font-weight:600;background:#fafbfc}
+  td .num{font-weight:700}
+  .bar{height:9px;border-radius:6px;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+  .pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:12px;font-weight:600}
+  .pill.g{background:#e8f7ef;color:var(--green)}
+  .pill.b{background:#eef3ff;color:var(--brand)}
+  .pill.c{background:#fff1e6;color:var(--warn)}
+  .pill.p{background:#f1ecff;color:var(--purple)}
+  .timeline{position:relative;padding-left:18px}
+  .timeline:before{content:"";position:absolute;left:5px;top:4px;bottom:4px;width:2px;background:var(--line)}
+  .tl{position:relative;margin-bottom:14px}
+  .tl:before{content:"";position:absolute;left:-15px;top:4px;width:10px;height:10px;border-radius:50%;background:var(--brand);border:2px solid #fff;box-shadow:0 0 0 1px var(--brand)}
+  .tl .y{font-weight:700;font-size:13px}
+  .tl .t{font-size:13px;color:var(--sub)}
+  .trend{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  .tcard{border:1px solid var(--line);border-radius:12px;padding:14px;background:#fff}
+  .tcard h4{font-size:14px;margin-bottom:6px;color:var(--ink)}
+  .tcard p{font-size:12.5px;color:var(--sub)}
+  .verdict{background:linear-gradient(135deg,#2f6df0,#13b5a6);color:#fff;border-radius:14px;padding:20px;margin-top:24px}
+  .verdict h3{font-size:17px;margin-bottom:8px}
+  .verdict p{font-size:13.5px;opacity:.95}
+  .foot{font-size:11px;color:#9aa3b2;margin-top:22px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>中国心理测评应用市场 · 数据看板</h1>
+    <span class="tag">商业计划底稿 · 中国大陆 · 全赛道</span>
+    <span class="tag">社会学 × 心理咨询 × 教育视角</span>
+  </header>
+
+  <!-- KPI -->
+  <div class="grid kpis">
+    <div class="card kpi"><div class="v">¥2,025亿</div><div class="l">心理健康服务整体市场（2024）</div><div class="s">同比 +23% · CAGR 18.1% · 来源：华经/智研</div></div>
+    <div class="card kpi"><div class="v2">9,500万</div><div class="l">抑郁症患者人数</div><div class="s">治疗率仅 9.5%（高收入国 50%）· 中科院</div></div>
+    <div class="card kpi"><div class="v">15–25%</div><div class="l">青少年抑郁症状检出率</div><div class="s">母亲忽视组高达 40.1% · 中科院 5 万样本</div></div>
+    <div class="card kpi"><div class="v2">1.5亿</div><div class="l">心理咨询用户（2025）</div><div class="s">活跃咨询师仅约 20 万 · 供需缺口巨大</div></div>
+  </div>
+
+  <!-- Segment + Policy -->
+  <div class="grid two">
+    <div class="card">
+      <div class="sec-title">五大赛道可付费规模（SAM 估算）</div>
+      <table>
+        <tr><th>赛道</th><th>规模(亿/年)</th><th>付费方</th><th>确定性</th></tr>
+        <tr><td>青少年/校园</td><td class="num">22–44</td><td>教育局/学校(G)</td><td><span class="pill g">★★★★★ 政策强制</span></td></tr>
+        <tr><td>职场/EAP</td><td class="num">20–50</td><td>企业(B)</td><td><span class="pill b">★★★★ 考核驱动</span></td></tr>
+        <tr><td>临床/医疗</td><td class="num">中等↑</td><td>医保+医院</td><td><span class="pill b">★★★★ 医保支付</span></td></tr>
+        <tr><td>消费级探索</td><td class="num">LTV驱动</td><td>C端个人</td><td><span class="pill c">★★★ 流量大波动</span></td></tr>
+        <tr><td>情绪/人格</td><td class="num">订阅放大</td><td>C端/婚恋</td><td><span class="pill p">★★★ 刚需但弱付费</span></td></tr>
+      </table>
+      <p style="font-size:11px;color:#9aa3b2;margin-top:10px">注：规模为"用户基数×频次×单价假设"估算，单价均为占位假设，需按落地价替换。</p>
+    </div>
+    <div class="card">
+      <div class="sec-title">政策时间线（制度性刚需）</div>
+      <div class="timeline">
+        <div class="tl"><div class="y">2023</div><div class="t">17部门《学生心理健康专项行动计划》— 每学年至少1次测评，建"一生一策"档案</div></div>
+        <div class="tl"><div class="y">2024.11</div><div class="t">医保局《精神治疗类价格项目指南》— 心理状态评估/量表测查纳入医保</div></div>
+        <div class="tl"><div class="y">2024–2027</div><div class="t">"精神卫生服务年"行动 — 扩大服务供给</div></div>
+        <div class="tl"><div class="y">2025.10</div><div class="t">教育部《十条措施》— 建全国监测预警系统、年1次监测、规范学校测评</div></div>
+        <div class="tl"><div class="y">2030</div><div class="t">25部门目标 — 覆盖全人群的社会心理服务体系基本健全</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAM/SAM/SOM -->
+  <div class="card" style="margin-top:18px">
+    <div class="sec-title">市场漏斗：TAM → SAM → SOM</div>
+    <table>
+      <tr><th>层级</th><th>口径</th><th>规模</th><th>说明</th></tr>
+      <tr><td class="num">TAM</td><td>广义心理健康服务（2024）</td><td class="num">≈¥2,025亿</td><td>2030 按18%CAGR 约 ¥5,400亿</td></tr>
+      <tr><td class="num">SAM</td><td>心理测评/筛查环节（五赛道合计）</td><td class="num">≈¥60–100亿/年</td><td>含校园+职场+临床+消费，增速领先整体</td></tr>
+      <tr><td class="num">SOM</td><td>新进入者3年可获取（聚焦1–2垂类）</td><td class="num">≈¥0.5–3亿/年</td><td>取 SAM 的 1%–3%</td></tr>
+    </table>
+  </div>
+
+  <!-- Trends -->
+  <div class="sec-title">未来 5–10 年趋势（驱动因子）</div>
+  <div class="trend">
+    <div class="tcard"><h4>① 政策红利 + 筛查常态化</h4><p>三中全会将社会心理服务体系列为改革任务；2030 全覆盖目标。测评从"试点"变"标配"，成常驻预算。</p></div>
+    <div class="tcard"><h4>② AI 心理测评 / 数字疗法</h4><p>大模型情感交互、多模态（语音/微表情）识别；国家"AI 监测诊断平台"重点研发。从静态问卷→动态无感监测。</p></div>
+    <div class="tcard"><h4>③ 支付端多元化</h4><p>心理状态评估已入医保；国企 EAP 考核（覆盖率60%+）；政府采购社会心理服务。付费确定性增强。</p></div>
+    <div class="tcard"><h4>④ 合规与数据伦理收紧</h4><p>GB/T 45253-2025、数据安全法、未成年人数据保护。无版权/无信效度量表出清，合规者受益。</p></div>
+  </div>
+
+  <!-- Verdict -->
+  <div class="verdict">
+    <h3>创业者定位建议</h3>
+    <p>做"面向 G 端（校园/区域）与 B 端（企业）的<b>合规心理测评与动态监测预警平台</b>"，以 C 端情绪/人格内容做品牌流量，最终走向"测评—干预—跟踪"闭环。优先动作：① 拿合规量表版权+本土化常模（政策鼓励、难复制）；② 用校园/区域筛查系统切 G 端、EAP 平台做 B 端第二曲线；③ 以 AI 动态筛查做技术差异化。</p>
+  </div>
+
+  <div class="foot">数据来源：华经产业研究院 / 智研咨询 / 沙利文 / Verified Market Reports / 中科院心理所《心理健康蓝皮书2023–2024》/ 教育部·国家医保局政策文件 / 行业研报。本看板为 BP 底稿，机构口径存在差异，落地前建议第三方尽调核验。</div>
+</div>
+</body>
+</html>

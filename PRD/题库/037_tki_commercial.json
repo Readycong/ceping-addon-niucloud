@@ -1,0 +1,712 @@
+{
+  "id": 37,
+  "title": "【商业版权·原题参考】吵架风格测试（冲突处理模式）",
+  "shortName": "吵架风格",
+  "category": "关系",
+  "tags": [
+    "关系",
+    "职场",
+    "共鸣",
+    "实用向"
+  ],
+  "copyrightStatus": "commercial",
+  "entertainment": true,
+  "status": "ready",
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性关系风格分类，结果不代表任何心理评估、婚姻或临床诊断，仅用于自我觉察与沟通参考。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "Thomas-Kilmann Conflict Mode Instrument（TKI），Kenneth Thomas 与 Ralph Kilmann 编制；基于「坚持度（assertiveness）× 合作度（cooperativeness）」两轴划分五种冲突处理模式",
+    "officialOwner": "Kilmann Diagnostics；发行方为 The Myers-Briggs Company（CPP）",
+    "sourceType": "commercial",
+    "licensing": "官方 TKI 为 30 题商业量表，需向 CPP / Kilmann Diagnostics 或授权分销商购买，含计分表与解读手册；商用与施测须付费授权。",
+    "verbatimNote": "官方 TKI 逐字题面为专有资产，本文件所载为基于公开资料还原的代表性样题（成对陈述二选一形式），非官方逐字原文；若需逐字商用须获授权。"
+  },
+  "description": "TKI 用两个维度描述人在冲突中的反应：你有多想坚持自己（坚持度），以及你有多想顾及对方（合作度）。两轴交叉出五种典型模式：竞争、协作、妥协、回避、迁就。没有哪一种绝对更好，关键是你是否知道自己在用哪一种。",
+  "instructions": "共 10 组，每组两个反应方式，选你在冲突中更可能选的那个，凭直觉作答，约 3 分钟。",
+  "estimatedMinutes": 3,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {
+      "key": "competing",
+      "name": "竞争型 · 我要赢"
+    },
+    {
+      "key": "collaborating",
+      "name": "协作型 · 一起解"
+    },
+    {
+      "key": "compromising",
+      "name": "妥协型 · 各让一步"
+    },
+    {
+      "key": "avoiding",
+      "name": "回避型 · 先放放"
+    },
+    {
+      "key": "accommodating",
+      "name": "迁就型 · 让给你"
+    }
+  ],
+  "axes": [
+    {
+      "key": "assertive",
+      "name": "坚持度",
+      "poles": [
+        {
+          "key": "high",
+          "label": "高坚持"
+        },
+        {
+          "key": "low",
+          "label": "低坚持"
+        }
+      ]
+    },
+    {
+      "key": "cooperative",
+      "name": "合作度",
+      "poles": [
+        {
+          "key": "high",
+          "label": "高合作"
+        },
+        {
+          "key": "low",
+          "label": "低合作"
+        }
+      ]
+    }
+  ],
+  "tieBreak": "得分最高的模式为结果；平票时按数组顺序（竞争→协作→妥协→回避→迁就）优先取前者。",
+  "originalItemBank": {
+    "structure": "官方 TKI 为 30 道「成对陈述二选一」题：五种模式两两组合共 10 种配对，每种配对出现 3 次，每种模式累计出现 12 次；计分后得到五种模式各自的原始分，并对照常模转换为剖面图。",
+    "itemForm": "成对陈述二选一：给出 A、B 两种在冲突中的反应，选更像自己会做的那个。",
+    "note": "以下为还原的代表性样题（中文），用于理解原题出题逻辑与五模式、两轴的操作化方式，非官方逐字原文。",
+    "items": [
+      {
+        "no": 1,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "坚持自己的立场，直到对方接受",
+            "maps": "competing"
+          },
+          {
+            "key": "B",
+            "text": "先让步，把关系维持住",
+            "maps": "accommodating"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "把问题摊开，一起找出新的解法",
+            "maps": "collaborating"
+          },
+          {
+            "key": "B",
+            "text": "各让一步，尽快把这件事结束掉",
+            "maps": "compromising"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "先放一放，等合适的时机再说",
+            "maps": "avoiding"
+          },
+          {
+            "key": "B",
+            "text": "直接把我的想法说出来",
+            "maps": "competing"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "试着先满足对方的期待",
+            "maps": "accommodating"
+          },
+          {
+            "key": "B",
+            "text": "找出双方真正在意的点，再谈",
+            "maps": "collaborating"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "提一个折中的方案",
+            "maps": "compromising"
+          },
+          {
+            "key": "B",
+            "text": "先不表态，观察一下",
+            "maps": "avoiding"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "用事实和道理说服对方",
+            "maps": "competing"
+          },
+          {
+            "key": "B",
+            "text": "顾及对方感受，适当退让",
+            "maps": "accommodating"
+          }
+        ]
+      },
+      {
+        "no": 7,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "组织一次认真的讨论，把根因解决掉",
+            "maps": "collaborating"
+          },
+          {
+            "key": "B",
+            "text": "建议双方各承担一半",
+            "maps": "compromising"
+          }
+        ]
+      },
+      {
+        "no": 8,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "避免正面冲突，冷处理",
+            "maps": "avoiding"
+          },
+          {
+            "key": "B",
+            "text": "明确表达我的底线",
+            "maps": "competing"
+          }
+        ]
+      },
+      {
+        "no": 9,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "把对方的需求放在我的前面",
+            "maps": "accommodating"
+          },
+          {
+            "key": "B",
+            "text": "找一个双方都不太满意但能接受的方案",
+            "maps": "compromising"
+          }
+        ]
+      },
+      {
+        "no": 10,
+        "stem": "发生分歧时，我更可能",
+        "options": [
+          {
+            "key": "A",
+            "text": "推动大家把问题彻底解决",
+            "maps": "collaborating"
+          },
+          {
+            "key": "B",
+            "text": "暂时搁置，先做别的事",
+            "maps": "avoiding"
+          }
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "no": 1,
+      "stem": "和别人意见不合时，我最可能：",
+      "options": [
+        {
+          "key": "A",
+          "text": "摆事实、争到底，直到对方认同我是对的。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "把双方诉求摊开，一起找一个都能赢的办法。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "各退一步，找到中间地带尽快结束。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "先冷处理，等气氛过了再说。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "开会讨论方案，我的想法被当众反对时，我会：",
+      "options": [
+        {
+          "key": "A",
+          "text": "不吵了，按对方意思来，关系更重要。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "用数据和逻辑说服对方接受我的方案。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "深入聊清楚背后的原因，一起彻底解决。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "双方都让一点，别在小事上耗着。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "室友/同事的行为影响到我时，我通常：",
+      "options": [
+        {
+          "key": "A",
+          "text": "假装这事没发生，能躲就躲。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "顺着对方安抚情绪，自己的立场先放放。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "坚持我的核心诉求，寸步不让。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "把所有分歧列出来，逐个一起想办法。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "谈判或砍价时，我的风格是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "谈判嘛，你让一点我让一点，公平就行。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "不回应、不表态，让事情自然过去。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "先照顾对方的感受，再谈事情。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "据理力争，直到我赢得这场争论。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "亲近的人跟我发生争执时，我倾向于：",
+      "options": [
+        {
+          "key": "A",
+          "text": "和对方一起头脑风暴，找比双方原方案都好的答案。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "折中处理，五五开最省事。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "惹不起躲得起，换个话题或走开。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "宁可自己委屈一点，也不想让对方不高兴。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "群里有人提出明显错误的观点，我会：",
+      "options": [
+        {
+          "key": "A",
+          "text": "先冷处理，等气氛过了再说。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "摆事实、争到底，直到对方认同我是对的。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "各退一步，找到中间地带尽快结束。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "把双方诉求摊开，一起找一个都能赢的办法。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "团队分工产生分歧时，我更愿意：",
+      "options": [
+        {
+          "key": "A",
+          "text": "双方都让一点，别在小事上耗着。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "不吵了，按对方意思来，关系更重要。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "深入聊清楚背后的原因，一起彻底解决。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "用数据和逻辑说服对方接受我的方案。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "别人抢了本该属于我的功劳时，我会：",
+      "options": [
+        {
+          "key": "A",
+          "text": "把所有分歧列出来，逐个一起想办法。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "假装这事没发生，能躲就躲。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "坚持我的核心诉求，寸步不让。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "顺着对方安抚情绪，自己的立场先放放。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "和合作方谈条件卡住时，我的策略是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "据理力争，直到我赢得这场争论。",
+          "score": {
+            "cat": "competing",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "谈判嘛，你让一点我让一点，公平就行。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "先照顾对方的感受，再谈事情。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "不回应、不表态，让事情自然过去。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "吵完架之后，我通常：",
+      "options": [
+        {
+          "key": "A",
+          "text": "宁可自己委屈一点，也不想让对方不高兴。",
+          "score": {
+            "cat": "accommodating",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "和对方一起头脑风暴，找比双方原方案都好的答案。",
+          "score": {
+            "cat": "collaborating",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "惹不起躲得起，换个话题或走开。",
+          "score": {
+            "cat": "avoiding",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "折中处理，五五开最省事。",
+          "score": {
+            "cat": "compromising",
+            "points": 1
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "competing",
+      "categoryKey": "competing",
+      "name": "竞争型 · 我要赢",
+      "summary": "坚持度高、合作度低：立场明确，寸步不让。",
+      "detail": "冲突一来，你的第一反应是站定自己的立场：有理就要说透，必要时可以硬碰硬。紧急时刻你敢拍板，边界始终清晰，不会因为怕尴尬而含糊其辞。优势是决断快、抗压、关键时刻扛得住场面；代价是容易让对方觉得被压了过去，事情解决了，关系却留下一道看不见的划痕。",
+      "traits": [
+        "决断",
+        "有边界",
+        "抗压"
+      ],
+      "growthTip": "赢下论点之前，先确认这段关系你还想不想要。",
+      "shareCard": "我是竞争型，吵架从来不打算输。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "collaborating",
+      "categoryKey": "collaborating",
+      "name": "协作型 · 一起解",
+      "summary": "坚持度高、合作度高：既说清自己，也接住对方。",
+      "detail": "你把冲突当成一道要解的题，而不是一场要赢的仗。你会先问「你真正在意的是什么」，再把自己的底线摊开，愿意多花时间找到两边都能接受的那个点。优势是方案扎实、关系不伤，一次谈透就少掉很多后患；代价是耗时耗力，还得碰上一个同样愿意坐下来聊的人。",
+      "traits": [
+        "双赢思维",
+        "耐心",
+        "会挖掘需求"
+      ],
+      "growthTip": "不是所有冲突都值得深挖，小事上允许快速结案。",
+      "shareCard": "我是协作型，吵架是为了把问题解决掉。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "compromising",
+      "categoryKey": "compromising",
+      "name": "妥协型 · 各让一步",
+      "summary": "两个维度都在中间：务实、求快、能落地。",
+      "detail": "你务实、求快，习惯先找一条双方都能接受的中线：各让一步，今天就能过。截止日期压过来的时候，你是那个把事情推过终点的人。优势是效率高、能快速止损、让运转不停摆；代价是方案常常是「两边都不太满意」，根因还在原地，同样的分歧过阵子还会再来一次。",
+      "traits": [
+        "务实",
+        "灵活",
+        "效率高"
+      ],
+      "growthTip": "偶尔多问一句：我们到底在让掉什么？",
+      "shareCard": "我是妥协型，各让一步赶紧翻篇。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "avoiding",
+      "categoryKey": "avoiding",
+      "name": "回避型 · 先放放",
+      "summary": "坚持度低、合作度低：不正面处理，先搁置。",
+      "detail": "冲突刚起时你倾向于先放一放，等情绪退潮再说，或者直接绕开这个话题。这确实挡掉了不少无谓的升级，也为思考争取了缓冲时间。优势是不被情绪裹挟、很少说出让自己后悔的话；代价是小问题会悄悄攒成大问题，而对面那个人可能已经开始怀疑你到底在不在意。",
+      "traits": [
+        "克制",
+        "冷静",
+        "会缓冲"
+      ],
+      "growthTip": "给回避设一个期限，别把「先放放」变成「永不处理」。",
+      "shareCard": "我是回避型，先放一放再说。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "accommodating",
+      "categoryKey": "accommodating",
+      "name": "迁就型 · 让给你",
+      "summary": "坚持度低、合作度高：先满足对方，维持和谐。",
+      "detail": "你把关系放在自己的需求前面，习惯先满足对方、先把气氛稳住。冲突降温快，你也因此人缘不错，很少有人真的生你的气。优势是温和、体贴、能让局面迅速回到正轨；代价是委屈会一点点积起来，而对方始终不知道你真正想要的是什么，久了连你自己也懒得再提。",
+      "traits": [
+        "温和",
+        "顾大局",
+        "善维持关系"
+      ],
+      "growthTip": "你的需求不是添麻烦，说一次不会失去谁。",
+      "shareCard": "我是迁就型，算了，让给你吧。你呢？",
+      "adSlot": "result_page"
+    }
+  ],
+  "reDeriveHint": "自编重推方向：保留「五模式 + 两轴」这一公开理论框架（Thomas-Kilmann 两轴五模式属广泛流传的管理学知识），但题面全部换成中文生活化冲突场景（和伴侣吵架、同事甩锅、朋友爽约、家人催婚），并把「成对二选一」改造成更适合小程序的四选一。建议 8–10 题，输出主导模式 + 次要模式，增加「你们俩的模式组合」会显著提升双人分享。"
+}

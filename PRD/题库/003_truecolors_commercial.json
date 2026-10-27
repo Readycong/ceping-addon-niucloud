@@ -1,0 +1,511 @@
+{
+  "id": 3,
+  "title": "【商业版权·原题参考】你的灵魂色彩（四色人格）",
+  "shortName": "灵魂色彩",
+  "category": "人格",
+  "tags": [
+    "人格",
+    "视觉",
+    "色彩卡片",
+    "易晒"
+  ],
+  "copyrightStatus": "commercial",
+  "entertainment": true,
+  "status": "ready",
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性人格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "True Colors（Don Lowry, 1978，基于 Keirsey 气质理论的四色人格模型）；另一主流体系为 Insights Discovery 四色能量模型",
+    "officialOwner": "True Colors International；Insights Learning & Development",
+    "sourceType": "commercial",
+    "licensing": "True Colors 官方测评与讲师认证由 True Colors International 授权；Insights Discovery 有 72 色轮与官方测评，需经 Insights 认证从业者施测，均须付费授权。",
+    "verbatimNote": "官方逐字题面与色轮体系为专有资产，本文件所载为基于公开资料还原的代表性样题（词语排序形式），非官方逐字原文；若需逐字商用须获授权。"
+  },
+  "description": "四色人格把人的核心气质分成四种颜色：蓝（情感与意义）、金（秩序与责任）、橙（行动与自由）、绿（分析与独立）。每个人都是四色的混合，只是配比与主导色不同。色彩卡片天然适合生成可晒的视觉结果。",
+  "instructions": "共 6 组词语，每组 4 个词，请按「最像你」到「最不像你」排序（1–4），凭直觉作答，约 3 分钟。",
+  "estimatedMinutes": 3,
+  "questionCount": 6,
+  "scoringModel": "category",
+  "categories": [
+    {
+      "key": "blue",
+      "name": "蓝色 · 情感型",
+      "colorHex": "#4A7DBF"
+    },
+    {
+      "key": "gold",
+      "name": "金色 · 秩序型",
+      "colorHex": "#D9A441"
+    },
+    {
+      "key": "orange",
+      "name": "橙色 · 行动型",
+      "colorHex": "#E8823A"
+    },
+    {
+      "key": "green",
+      "name": "绿色 · 思考型",
+      "colorHex": "#3E9C6B"
+    }
+  ],
+  "tieBreak": "总分平票时，取排序题中排位更靠前（第1位出现更多）的颜色为主导色。",
+  "originalItemBank": {
+    "structure": "True Colors 官方经典形式为「词语排序」（word sort）：给出若干组每组 4 个描述词，受测者按最像自己到最不像自己排序 1–4；也有简化的卡片分类与问卷版。Insights Discovery 则用 24 个形容词的偏好评定生成四色能量分布与 72 色轮。",
+    "itemForm": "词语排序题：每组 4 词，排序 1（最像）到 4（最不像）；或每组选最像/最不像各一个。",
+    "note": "以下为还原的代表性样题（中文），用于理解原题出题逻辑与四色维度的操作化方式，非官方逐字原文。",
+    "items": [
+      {
+        "no": 1,
+        "stem": "给这组词排序：最像你排 1，最不像排 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "真诚、重感情",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "负责、守规矩",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "灵活、爱冒险",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "理性、爱分析",
+            "maps": "green"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "stem": "给这组词排序：最像你排 1，最不像排 4",
+        "options": [
+          {
+            "key": "A",
+            "text": "想让每个人都舒服",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "想把事情做对做完",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "想现在就动手试试",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "想先搞懂原理",
+            "maps": "green"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "stem": "你最受不了的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "被冷漠对待",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "混乱、没规矩",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "无聊、被束缚",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "逻辑不通、被敷衍",
+            "maps": "green"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "stem": "别人最常夸你的是",
+        "options": [
+          {
+            "key": "A",
+            "text": "很会照顾人",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "很靠谱、守时",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "有活力、敢冲",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "看得清、点子准",
+            "maps": "green"
+          }
+        ]
+      },
+      {
+        "no": 5,
+        "stem": "团队里你通常是",
+        "options": [
+          {
+            "key": "A",
+            "text": "照顾氛围、化解矛盾的人",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "排计划、盯进度的人",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "带头冲、找机会的人",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "提问题、挑漏洞的人",
+            "maps": "green"
+          }
+        ]
+      },
+      {
+        "no": 6,
+        "stem": "空闲时你最想",
+        "options": [
+          {
+            "key": "A",
+            "text": "和在乎的人好好待着",
+            "maps": "blue"
+          },
+          {
+            "key": "B",
+            "text": "把生活安排得井井有条",
+            "maps": "gold"
+          },
+          {
+            "key": "C",
+            "text": "去没去过的地方折腾",
+            "maps": "orange"
+          },
+          {
+            "key": "D",
+            "text": "研究点自己感兴趣的东西",
+            "maps": "green"
+          }
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "no": 1,
+      "stem": "在一个团队里，你最常扮演的角色是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "关心每个人的状态，主动调和气氛",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "排期、分工、盯进度，确保按时交付",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "说干就干，边做边调整，行动最快",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "先把问题想透，再拿出最聪明的方案",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你理想中的周末是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "和家人朋友窝在一起，做点温暖的小事",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "打扫房间、做好下周计划，一切井井有条",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "临时起意出门玩，越新鲜越兴奋",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "埋头研究一个一直好奇的问题或技能",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "最让你有成就感的时刻是：",
+      "options": [
+        {
+          "key": "A",
+          "text": "在我在意的人需要时帮了他一把",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "承诺的事情全部按时做到",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "做成了一件刺激又好玩的事",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "想通了一个别人没搞明白的问题",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "买一件不太便宜的东西时，你通常：",
+      "options": [
+        {
+          "key": "A",
+          "text": "先想到收到它的人会不会喜欢",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "比价格、看口碑，按预算和评价决定",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "喜欢就立刻拿下，开心最重要",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "查一堆参数和评测再下手",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友最常用哪些词形容你：",
+      "options": [
+        {
+          "key": "A",
+          "text": "温暖、体贴、值得信赖",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "靠谱、守时、有规划",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "有趣、胆大、坐不住",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "冷静、理性、有主见",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "压力很大的时候，你会：",
+      "options": [
+        {
+          "key": "A",
+          "text": "找人聊聊，被理解之后就好了一大半",
+          "score": {
+            "cat": "blue",
+            "points": 1
+          }
+        },
+        {
+          "key": "B",
+          "text": "列清单，把事情一件件解决掉",
+          "score": {
+            "cat": "gold",
+            "points": 1
+          }
+        },
+        {
+          "key": "C",
+          "text": "去运动或出门，把压力发泄出来",
+          "score": {
+            "cat": "orange",
+            "points": 1
+          }
+        },
+        {
+          "key": "D",
+          "text": "一个人待着，把来龙去脉想清楚",
+          "score": {
+            "cat": "green",
+            "points": 1
+          }
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "blue",
+      "categoryKey": "blue",
+      "name": "蓝色 · 情感型",
+      "summary": "把关系和真心看得比什么都重。",
+      "detail": "你做决定先看「人」和「意义」，规则可以商量，真心不能打折。朋友难过时你比谁都先察觉，团队气氛一冷你就自动去暖场。你渴望真诚的连接，也渴望被需要，讨厌敷衍和虚伪。优势是共情力强、值得托付、能把一群散的人拢成一体；被允许的弱点是容易把别人的情绪当成自己的责任，一句冷淡的话就够你琢磨一晚上。",
+      "traits": [
+        "共情",
+        "真诚",
+        "重关系"
+      ],
+      "growthTip": "别把所有人的情绪都当成自己的责任。",
+      "shareCard": "我的灵魂是蓝色，把真心看得最重。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "gold",
+      "categoryKey": "gold",
+      "name": "金色 · 秩序型",
+      "summary": "靠谱、守时、说到就一定做到。",
+      "detail": "你信守承诺，答应的事一定按时交，清单上的勾打完才算安心。你尊重规则与秩序，家里、工作、行程都安排得井井有条，临时变动会让你明显不适。优势是可靠、细致、让人放心，团队有你就不怕掉链子；被允许的弱点是面对突发变更容易焦躁，也常常把「应该」说得比「想要」更响。",
+      "traits": [
+        "可靠",
+        "有条理",
+        "尽责"
+      ],
+      "growthTip": "允许计划和人有例外，世界不会因此塌掉。",
+      "shareCard": "我的灵魂是金色，说到就一定做到。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "orange",
+      "categoryKey": "orange",
+      "name": "橙色 · 行动型",
+      "summary": "先干了再说，自由比什么都重要。",
+      "detail": "你先干了再说，自由比什么都重要，被框在固定流程里会浑身难受。你反应快、胆子大，最擅长在混乱里一眼抓到机会，也最受不了无休止的会议。精力旺，越有挑战越兴奋。优势是行动力、应变力、能带着现场动起来；被允许的弱点是容易低估风险和后续成本，把自己的冒险变成别人的收尾工作。",
+      "traits": [
+        "行动力",
+        "敢冒险",
+        "灵活"
+      ],
+      "growthTip": "冲之前停三秒，能省掉很多次返工。",
+      "shareCard": "我的灵魂是橙色，先干了再说。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "green",
+      "categoryKey": "green",
+      "name": "绿色 · 思考型",
+      "summary": "凡事都要先搞懂原理才肯罢休。",
+      "detail": "凡事你都要先搞懂原理才肯罢休，一句「差不多就是这样」根本糊弄不过去。你冷静、独立，享受拆解复杂问题，对逻辑漏洞近乎过敏。开会时你可能一直不说话，开口却往往正中靶心。优势是分析力强、判断清醒、不盲从；被允许的弱点是容易在「想清楚」上停留太久，也会让人误以为你不在乎。",
+      "traits": [
+        "分析力",
+        "独立",
+        "好奇"
+      ],
+      "growthTip": "想清楚之后，记得也把它做出来。",
+      "shareCard": "我的灵魂是绿色，凡事要先搞懂原理。你呢？",
+      "adSlot": "result_page"
+    }
+  ],
+  "reDeriveHint": "自编重推方向：保留「四色」这一公开色彩隐喻（四色本身是通用隐喻，非专有资产），但四色的定义与分组逻辑自行设计，题面换成中文生活化场景（社交、消费、周末、职场冲突）。建议 8–10 题四选一，输出主色 + 副色的双色配比，比单一结果更有晒点。可生成渐变色彩卡片提高分享率。"
+}

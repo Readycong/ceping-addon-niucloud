@@ -1,0 +1,179 @@
+{
+  "id": 29,
+  "title": "猫狗主人人格测试",
+  "shortName": "猫狗主人人格",
+  "category": "宠物",
+  "tags": ["宠物", "猫系", "狗系", "云吸", "铲屎官"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性宠物偏好分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "宠物主人人格与宠物偏好相关研究（如 Gosling 等的 pet owner 人格研究）",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开学术理论框架的原创自编，非任何量表的逐字题面"
+  },
+  "description": "猫系、狗系、猫狗双全，还是靠刷视频云吸过日子？从相册、遛弯、拆家现场到你给它的定位，看看你和毛孩子之间的关系到底是哪一型。没养宠也能测，云吸派同样有姓名。",
+  "instructions": "共 10 题，请按你的真实状态作答。没有养宠物的朋友，按你面对宠物时的实际反应选就好。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "cat", "name": "猫系"},
+    {"key": "dog", "name": "狗系"},
+    {"key": "both", "name": "猫狗双全"},
+    {"key": "cloud", "name": "云吸派"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "你手机相册里占比最高的是？",
+      "options": [
+        {"key": "A", "text": "猫的各种睡姿合集", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "狗的奔跑和歪头瞬间", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "猫狗同框，左右开弓", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "别人家的宠物截图", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你理想中的互动方式是？",
+      "options": [
+        {"key": "A", "text": "它来找我，我才会摸它", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "一叫就到，热情扑上来", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "一边猫踩键盘，一边狗摇尾巴", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "刷刷视频看别人互动就满足了", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "说到“遛”这件事，你？",
+      "options": [
+        {"key": "A", "text": "猫不用遛，这是我选它的理由", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "每天两趟，风雨无阻", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "遛狗的时候猫在窗台看着", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "我不遛，我只点赞", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "朋友问“养宠麻烦吗”，你怎么答？",
+      "options": [
+        {"key": "A", "text": "铲个屎就够，自由度很高", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "麻烦，但每一分钟都值得", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "双倍麻烦，双倍快乐", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "我没养，但我很懂", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "周末在家的画面更接近？",
+      "options": [
+        {"key": "A", "text": "猫在旁边睡，我安静待着", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "狗叼着玩具等我起身", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "一猫一狗分别占据沙发两端", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "抱着手机刷宠物视频", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "宠物闯祸之后，你通常？",
+      "options": [
+        {"key": "A", "text": "叹口气，认了，是我的错", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "认真教育一轮，然后原谅", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "分别处理，一碗水要端平", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "看别人家的拆家视频偷着乐", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "在宠物这件事上，你最受不了的是？",
+      "options": [
+        {"key": "A", "text": "过分黏人，寸步不离", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "喊半天一点反应都没有", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "两只同时闹，我忙着劝架", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "视频刷完了，一阵空虚", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "关于养宠，你最大的顾虑是？",
+      "options": [
+        {"key": "A", "text": "掉毛和半夜跑酷", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "自己的时间不够陪它", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "精力和预算都要翻倍", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "房东不让养，条件不允许", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "碰上别人家的宠物，你？",
+      "options": [
+        {"key": "A", "text": "看一眼就好，还是自家的香", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "忍不住伸手去摸", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "猫狗都忍不住，手不够用", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "这就是我每天的快乐来源", "score": {"cat": "cloud", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "你给宠物的定位是？",
+      "options": [
+        {"key": "A", "text": "室友，互不打扰的那种", "score": {"cat": "cat", "points": 1}},
+        {"key": "B", "text": "家人，天天在一起的那种", "score": {"cat": "dog", "points": 1}},
+        {"key": "C", "text": "一个完整的小型家庭", "score": {"cat": "both", "points": 1}},
+        {"key": "D", "text": "我云养的精神股东", "score": {"cat": "cloud", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "cat",
+      "categoryKey": "cat",
+      "name": "猫系",
+      "summary": "相处讲究分寸，互不打扰就是最好的关系。",
+      "detail": "你享受那种“在同一个空间里各干各的”的陪伴方式：不需要时刻回应，也不需要热烈表达，彼此在场就够了。你重视独立和个人空间，对过度侵入保持警觉，这也让你在人际里显得清爽可靠。需要说明的是，猫系不等于冷淡——只是你的在乎表达得更轻，需要对方凑近一点才能看见。",
+      "traits": ["注重边界", "独立自洽", "相处轻松"],
+      "growthTip": "偶尔主动一次靠近，不用等对方先来，关系会更舒服。",
+      "shareCard": "我是猫系主人，室友式相处最舒服。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "dog",
+      "categoryKey": "dog",
+      "name": "狗系",
+      "summary": "热情直给，喜欢就要让全世界都知道。",
+      "detail": "你的喜欢是外放型的：会主动联系、主动邀约、主动表达，也期待对方给出同样明确的回应。你重承诺、讲义气，认定的关系会一直放在心上，朋友出事时你往往第一个到场。需要留意的是，热情需要对方的频率来接，太满的表达偶尔会让人喘不过气。把节奏稍微降一点，你的真诚会更容易被完整收到。",
+      "traits": ["热情直率", "重陪伴", "责任感强"],
+      "growthTip": "表达之前先看看对方的频率，热情匹配才不会变成负担。",
+      "shareCard": "我是狗系主人，喜欢就要让全世界知道。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "both",
+      "categoryKey": "both",
+      "name": "猫狗双全",
+      "summary": "左手安静右手热闹，两边你都要。",
+      "detail": "你不愿意在两种陪伴方式里做选择，于是干脆都要：既享受猫那种不需要经营的自在，也享受狗那种毫不掩饰的热情。你的兼容度很高，能同时处理不同节奏的关系，这在生活里是相当实用的能力。代价是精力和预算都要翻倍，偶尔还要充当调解员。记得给自己也留一份不被打扰的时间。",
+      "traits": ["兼容度高", "精力充沛", "会平衡"],
+      "growthTip": "照顾好两边的同时，也给自己留一段谁都不管的空档。",
+      "shareCard": "我是猫狗双全，左手安静右手热闹。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "cloud",
+      "categoryKey": "cloud",
+      "name": "云吸派",
+      "summary": "自己没养，但全网的猫狗我都宠过。",
+      "detail": "你靠收藏夹和关注列表养着一支庞大的云宠物军团：通勤路上刷、午休刷、睡前刷，看到可爱的就顺手转发给朋友。你拥有接近全部的快乐，却不必承担铲屎和遛弯的成本，性价比惊人。唯一的风险是刷完之后那阵空虚，以及手机存储常年告急。等哪天条件允许了，从一次短期的朋友寄养试起也不错。",
+      "traits": ["快乐成本低", "云养大户", "随手安利"],
+      "growthTip": "想养又怕麻烦的话，可以先试试短期寄养或做志愿者。",
+      "shareCard": "我是云吸派，全网的猫狗我都宠过。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": 24,
+  "title": "消费人格鉴定",
+  "shortName": "消费人格",
+  "category": "生活/消费",
+  "tags": ["消费", "剁手", "双十一", "省钱", "生活方式"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性消费风格分类，结果不代表任何心理评估或医学诊断，也不构成理财建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "消费行为类型框架，参考 Money Attitude Scale（Yamauchi & Templer, 1982）",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开学术理论框架的原创自编，非任何量表的逐字题面"
+  },
+  "description": "从双十一、外卖、衣柜到工资到账那一刻，看清你的钱到底为什么花出去。五种消费人格，没有对错，只有花钱姿势不同。",
+  "instructions": "共 10 题，请按你最近半年的真实消费习惯作答，别按“我以后会改”的版本选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "hoarder", "name": "囤货党"},
+    {"key": "minimal", "name": "极简党"},
+    {"key": "impulse", "name": "冲动党"},
+    {"key": "bargain", "name": "薅羊毛党"},
+    {"key": "quality", "name": "品质党"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "双十一前一周，你在忙什么？",
+      "options": [
+        {"key": "A", "text": "把去年囤的纸巾和洗衣液清点一遍", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "什么都没加购，缺了再说", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "刷着直播间的手已经点下去了", "score": {"cat": "impulse", "points": 1}},
+        {"key": "D", "text": "做比价表，算满减的最优解", "score": {"cat": "bargain", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "购物车里躺着二十件东西，你会？",
+      "options": [
+        {"key": "A", "text": "全留着，说不定哪天就用上", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "删到只剩真正需要的两件", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "直接结算，拆快递的快乐不能等", "score": {"cat": "impulse", "points": 1}},
+        {"key": "D", "text": "只留下那件最耐用的，贵点也认", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "买一件每天都用的通勤包，你最看重？",
+      "options": [
+        {"key": "A", "text": "容量大又耐用，能用到天荒地老", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "够用就行，别给我增加负担", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "领券蹲活动，等最低价再下手", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "材质和做工，贵一点也值", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "货架上写着“第二件半价”，你会？",
+      "options": [
+        {"key": "A", "text": "两件都拿，反正用得完", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "本来只要一件，现在变三件", "score": {"cat": "impulse", "points": 1}},
+        {"key": "C", "text": "先算单价，确认真便宜才动手", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "看东西本身值不值，不为折扣买单", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "朋友安利一款价格翻倍的耳机，你？",
+      "options": [
+        {"key": "A", "text": "现在这个还能用，不换", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "心动就下单，音效值得一试", "score": {"cat": "impulse", "points": 1}},
+        {"key": "C", "text": "跨平台比价，等大促再决定", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "长期用的东西不将就，直接买", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "点外卖时你优先看的是？",
+      "options": [
+        {"key": "A", "text": "怎么凑满减，多点的留着下顿", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "就点一份，吃完再说", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "首单优惠的新店，先试试", "score": {"cat": "impulse", "points": 1}},
+        {"key": "D", "text": "先找券和红包，能省一块是一块", "score": {"cat": "bargain", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你的衣柜现在是什么状态？",
+      "options": [
+        {"key": "A", "text": "储物箱塞满，找东西像考古", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "衣服不多，但每件都在上岗", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "有几件吊牌还在，买的时候太上头", "score": {"cat": "impulse", "points": 1}},
+        {"key": "D", "text": "数量不多，但每一件都是挑过的", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "一件正在打折但尺码不太合身的衣服，你？",
+      "options": [
+        {"key": "A", "text": "买了，万一以后能穿", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "不合身就不要，拿回家也是占地方", "score": {"cat": "minimal", "points": 1}},
+        {"key": "C", "text": "先收藏，等降到位再买", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "不买，宁可贵点买真正合身的", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "工资到账那天，你第一件做的事是？",
+      "options": [
+        {"key": "A", "text": "把日用品囤货补满", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "看上好久的东西终于可以下单", "score": {"cat": "impulse", "points": 1}},
+        {"key": "C", "text": "研究哪个渠道和卡最划算", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "换掉一件真正用得久的好东西", "score": {"cat": "quality", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "你最享受的消费瞬间是？",
+      "options": [
+        {"key": "A", "text": "清理完东西之后那种空旷感", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "拆快递那三秒", "score": {"cat": "impulse", "points": 1}},
+        {"key": "C", "text": "抢到券那一刻的成就感", "score": {"cat": "bargain", "points": 1}},
+        {"key": "D", "text": "用好东西时那股踏实感", "score": {"cat": "quality", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "hoarder",
+      "categoryKey": "hoarder",
+      "name": "囤货党",
+      "summary": "安全感来自储物柜，见底比见红更让人心慌。",
+      "detail": "你对“家里还有”这件事有执念，纸巾按箱买、调料按年囤，看到半价就自动换算成未来用量。这套系统确实帮你躲过了不少临时缺货的慌张，也在涨价时省下过真金白银。唯一的成本是空间和过期风险——被遗忘在角落的那批东西，其实是另一种形式的浪费。定期做一次库存盘点，你会惊讶地发现不少东西已经够用到明年。",
+      "traits": ["未雨绸缪", "批量采购", "家里有余粮"],
+      "growthTip": "给囤货设上限，比如“同类不超过三个月用量”，空间会立刻松快。",
+      "shareCard": "我是囤货党，储物柜满了我才安心。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "minimal",
+      "categoryKey": "minimal",
+      "name": "极简党",
+      "summary": "少即是多，你的钱包和房间都很清爽。",
+      "detail": "你买东西的标准简单得让导购无从下手：现在要用吗？没有会怎样？两个问题问完，大半消费欲就自动熄灭了。你的房间好打理，钱也不容易无声无息地溜走，这种掌控感很舒服。需要注意的是别把“少买”变成“该买也不买”——必要的舒适和效率值得付费，省在该省的地方，才能在该花的地方不犹豫。",
+      "traits": ["克制理性", "不易被种草", "空间清爽"],
+      "growthTip": "列一张“值得花钱清单”，遇到直接在上面买的就别再纠结。",
+      "shareCard": "我是极简党，购物车常年接近零。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "impulse",
+      "categoryKey": "impulse",
+      "name": "冲动党",
+      "summary": "心动到下单一气呵成，拆快递是你的高光时刻。",
+      "detail": "你对喜欢的东西反应极快，直播间一句“最后三单”就能让你完成从种草到付款的全过程。你也不缺后悔的素材——吊牌还在的衣服、积灰的小家电，都是冲动的纪念品。好在你的快乐很直接，也不容易陷入长期纠结。想稍微收一收的话，给自己加一条二十四小时规则：非必需品先放购物车一天，第二天还想要再买。",
+      "traits": ["行动力强", "容易被种草", "快乐来得快"],
+      "growthTip": "给非必需品设一个冷静期，多数冲动会在第二天早上自动消退。",
+      "shareCard": "我是冲动党，手比脑子先付款。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "bargain",
+      "categoryKey": "bargain",
+      "name": "薅羊毛党",
+      "summary": "没有你找不到的券，省到就是赚到。",
+      "detail": "满减规则、叠加券、返利链接、历史低价曲线，这些在你眼里都是有解的数学题。你享受的不只是省下的钱，更是那种“系统被我摸透了”的成就感，朋友买大件前也常来问你。要留意的是时间和注意力的隐性成本：为了省二十块研究两小时，其实是另一笔账。把薅羊毛限定在大额和高频品类，性价比会高得多。",
+      "traits": ["比价达人", "规则通", "省钱有成就感"],
+      "growthTip": "只在金额超过阈值时启动比价模式，小钱不值得耗掉一小时。",
+      "shareCard": "我是薅羊毛党，没有我找不到的券。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "quality",
+      "categoryKey": "quality",
+      "name": "品质党",
+      "summary": "宁可少买一件，也不愿将就一次。",
+      "detail": "你相信长期使用的东西值得多花钱，也更看重材质、做工和实际体验，而不是标签上的折扣力度。你的东西数量未必多，但每一件都顺手耐用，算下来单次使用成本反而更低。唯一要防的是把“贵”和“好”简单划等号——价签不是质量的唯一证据，多看真实评价和自己的使用习惯，才不会为好概念买单。",
+      "traits": ["看重质感", "长期主义", "不为折扣动心"],
+      "growthTip": "下单前问一句“我会用多久”，答案往往比价格更能决定值不值。",
+      "shareCard": "我是品质党，宁可少买一件也不将就。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "id": 25,
+  "title": "旅行人格鉴定",
+  "shortName": "旅行人格",
+  "category": "生活",
+  "tags": ["旅行", "小长假", "特种兵", "打卡", "生活方式"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性旅行风格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "同样是三天小长假，有人日均两万步打卡八个点，有人在酒店阳台坐到日落。测测你是哪种旅行人格，下次出门前先把队友选对。",
+  "instructions": "共 10 题，请按你最近几次出行的真实做法作答，别按你最想晒的那版选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "soldier", "name": "特种兵"},
+    {"key": "resort", "name": "度假派"},
+    {"key": "hotel", "name": "躺酒店"},
+    {"key": "foodie", "name": "逛吃党"},
+    {"key": "wander", "name": "随缘漫游"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "三天小长假，你的行程大概长这样？",
+      "options": [
+        {"key": "A", "text": "打卡八个点，日均两万步起步", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "找个海边或山里，行程只写两行", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "订个好酒店，主要活动是躺着", "score": {"cat": "hotel", "points": 1}},
+        {"key": "D", "text": "按美食地图走，景点顺路再看", "score": {"cat": "foodie", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "出发之前你会做到哪一步？",
+      "options": [
+        {"key": "A", "text": "精确到小时的行程表，含交通接驳", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "只订机票和第一晚住宿", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "研究酒店泳池开放时间和早餐时段", "score": {"cat": "hotel", "points": 1}},
+        {"key": "D", "text": "看心情，落地再说", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "刚到一个陌生城市，你的第一站是？",
+      "options": [
+        {"key": "A", "text": "最远的那个必去景点，趁体力好", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "找个舒服的咖啡馆先坐一会儿", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "本地人推荐的苍蝇馆子", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "随便走走，哪条路好看走哪条", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "你发出去的旅行朋友圈，画风是？",
+      "options": [
+        {"key": "A", "text": "九宫格景点打卡，配文“完成”", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "酒店阳台的早餐和落日", "score": {"cat": "hotel", "points": 1}},
+        {"key": "C", "text": "九张吃的，最后一张是空盘", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "随手拍的路人和路牌", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "旅伴提议“明天五点起来看日出”，你？",
+      "options": [
+        {"key": "A", "text": "可以，但看完必须回来补觉", "score": {"cat": "resort", "points": 1}},
+        {"key": "B", "text": "你们去，我在被窝等照片", "score": {"cat": "hotel", "points": 1}},
+        {"key": "C", "text": "看完正好去吃个早茶", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "醒了就去，没醒就算了", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "行李箱里最重要的东西是？",
+      "options": [
+        {"key": "A", "text": "一双好走的鞋和大容量充电宝", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "防晒和一条好看的裙子", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "自己的枕头和护颈", "score": {"cat": "hotel", "points": 1}},
+        {"key": "D", "text": "健胃消食片和一个空着的胃", "score": {"cat": "foodie", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "旅途中突然下起雨，你会？",
+      "options": [
+        {"key": "A", "text": "换个室内景点继续打卡", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "找家能坐一下午的店听雨", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "正好回酒店睡个回笼觉", "score": {"cat": "hotel", "points": 1}},
+        {"key": "D", "text": "淋着走，反正衣服会干", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "回程前的最后一小时，你在？",
+      "options": [
+        {"key": "A", "text": "再冲一个没去成的点", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "在酒店附近慢慢晃一圈", "score": {"cat": "resort", "points": 1}},
+        {"key": "C", "text": "打包一份当地特产带上路", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "找个地方坐着，等时间到", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "你心里的旅行 KPI 是？",
+      "options": [
+        {"key": "A", "text": "去过多少地方", "score": {"cat": "soldier", "points": 1}},
+        {"key": "B", "text": "睡得有多好", "score": {"cat": "hotel", "points": 1}},
+        {"key": "C", "text": "吃过几家本地馆子", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "有没有遇到计划外的惊喜", "score": {"cat": "wander", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "别人问“那个地方好玩吗”，你会怎么答？",
+      "options": [
+        {"key": "A", "text": "挺舒服的，节奏很慢", "score": {"cat": "resort", "points": 1}},
+        {"key": "B", "text": "没怎么出门，但酒店很棒", "score": {"cat": "hotel", "points": 1}},
+        {"key": "C", "text": "好吃，其他没太注意", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "说不上来，反正挺喜欢的", "score": {"cat": "wander", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "soldier",
+      "categoryKey": "soldier",
+      "name": "特种兵",
+      "summary": "两天逛完一座城，微信步数常年霸榜。",
+      "detail": "你的行程表精确到分钟，早上六点在山上看日出，中午已经出现在城市另一头的小馆子。你说服自己的理由也很合理：来都来了。这种密度确实让你在有限假期里装下了最多的内容，代价是回来那两天基本报废。下次可以试着每天只排一件必做的事，其余留白——真正记住的往往不是第十个景点，而是某个不赶时间的下午。",
+      "traits": ["执行力爆表", "攻略大师", "体力惊人"],
+      "growthTip": "每天留两小时空白，旅行的记忆点通常长在计划之外。",
+      "shareCard": "我是特种兵型旅行人格，两天逛完一座城。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "resort",
+      "categoryKey": "resort",
+      "name": "度假派",
+      "summary": "旅行的意义是换个地方放松，不是换个地方赶路。",
+      "detail": "你出门是为了让身体和脑子同时休假，所以行程永远只写两行：住哪儿、去哪个方向待着。你擅长挑一个舒服的环境，然后把自己交出去——海风、山雾、一杯能喝一下午的东西，就够回本。偶尔也会被同伴拖去赶行程，回来后更加确信自己是对的。保持这个节奏，只是别把行程排得太空，留一件当地特色体验当记忆锚点。",
+      "traits": ["会放松", "节奏舒缓", "环境敏感"],
+      "growthTip": "安排一件只在这个地方能做的事，慢下来也不至于什么都没留下。",
+      "shareCard": "我是度假派，旅行就是换个地方放松。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "hotel",
+      "categoryKey": "hotel",
+      "name": "躺酒店",
+      "summary": "出差与度假的共同点：先看床垫和浴袍。",
+      "detail": "你深谙一个道理：旅行体验的一半由住的地方决定。于是别人在看攻略，你在研究房型朝向、泳池时段和早餐供应到几点。你把酒店本身当成目的地，睡到自然醒、泡个澡、在阳台发呆，也算认真度过了这一天。这没什么不好，唯一建议是把早餐时间和退房时间设成闹钟，别让最贵的部分被睡过去。",
+      "traits": ["重视睡眠", "会挑住宿", "享受独处"],
+      "growthTip": "把早餐和泳池写进行程，让最贵的部分真正被用上。",
+      "shareCard": "我是躺酒店型，酒店就是我的目的地。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "foodie",
+      "categoryKey": "foodie",
+      "name": "逛吃党",
+      "summary": "景点是顺路的，馆子才是导航终点。",
+      "detail": "你的地图收藏夹里全是店名，排队一小时也愿意，因为那口东西别处吃不到。你相信一座城市的性格藏在它的小吃街里，也确实通过食物记住了不少地方。你的旅行永远不缺高光时刻，唯一的遗憾往往是照片全是菜。下次在两家馆子之间随便拐进一条巷子走走，可能会撞见比攻略更有趣的风景。",
+      "traits": ["美食雷达", "愿意排队", "接地气"],
+      "growthTip": "在两家店之间留一段步行路线，风景通常就在路上。",
+      "shareCard": "我是逛吃党，景点顺路，馆子才是终点。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "wander",
+      "categoryKey": "wander",
+      "name": "随缘漫游",
+      "summary": "没有攻略，最好的部分是撞上的。",
+      "detail": "你几乎不做计划，落地后跟着直觉走：哪条路好看走哪条，哪家店顺眼就进去。你错过了不少必打卡点，却也遇到过攻略上永远不会写的场景——一场街头演出、一家没有招牌的小店。这种旅行方式自由度极高，代价是偶尔会踩空。给自己留一个极简框架：定住宿区域和一个大致方向，剩下的继续交给运气。",
+      "traits": ["随机应变", "心态松弛", "不执着打卡"],
+      "growthTip": "只需要定好住宿区域和大方向，其他继续交给直觉。",
+      "shareCard": "我是随缘漫游型，最好的部分都是撞上的。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

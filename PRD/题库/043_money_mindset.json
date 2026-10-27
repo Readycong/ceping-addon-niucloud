@@ -1,0 +1,179 @@
+{
+  "id": 43,
+  "title": "理财脑回路鉴定",
+  "shortName": "理财脑回路",
+  "category": "生活/消费",
+  "tags": ["消费观", "存钱", "打工人", "记账", "金钱态度"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何心理评估或医学诊断，也绝不构成任何投资、理财或消费决策建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "参考金钱态度量表 MAS（Money Attitude Scale, Yamauchi & Templer, 1982）与 Klontz 金钱人格（Klontz Money Script / Money Personality）理论框架；本测题为基于上述公开理论的原创自编娱乐版。",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开理论框架的原创自编题面，不引用任何量表原题"
+  },
+  "description": "同样是一笔钱，有人先存起来，有人先花掉，有人先算三遍。10 道题鉴定你的金钱脑回路属于哪一派：储蓄、投机、月光还是精算。这里没有任何投资建议，只有花钱姿势的自我介绍。",
+  "instructions": "共 10 题，按你真实的花钱习惯作答。本测试不提供、也不构成任何理财或投资建议。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "saver", "name": "储蓄派"},
+    {"key": "speculator", "name": "投机派"},
+    {"key": "moonlight", "name": "月光派"},
+    {"key": "calculator", "name": "精算式消费"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "发工资当天，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "先把固定要存的那部分转走", "score": {"cat": "saver", "points": 1}},
+        {"key": "B", "text": "看看最近有没有什么机会可以搏一把", "score": {"cat": "speculator", "points": 1}},
+        {"key": "C", "text": "先把上个月的欠款还上", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "D", "text": "打开记账软件，对齐这个月的预算", "score": {"cat": "calculator", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "看到一件很想要、但有点贵的东西，你会？",
+      "options": [
+        {"key": "A", "text": "想要就买，快乐不能等", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "B", "text": "算一下每次使用的成本再决定", "score": {"cat": "calculator", "points": 1}},
+        {"key": "C", "text": "放进购物车冷静三天再说", "score": {"cat": "saver", "points": 1}},
+        {"key": "D", "text": "研究它会不会更值钱、好不好转手", "score": {"cat": "speculator", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "突然多了一笔意外收入，你会？",
+      "options": [
+        {"key": "A", "text": "拿去试一个我关注很久的方向", "score": {"cat": "speculator", "points": 1}},
+        {"key": "B", "text": "直接转入那张不动的卡", "score": {"cat": "saver", "points": 1}},
+        {"key": "C", "text": "按比例分配：一部分花、一部分留", "score": {"cat": "calculator", "points": 1}},
+        {"key": "D", "text": "请自己吃顿好的，钱就是用来花的", "score": {"cat": "moonlight", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "你手机里的财务类 App 更接近哪一类？",
+      "options": [
+        {"key": "A", "text": "记账软件，分类清清楚楚", "score": {"cat": "calculator", "points": 1}},
+        {"key": "B", "text": "支付软件，主要用来付款和看余额", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "C", "text": "行情软件，时不时瞄上一眼", "score": {"cat": "speculator", "points": 1}},
+        {"key": "D", "text": "银行 App，看看存款和到期日", "score": {"cat": "saver", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "月底发现这个月花超了，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "下个月把非必要开支全砍掉补回来", "score": {"cat": "saver", "points": 1}},
+        {"key": "B", "text": "列张表看看钱具体漏在哪", "score": {"cat": "calculator", "points": 1}},
+        {"key": "C", "text": "反正都花完了，先开心过完这月", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "D", "text": "想办法搞点额外收入把这个洞填上", "score": {"cat": "speculator", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "一件日用品有平价款和贵价款，你会？",
+      "options": [
+        {"key": "A", "text": "挑喜欢的那个，贵点也认了", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "B", "text": "看哪个更划算、以后更好出手", "score": {"cat": "speculator", "points": 1}},
+        {"key": "C", "text": "算一下使用频次和单次成本", "score": {"cat": "calculator", "points": 1}},
+        {"key": "D", "text": "选平价款，差价省下来", "score": {"cat": "saver", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "听到「这个以后可能会涨」，你的反应是？",
+      "options": [
+        {"key": "A", "text": "眼睛一亮，先研究研究", "score": {"cat": "speculator", "points": 1}},
+        {"key": "B", "text": "算一下最坏情况能不能承受", "score": {"cat": "calculator", "points": 1}},
+        {"key": "C", "text": "没兴趣，我只相信存下来的钱", "score": {"cat": "saver", "points": 1}},
+        {"key": "D", "text": "心动一下，然后还是买了自己想要的", "score": {"cat": "moonlight", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你更愿意为什么样的支出买单？",
+      "options": [
+        {"key": "A", "text": "算过单价之后确认划算的东西", "score": {"cat": "calculator", "points": 1}},
+        {"key": "B", "text": "必需品，而且挑最实惠的渠道买", "score": {"cat": "saver", "points": 1}},
+        {"key": "C", "text": "让我当下特别开心的体验", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "D", "text": "有成长空间、将来可能更值钱的东西", "score": {"cat": "speculator", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "卡里躺着一笔暂时用不到的钱，你更倾向？",
+      "options": [
+        {"key": "A", "text": "放着不动，看到余额就安心", "score": {"cat": "saver", "points": 1}},
+        {"key": "B", "text": "迟早会花出去，不如早点安排", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "C", "text": "找一个我觉得有意思的方向试试", "score": {"cat": "speculator", "points": 1}},
+        {"key": "D", "text": "分成几份，各司其职", "score": {"cat": "calculator", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "年底算总账时，你最在意哪个数字？",
+      "options": [
+        {"key": "A", "text": "今年有多少次是花得真正开心的", "score": {"cat": "moonlight", "points": 1}},
+        {"key": "B", "text": "各类支出的占比是否合理", "score": {"cat": "calculator", "points": 1}},
+        {"key": "C", "text": "有没有抓住过一次好机会", "score": {"cat": "speculator", "points": 1}},
+        {"key": "D", "text": "存款比年初多了多少", "score": {"cat": "saver", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "saver",
+      "categoryKey": "saver",
+      "name": "储蓄派",
+      "summary": "余额是安全感本身，数字不动心才定。",
+      "detail": "你的金钱脑回路以「确定性」为核心：先存后花、能省则省、看到余额增长比买到什么都高兴。你对冲动消费有天然免疫力，购物车里的东西经常被冷静期劝退。这份克制让你很少陷入月底的慌张，也是很多人羡慕的能力。需要注意的是，「省」一旦变成默认选项，也可能让你错过那些真正值得花的体验。给消费分个类：日常开销省，成长和体验花，你会过得既稳又不亏待自己。",
+      "traits": ["克制自律", "安全感强", "先存后花"],
+      "growthTip": "把「能省」和「值得花」分成两类对待，别让省钱成为唯一的判断标准。",
+      "shareCard": "理财脑回路鉴定：我是储蓄派，看到余额才睡得着。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "speculator",
+      "categoryKey": "speculator",
+      "name": "投机派",
+      "summary": "比起确定的小收益，你更在意那一点点可能性。",
+      "detail": "你对「机会」两个字格外敏感，遇到可能变多的东西就忍不住研究一番，也愿意为此承担波动。你的脑子转得快、信息嗅觉灵敏，常常是最早注意到风向的人。需要注意的是，可能性总是比确定性更迷人，也更容易让人高估自己能承受的代价。玩得久的投机派都有一个共同点：提前给自己划好一条输得起的线，越线就停手。机会永远有，本金和心情只有一份。（本测试不涉及任何投资建议。）",
+      "traits": ["机会敏感", "敢于试错", "信息嗅觉好"],
+      "growthTip": "动手之前先写下自己能承受的最坏结果，并严格执行这条上限。",
+      "shareCard": "理财脑回路鉴定：我是投机派，看到「可能性」三个字就来劲。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "moonlight",
+      "categoryKey": "moonlight",
+      "name": "月光派",
+      "summary": "钱是用来花的，月底见底是常态不是事故。",
+      "detail": "你花得不抠门，也从不亏待当下的心情：喜欢就买、开心就请、体验优先。朋友圈里你大概率是那种「这家店不错下次一起去」的人，人缘和快乐指数都很高。代价是每到月底就得跟余额玩一次心跳，遇到突发支出时会有点被动。不用强迫自己变成另一个人，只需要给未来的自己留一小份：把「先花剩下的再存」反过来一次，你会发现快乐并没有减少。",
+      "traits": ["及时行乐", "慷慨大方", "体验优先"],
+      "growthTip": "试试「先留后花」，哪怕只留一成，月底的你会感谢现在的你。",
+      "shareCard": "理财脑回路鉴定：我是月光派，月底余额和我一样坦诚。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "calculator",
+      "categoryKey": "calculator",
+      "name": "精算式消费",
+      "summary": "每一笔支出，都要先过一遍心算。",
+      "detail": "你的脑子里常年开着一张电子表格：单次使用成本、同类比价、月度占比、预算余量，样样清楚。你很少买贵的东西，也很少买错的东西，朋友们做购买决策时常来问你一句。这份理性让你几乎不会被营销话术带走。唯一的小提醒是，算得太细会消耗精力，也会让一些本该立刻拥有的快乐变得迟钝。小钱可以快速决定，大钱才值得你启动完整算法。",
+      "traits": ["精打细算", "理性比价", "预算感强"],
+      "growthTip": "给支出分个档：小额随手决定，大额才启动完整计算流程。",
+      "shareCard": "理财脑回路鉴定：我是精算式消费，买东西先算单次成本。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

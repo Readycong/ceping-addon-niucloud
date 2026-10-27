@@ -1,0 +1,191 @@
+{
+  "id": 5,
+  "title": "职场人设鉴定",
+  "shortName": "职场人设",
+  "category": "职场",
+  "tags": ["职场", "打工人", "办公室", "人设"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为职场情境娱乐分类，不代表能力评定或职业建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从会议、群聊、午休到下班倒计时，鉴定你在办公室里最稳定输出的那套人设。没有好坏，只有打工姿势不同。",
+  "instructions": "共 10 题，请按日常工作中的真实反应作答，别替理想中的自己代答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "grinder", "name": "卷王"},
+    {"key": "diplomat", "name": "端水大师"},
+    {"key": "slacker", "name": "摸鱼高手"},
+    {"key": "expert", "name": "隐形大佬"},
+    {"key": "vibe", "name": "气氛组"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "周一早会突然通知本周要交大项目，你会？",
+      "options": [
+        {"key": "A", "text": "当场拆目标，顺便把时间表拉满", "score": {"cat": "grinder", "points": 1}},
+        {"key": "B", "text": "先确认各方诉求，避免后面互相甩锅", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "C", "text": "先找模板和捷径，拒绝重复造轮子", "score": {"cat": "slacker", "points": 1}},
+        {"key": "D", "text": "不声不响打开旧方案，核心路径已看懂", "score": {"cat": "expert", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "工作群里突然安静得可怕，你最可能？",
+      "options": [
+        {"key": "A", "text": "发个合适的表情，让空气重新流动", "score": {"cat": "vibe", "points": 1}},
+        {"key": "B", "text": "补一句最新进度，让大家知道我在推进", "score": {"cat": "grinder", "points": 1}},
+        {"key": "C", "text": "私聊关键同事，先把误会拆掉", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "D", "text": "默默等明确任务，绝不主动加戏", "score": {"cat": "slacker", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "同事求助一个棘手问题，你通常？",
+      "options": [
+        {"key": "A", "text": "三句话点出关键，但看起来像随口一说", "score": {"cat": "expert", "points": 1}},
+        {"key": "B", "text": "先讲个段子缓解对方的崩溃感", "score": {"cat": "vibe", "points": 1}},
+        {"key": "C", "text": "直接拉表格，把事情一起推进完", "score": {"cat": "grinder", "points": 1}},
+        {"key": "D", "text": "既帮解决，也照顾双方边界和感受", "score": {"cat": "diplomat", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "下午三点能量告急，你的续航方式是？",
+      "options": [
+        {"key": "A", "text": "研究十分钟外卖，再精神抖擞回来", "score": {"cat": "slacker", "points": 1}},
+        {"key": "B", "text": "安静处理最难的一块，做完再休息", "score": {"cat": "expert", "points": 1}},
+        {"key": "C", "text": "喊大家拼单咖啡，顺便活跃办公室", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "看一眼待办，继续冲刺下一个勾", "score": {"cat": "grinder", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "跨部门合作意见不一致，你会站在哪个位置？",
+      "options": [
+        {"key": "A", "text": "把双方的话翻译成人话，找最大公约数", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "B", "text": "先判断哪些争论可以直接省略", "score": {"cat": "slacker", "points": 1}},
+        {"key": "C", "text": "拿数据和方案说话，不参与情绪拉扯", "score": {"cat": "expert", "points": 1}},
+        {"key": "D", "text": "先让大家笑一下，再回到正题", "score": {"cat": "vibe", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "下班前半小时又来一个新需求，你会？",
+      "options": [
+        {"key": "A", "text": "快速确认优先级，能做就今天清掉", "score": {"cat": "grinder", "points": 1}},
+        {"key": "B", "text": "先协调合理期限，谁都别临时吃亏", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "C", "text": "判断是否真紧急，能明天绝不硬熬", "score": {"cat": "slacker", "points": 1}},
+        {"key": "D", "text": "五分钟看透需求，给出最短解决路径", "score": {"cat": "expert", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "团建活动让你自由发挥，你最可能负责？",
+      "options": [
+        {"key": "A", "text": "游戏和歌单，保证现场不冷", "score": {"cat": "vibe", "points": 1}},
+        {"key": "B", "text": "流程表和物资清单，保证不出岔子", "score": {"cat": "grinder", "points": 1}},
+        {"key": "C", "text": "照顾不同人的偏好，谁都能参与", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "D", "text": "找个不显眼但视野好的位置待着", "score": {"cat": "slacker", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "领导突然问“这个谁懂”，你会？",
+      "options": [
+        {"key": "A", "text": "如果正好会，就简短给出关键答案", "score": {"cat": "expert", "points": 1}},
+        {"key": "B", "text": "先接一句轻松的话，给大家留反应时间", "score": {"cat": "vibe", "points": 1}},
+        {"key": "C", "text": "主动认领，边做边补齐不会的部分", "score": {"cat": "grinder", "points": 1}},
+        {"key": "D", "text": "推荐最合适的人，也说清协作方式", "score": {"cat": "diplomat", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "摸到一套能省两小时的工具，你会？",
+      "options": [
+        {"key": "A", "text": "立刻用上，把省下的时间还给自己", "score": {"cat": "slacker", "points": 1}},
+        {"key": "B", "text": "研究到底层逻辑，再优化一轮", "score": {"cat": "expert", "points": 1}},
+        {"key": "C", "text": "发群里安利，配一句今天准点下班", "score": {"cat": "vibe", "points": 1}},
+        {"key": "D", "text": "纳入工作流，争取同样时间多做一项", "score": {"cat": "grinder", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "年终回顾时，你最看重什么？",
+      "options": [
+        {"key": "A", "text": "合作关系顺不顺，大家是否愿意再搭档", "score": {"cat": "diplomat", "points": 1}},
+        {"key": "B", "text": "有没有用更少消耗完成该做的事", "score": {"cat": "slacker", "points": 1}},
+        {"key": "C", "text": "解决了哪些真正困难的核心问题", "score": {"cat": "expert", "points": 1}},
+        {"key": "D", "text": "团队记忆里是否留下不少快乐瞬间", "score": {"cat": "vibe", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "grinder",
+      "categoryKey": "grinder",
+      "name": "卷王",
+      "summary": "待办清空速度惊人，连进度条都追不上你。",
+      "detail": "你是办公室里的推进器，目标一出现，大脑就自动拆解里程碑。别人还在问从哪开始，你已经建好表格、拉好群、约好下次同步。你的执行力和责任感很能托底，但也容易把“可以更好”变成无限加码。真正高级的卷，不是永远在线，而是把力气花在最值的地方。",
+      "traits": ["执行力强", "目标明确", "主动推进"],
+      "growthTip": "给任务排优先级，也给休息设不可占用的时间段。",
+      "shareCard": "职场人设鉴定：我是卷王，待办清空比消息已读还快。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "diplomat",
+      "categoryKey": "diplomat",
+      "name": "端水大师",
+      "summary": "跨部门翻译器上线，复杂关系也能稳稳端住。",
+      "detail": "你很会察觉会议桌上的不同立场，也懂得把强硬表达翻译成大家都能接住的话。遇到分歧时，你往往先找共同目标，再安排一个体面的落点。团队因为你少了不少暗流，但长期照顾所有人也会耗电。真正的平衡不是人人都满意，而是规则清楚、选择透明。",
+      "traits": ["善于协调", "情商在线", "顾全大局"],
+      "growthTip": "端水之前先站稳自己的杯子，该说不同意时可以直接一点。",
+      "shareCard": "职场人设鉴定：我是端水大师，跨部门沟通自带翻译器。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "slacker",
+      "categoryKey": "slacker",
+      "name": "摸鱼高手",
+      "summary": "不是不干活，是拒绝把力气浪费在无效加班。",
+      "detail": "你对低效流程和假装忙碌有天然雷达，擅长找模板、用工具、抓重点，把该做的事压缩到合理时间。你珍惜自己的精力，也知道打工不是生活的全部。别人以为你在轻松划水，其实你在进行资源管理。只要别把真正重要的任务也一起优化掉，你就是高效派代表。",
+      "traits": ["效率优先", "边界清楚", "善用工具"],
+      "growthTip": "省力不等于隐身，关键成果记得及时同步，让价值被看见。",
+      "shareCard": "职场人设鉴定：我是摸鱼高手，会干活更会省无效力气。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "expert",
+      "categoryKey": "expert",
+      "name": "隐形大佬",
+      "summary": "平时低调在线，关键时刻一句话解决核心问题。",
+      "detail": "你不太热衷刷存在感，却喜欢把专业能力练得扎实。会议里可能一直安静，一开口就能指出关键变量；项目卡住时，也常能从旧经验里抽出最短路径。你的可靠来自长期积累，不靠音量加成。偶尔主动展示方法和成果，不是炫耀，而是让团队更准确地使用你的能力。",
+      "traits": ["专业扎实", "冷静可靠", "低调高效"],
+      "growthTip": "把关键成果说清楚，让专业影响力不再只靠同事口口相传。",
+      "shareCard": "职场人设鉴定：我是隐形大佬，平时静音，关键时刻满格。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "vibe",
+      "categoryKey": "vibe",
+      "name": "气氛组",
+      "summary": "办公室快乐补丁，有你在群聊就不容易结冰。",
+      "detail": "你很会读空气，知道什么时候该抛个梗，什么时候该给同事递杯咖啡。高压项目里，你的轻松感不是不认真，而是在帮团队恢复呼吸。你让合作更有人味，也让普通打工日多了可记住的瞬间。若再把欢乐和稳定交付绑定，你会成为大家既想同桌又想同组的人。",
+      "traits": ["感染力强", "会活跃气氛", "团队友好"],
+      "growthTip": "继续带来快乐，同时留一项拿得出手的硬成果作为个人招牌。",
+      "shareCard": "职场人设鉴定：我是气氛组，工位附近常年有笑声。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

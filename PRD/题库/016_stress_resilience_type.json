@@ -1,0 +1,179 @@
+{
+  "id": 16,
+  "title": "抗压体质类型鉴定",
+  "shortName": "抗压体质",
+  "category": "轻职场/情绪",
+  "tags": ["抗压", "韧性", "职场", "情绪", "打工人"],
+  "copyrightStatus": "public_domain",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "娱乐性质，不代表专业心理评估；本测试仅描述日常压力应对风格，不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "BRS 心理韧性量表（Smith 2008，公共领域）与 CD-RISC",
+    "sourceType": "public_domain",
+    "reference": "本测题为基于公开学术量表结构的娱乐化原创自编改编，非官方逐字题面"
+  },
+  "description": "同样是被甲方改稿、被临时插单、被周一早会砸中，有人当场弹回来，有人要缓三天。测测你属于哪种抗压体质：橡皮人、玻璃人、弹簧人还是海绵人。纯属娱乐，别给自己贴标签。",
+  "instructions": "共 10 题，请按你最近三个月的真实反应作答，凭第一直觉选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "rubber", "name": "橡皮人"},
+    {"key": "glass", "name": "玻璃人"},
+    {"key": "spring", "name": "弹簧人"},
+    {"key": "sponge", "name": "海绵人"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "方案快做完时被要求推翻重来，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "没事，改就是了，扛得住", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "心里一沉，会反复想是不是我的问题", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "先愣一下，马上开始想怎么补救", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "先不做反应，让信息沉一沉", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "在会议上被当众点名说了一句，你会？",
+      "options": [
+        {"key": "A", "text": "听完就过，不太往心里去", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "一整天都在回味那句话", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "当下难受，晚上自己复盘完就翻篇", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "表面平静，心里慢慢消化", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "连续加班一周之后，你的状态更像？",
+      "options": [
+        {"key": "A", "text": "还能顶，睡一觉就恢复", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "明显不对劲，一点小事就容易上头", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "确实累，但知道怎么给自己补回来", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "整个人慢半拍，需要好几天才缓过来", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "遇到突发状况后，你的恢复速度是？",
+      "options": [
+        {"key": "A", "text": "很快，几乎不影响后面的事", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "比较慢，会被影响挺长一段时间", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "先掉下去，但总能自己弹回来", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "很慢，但最后会把它吸收成经验", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "压力最大的那几天，你最常做什么？",
+      "options": [
+        {"key": "A", "text": "照常吃饭睡觉，硬扛过去", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "反复刷手机，脑子里停不下来", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "主动找朋友聊聊或出门走走", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "一个人待着，慢慢想通", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "别人一句无心的评价，对你的影响是？",
+      "options": [
+        {"key": "A", "text": "基本没什么影响", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "会记很久，反复琢磨", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "当时在意，很快能自我校准", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "当下没感觉，过后才慢慢品出来", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "面对高压的 deadline，你更像哪种？",
+      "options": [
+        {"key": "A", "text": "顶住压力，直接冲过去", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "会被压得有点喘不过气", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "压力过去后总能长出一块新本事", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "得先把情绪理顺，效率才回来", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "搞砸一件事之后，你通常？",
+      "options": [
+        {"key": "A", "text": "拍拍灰继续，不当回事", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "很久都不敢再碰同类的事", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "总结完立刻再来一次", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "先沉淀一阵子，再重新出发", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "朋友形容你时更可能说哪句？",
+      "options": [
+        {"key": "A", "text": "“特别扛事，什么都能接住”", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "“细腻敏感，很会察觉情绪”", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "“摔了自己能爬起来”", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "“沉稳慢热，但很通透”", "score": {"cat": "sponge", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "你的回血方式更接近哪一种？",
+      "options": [
+        {"key": "A", "text": "不用特别充，睡一觉就行", "score": {"cat": "rubber", "points": 1}},
+        {"key": "B", "text": "需要安静、少打扰的环境", "score": {"cat": "glass", "points": 1}},
+        {"key": "C", "text": "主动安排能让自己开心的事", "score": {"cat": "spring", "points": 1}},
+        {"key": "D", "text": "给自己留白，慢慢消化", "score": {"cat": "sponge", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "rubber",
+      "categoryKey": "rubber",
+      "name": "橡皮人",
+      "summary": "扛揍型选手，压力来了就接住，不太留痕。",
+      "detail": "你是办公室里的缓冲垫：方案被推翻、需求临时变、周一突然开会，你多半耸耸肩就继续干。这种钝感力让你在混乱里保持输出，也让你成为团队里最稳的那一环。不过橡胶再厚也有疲劳极限，长期硬扛容易把小磨损攒成大问题，适当给自己做做保养，比一直扛着更划算。",
+      "traits": ["钝感力强", "稳定输出", "抗压扛造"],
+      "growthTip": "别把“没事”当成默认回复，每周留一个能真正放空的时段；累的时候直接说出来，别人未必知道你也扛得辛苦。",
+      "shareCard": "抗压体质鉴定：我是橡皮人，扛揍这块我是专业的。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "glass",
+      "categoryKey": "glass",
+      "name": "玻璃人",
+      "summary": "感知力拉满，别人一句话你能听出三层意思。",
+      "detail": "你对环境和情绪的分辨率极高：语气变化、表情细节、群聊里那句没说出口的话，你都能第一时间捕捉到。这份敏感让你很会照顾人，也让你在创作、审美和沟通上有天然优势。代价是同样的刺激在你这里会被放大，一句无心的话能在脑子里循环一整天。敏感不是缺点，只是需要更好的过滤机制。",
+      "traits": ["感受细腻", "共情敏锐", "容易回味"],
+      "growthTip": "给信息设个“有效期”：别人的评价最多复盘一次就归档；睡前一小时远离工作群，把高敏感的精力留给喜欢的事。",
+      "shareCard": "抗压体质鉴定：我是玻璃人，感受力满格但容易被戳到。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "spring",
+      "categoryKey": "spring",
+      "name": "弹簧人",
+      "summary": "会被压下去，但每次都能弹得更高一点。",
+      "detail": "你不是不受影响，而是恢复得快：被打击时会明显下沉，但你能很快启动自我修复——找人聊、出门走、复盘总结，然后带着新经验回到场上。你的韧性来自主动，而不是天生免疫，这种能力是可以持续升级的。只要别把每次回弹都压到极限，你的弹性会越用越好。",
+      "traits": ["恢复力强", "主动自救", "越挫越勇"],
+      "growthTip": "把你的回弹流程写下来（聊天、运动、复盘三件套），状态差时照着做；同时给自己设个“不硬扛上限”，超过就暂停。",
+      "shareCard": "抗压体质鉴定：我是弹簧人，压下去还能弹回来。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "sponge",
+      "categoryKey": "sponge",
+      "name": "海绵人",
+      "summary": "吸收得慢，但都吸收成了自己的东西。",
+      "detail": "你面对冲击时反应不快，需要一段留白去慢慢消化。别人以为你还没走出来，其实你正在把这件事拆解、吸收、内化成经验。你复原的节奏偏慢，但一旦消化完就不容易再被同一件事绊倒。对你来说，最消耗的不是压力本身，而是被催着“快点好起来”——你需要的是时间，而不是方法。",
+      "traits": ["慢热沉稳", "善于内化", "需要留白"],
+      "growthTip": "主动为自己争取缓冲期，比如把“我要想想”说出口；把想通的东西记下来，你会惊讶自己其实吸收得很快。",
+      "shareCard": "抗压体质鉴定：我是海绵人，慢一点但都吸收了。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

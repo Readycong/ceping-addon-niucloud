@@ -1,0 +1,175 @@
+{
+  "id": 22,
+  "title": "躺平指数测试（趣味版）",
+  "shortName": "躺平指数",
+  "category": "职场/生活",
+  "tags": ["躺平", "内卷", "打工人", "反内耗", "生活方式"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分级，结果不代表任何心理评估或医学诊断，也不评价个人价值。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从群消息、加班、待办清单到周末作息，测一测你目前的躺平浓度落在哪一档。躺平不是摆烂，很多时候只是把力气收回来的一种选择。",
+  "instructions": "共 10 题，请按最近三个月的真实状态作答，别按你以为自己该有的样子选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "threshold",
+  "bands": [
+    {"key": "pregrind", "name": "卷王预备役", "min": 0, "max": 7},
+    {"key": "parttime", "name": "间歇性躺平", "min": 8, "max": 15},
+    {"key": "senior", "name": "资深躺平", "min": 16, "max": 23},
+    {"key": "immortal", "name": "躺平仙人", "min": 24, "max": 30}
+  ],
+  "tieBreak": "总分按 bands 区间直接命中；若区间调整产生边界重合，取更高一档。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "周末早上睁眼，你的第一个动作是？",
+      "options": [
+        {"key": "A", "text": "摸手机看一眼工作群有没有新消息", "score": {"points": 0}},
+        {"key": "B", "text": "在脑子里列一下今天要办的事", "score": {"points": 1}},
+        {"key": "C", "text": "再躺十分钟，顺便刷会儿手机", "score": {"points": 2}},
+        {"key": "D", "text": "继续睡，被子外面与我无关", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "晚上十点领导在群里发了一句“在吗”，你会？",
+      "options": [
+        {"key": "A", "text": "秒回“在”，随时待命是基本操作", "score": {"points": 0}},
+        {"key": "B", "text": "过两分钟再回，显得刚刚在忙", "score": {"points": 1}},
+        {"key": "C", "text": "先不吭声，看看有没有人接", "score": {"points": 2}},
+        {"key": "D", "text": "手机早静音了，第二天再说", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "部门放出一个晋升机会，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "主动报名，连夜准备竞聘材料", "score": {"points": 0}},
+        {"key": "B", "text": "打听清楚难度和回报再决定", "score": {"points": 1}},
+        {"key": "C", "text": "看看有没有别人想去", "score": {"points": 2}},
+        {"key": "D", "text": "让别人升吧，我继续原地待着", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "已经加班到九点，同事说“再拼一会儿”，你会？",
+      "options": [
+        {"key": "A", "text": "陪着一起拼，反正结果也要打磨", "score": {"points": 0}},
+        {"key": "B", "text": "把自己那部分做完就撤", "score": {"points": 1}},
+        {"key": "C", "text": "嘴上答应，手已经开始收包", "score": {"points": 2}},
+        {"key": "D", "text": "“我先走了，明天接着搞”", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你的待办清单现状是？",
+      "options": [
+        {"key": "A", "text": "每天都更新，逐条清空", "score": {"points": 0}},
+        {"key": "B", "text": "有清单，偶尔压着一条没动", "score": {"points": 1}},
+        {"key": "C", "text": "建过，后来就没打开过", "score": {"points": 2}},
+        {"key": "D", "text": "什么清单？脑子里的已经清空了", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "工资到账那天，你通常？",
+      "options": [
+        {"key": "A", "text": "研究攒钱和理财计划", "score": {"points": 0}},
+        {"key": "B", "text": "还完账单，剩下的存起来", "score": {"points": 1}},
+        {"key": "C", "text": "先点顿好的犒劳自己", "score": {"points": 2}},
+        {"key": "D", "text": "花不花看心情，反正不为它加班", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "刷到有人晒凌晨的加班打卡照，你会？",
+      "options": [
+        {"key": "A", "text": "心里一紧，转头继续改方案", "score": {"points": 0}},
+        {"key": "B", "text": "点个赞，然后继续干手上的活", "score": {"points": 1}},
+        {"key": "C", "text": "默默划过去，关灯睡觉", "score": {"points": 2}},
+        {"key": "D", "text": "评论一句“注意身体，我先睡了”", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "周末被朋友叫去参加“自我提升”活动，你会？",
+      "options": [
+        {"key": "A", "text": "报名，还带本子记笔记", "score": {"points": 0}},
+        {"key": "B", "text": "先看内容值不值得跑这一趟", "score": {"points": 1}},
+        {"key": "C", "text": "大概率推掉，在家歇着更香", "score": {"points": 2}},
+        {"key": "D", "text": "“躺平也是一种自我提升”", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "看到《35 岁前必须完成的十件事》这类文章，你？",
+      "options": [
+        {"key": "A", "text": "收藏起来，逐条对照自查", "score": {"points": 0}},
+        {"key": "B", "text": "看一眼，挑两条去做", "score": {"points": 1}},
+        {"key": "C", "text": "直接划走，与我无关", "score": {"points": 2}},
+        {"key": "D", "text": "转发并配文“躺平的人从不焦虑”", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "有人说你“最近有点太佛了”，你的反应是？",
+      "options": [
+        {"key": "A", "text": "有点慌，赶紧给自己加点任务", "score": {"points": 0}},
+        {"key": "B", "text": "反思一下是不是真的太松了", "score": {"points": 1}},
+        {"key": "C", "text": "笑一笑，不解释", "score": {"points": 2}},
+        {"key": "D", "text": "“谢谢，这是夸我”", "score": {"points": 3}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "pregrind",
+      "name": "卷王预备役",
+      "summary": "躺平？不存在的，你的待办还能再长一截。",
+      "detail": "你的躺平指数低得有点显眼，群消息没读就浑身难受，待办清单不清完睡不着。你享受推进感带来的踏实，也确实比多数人更能扛事。只是请留意：长期把马力开到满格，不是努力的证明，而是透支的伏笔。给自己留一段谁都抢不走的时间，等于给这台发动机定期保养。",
+      "traits": ["执行力强", "目标感重", "闲不下来"],
+      "growthTip": "把“今天必须完成”改成“今天最重要的一件”，其余的允许明天再说。",
+      "shareCard": "我的躺平指数：卷王预备役，躺平是别人的事。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "parttime",
+      "name": "间歇性躺平",
+      "summary": "该卷的时候卷得动，该躺的时候躺得平。",
+      "detail": "你是典型的弹性选手：项目来了能顶上去，交完活又能迅速切回省电模式。你懂得分场合分配力气，也知道什么时候该对自己好一点。唯一的小麻烦是切换成本——有时候刚准备躺，又被一条消息拽回工位；有时候想卷，身体却已经下班了。给自己定个收工信号，比硬扛更管用。",
+      "traits": ["能屈能伸", "懂得收力", "节奏自洽"],
+      "growthTip": "试着把“什么时候收工”写死，而不是等身体替你决定。",
+      "shareCard": "我的躺平指数：间歇性躺平，卷躺之间反复横跳。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "senior",
+      "name": "资深躺平",
+      "summary": "不是不干活，是不给无效努力买单。",
+      "detail": "你对形式主义、无效加班和假装忙碌有天然雷达，能省的力气一分都不浪费。该交的活你从没真掉过链子，只是不再为“看起来很努力”支付溢价。你的松弛感其实是一种成熟的资源管理。需要留意的是别把重要的事也一起省掉，偶尔主动一次，会让你既轻松又有存在感。",
+      "traits": ["边界清晰", "效率优先", "情绪稳定"],
+      "growthTip": "省力可以，但关键成果记得同步出去，让价值被看见。",
+      "shareCard": "我的躺平指数：资深躺平，拒绝为无效努力买单。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "immortal",
+      "name": "躺平仙人",
+      "summary": "已脱离内卷体系，人在工位心在山顶。",
+      "detail": "你的躺平已经修炼成一种生活哲学：不比较、不焦虑、不被 KPI 牵着情绪走。别人在群里抢着表态，你在窗边看云。这份松弛很珍贵，也让周围人莫名其妙地放松下来。唯一的提醒是，躺平不等于放弃选择权——真正高级的躺，是躺得心安理得，也随时能站得起来。",
+      "traits": ["情绪超稳", "不内耗", "自带松弛感"],
+      "growthTip": "继续松弛，同时保留一件你愿意认真投入的小事当锚点。",
+      "shareCard": "我的躺平指数：躺平仙人，已脱离内卷体系。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

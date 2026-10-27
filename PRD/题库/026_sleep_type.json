@@ -1,0 +1,179 @@
+{
+  "id": 26,
+  "title": "你的睡眠类型",
+  "shortName": "睡眠类型",
+  "category": "健康趣味（非诊断）",
+  "tags": ["睡眠", "作息", "晨型", "夜型", "趣味"],
+  "copyrightStatus": "public_domain",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "娱乐性质，不代表专业心理评估，也不是任何睡眠状况的筛查或诊断工具，结果仅供了解日常作息偏好。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "晨夜型问卷 rMEQ（reduced Morningness-Eveningness Questionnaire，Adan 等）的简化娱乐改编",
+    "sourceType": "public_domain",
+    "reference": "本测题为基于公开学术量表结构的原创自编改编，非官方逐字题面"
+  },
+  "description": "有人天亮就精神，有人凌晨才上线。这是一份纯娱乐的作息偏好测试，看看你更接近云雀、猫头鹰，还是介于两者之间。它只描述你的日常节奏，不评价睡眠质量，也不作任何判断。",
+  "instructions": "共 10 题，按没有闹钟和工作安排时的自然状态作答。本测试仅供娱乐，不构成任何评估或建议。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "lark", "name": "晨型云雀"},
+    {"key": "owl", "name": "夜型猫头鹰"},
+    {"key": "middle", "name": "中间型"},
+    {"key": "broken", "name": "碎片化选手"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "没有任何安排的日子，你自然醒的时间大概是？",
+      "options": [
+        {"key": "A", "text": "六点左右，天一亮就醒", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "十点以后，越晚越香", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "八点多，正常人的时间", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "不确定，中间醒过好几次", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "一天里你精神最好的时段是？",
+      "options": [
+        {"key": "A", "text": "上午，特别适合处理难的事", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "晚上十点以后，灵感才上线", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "下午比较稳", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "说不准，一阵一阵的", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "睡前的最后一个小时，你通常在？",
+      "options": [
+        {"key": "A", "text": "洗漱完看几页书就困了", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "追剧或打游戏，一看时间已经两点", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "刷会儿手机，差不多就睡", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "躺下又起来，来回折腾几轮", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "早上闹钟响的时候，你是？",
+      "options": [
+        {"key": "A", "text": "基本在它响之前就已经醒了", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "至少按掉三次才起得来", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "响一次就起", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "根本不记得按过几次", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "周末的补觉方式是？",
+      "options": [
+        {"key": "A", "text": "不补，作息基本和工作日一样", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "睡到中午，这是基本尊重", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "多睡一小时左右", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "断断续续，越睡越累", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "换了张陌生的床，你通常？",
+      "options": [
+        {"key": "A", "text": "照常睡，生物钟很稳", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "越晚越精神，属于认床", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "第一晚稍微差点意思", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "半夜会醒好几次", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你最不想被打扰的时间段是？",
+      "options": [
+        {"key": "A", "text": "晚上十点以后我已经睡了", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "凌晨一点，正是状态好的时候", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "午休那一会儿", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "没固定，随时可能刚睡着", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "晚上喝了一杯奶茶或咖啡，你会？",
+      "options": [
+        {"key": "A", "text": "早就不喝了，晚上要睡觉", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "照喝，反正本来也睡得晚", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "看喝多晚，太晚会有点影响", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "喝不喝都睡不太踏实", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "半夜醒来一次，接下来你？",
+      "options": [
+        {"key": "A", "text": "很快睡着，早上照常起", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "正好起来喝口水刷会儿手机", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "翻个身继续睡", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "睁眼到天亮都有可能", "score": {"cat": "broken", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "朋友约早上七点去爬山，你？",
+      "options": [
+        {"key": "A", "text": "正合适，还能先看个日出", "score": {"cat": "lark", "points": 1}},
+        {"key": "B", "text": "申请改到下午，谢谢", "score": {"cat": "owl", "points": 1}},
+        {"key": "C", "text": "能起，但属于硬起", "score": {"cat": "middle", "points": 1}},
+        {"key": "D", "text": "看那天我睡得怎么样再说", "score": {"cat": "broken", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "lark",
+      "categoryKey": "lark",
+      "name": "晨型云雀",
+      "summary": "天亮即开机，清晨是你的主场。",
+      "detail": "你的身体自带日出闹钟，上午的脑子最清楚，难啃的活放在早上效率最高。你不太需要补觉，作息也相对稳定，这让工作日和周末之间的切换成本很低。你唯一的困扰大概是和社会作息太合拍，以至于容易被安排各种早会。把最重要的工作安排在上午，下午留给协作和杂事，你的节奏会舒服很多。本结果仅为娱乐描述。",
+      "traits": ["早起不费劲", "上午效率高", "作息稳定"],
+      "growthTip": "把难度最高的事排在上午，下午只处理协作类的活。",
+      "shareCard": "我的睡眠类型是晨型云雀，天亮就自动开机。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "owl",
+      "categoryKey": "owl",
+      "name": "夜型猫头鹰",
+      "summary": "白天只是待机，晚上才真正启动。",
+      "detail": "你的状态曲线和社会时钟天然错位：上午像在雾里走路，深夜却思路清晰、效率惊人。这不是懒，只是你的偏好时段偏晚。你享受夜晚的安静和无人打扰的连续时间，很多好想法也诞生在那会儿。需要注意的是，早会、通勤和 deadlines 不会因为你是猫头鹰而挪动，把需要专注的任务安排在自己状态好的时段，会轻松不少。本结果仅为娱乐描述。",
+      "traits": ["夜晚专注", "灵感晚到", "不怕熬夜"],
+      "growthTip": "把最重要的创作型任务固定在晚间，白天只处理不费脑的事。",
+      "shareCard": "我的睡眠类型是夜型猫头鹰，晚上才真正上线。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "middle",
+      "categoryKey": "middle",
+      "name": "中间型",
+      "summary": "不早不晚，随大部队作息的稳选手。",
+      "detail": "你既不是天亮就精神，也不至于深夜才启动，闹钟响一次就能起，午后会有一段轻微的困意。这种中间位置的好处是适应性极强：朋友约早茶你能去，临时加个夜班你也扛得住，几乎不需要为作息和任何人协商。你的功课不是调整时间，而是找到自己一天里那两三个小时的高峰，把重要的事放进去。本结果仅为娱乐描述。",
+      "traits": ["适应力强", "作息规律", "不挑时段"],
+      "growthTip": "留意自己一天中效率最高的两小时，把它固定留给重要的事。",
+      "shareCard": "我的睡眠类型是中间型，不作妖但很好用。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "broken",
+      "categoryKey": "broken",
+      "name": "碎片化选手",
+      "summary": "睡了又好像没睡，醒来的次数比闹钟多。",
+      "detail": "你的睡眠像被切成了好几段：半夜会醒、早上记不清按过几次闹钟、周末越睡越累。多数时候这和生活节奏有关——加班、带娃、外卖吃太晚、睡前刷太久手机，都会把整段的睡眠切成碎片。可以先从最简单的一件事入手：睡前半小时把手机放远一点，给身体一个明确的收工信号。本结果仅限娱乐参考，不涉及任何健康判断。",
+      "traits": ["容易中断", "作息偏乱", "对环境影响敏感"],
+      "growthTip": "先只改一件事：睡前半小时把手机放下，给身体一个收工信号。",
+      "shareCard": "我的睡眠类型是碎片化选手，睡了又好像没睡。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

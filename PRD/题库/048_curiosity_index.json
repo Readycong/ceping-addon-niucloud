@@ -1,0 +1,179 @@
+{
+  "id": 48,
+  "title": "探索与好奇心人格鉴定",
+  "shortName": "好奇心人格",
+  "category": "自我成长",
+  "tags": ["好奇心", "探索", "开放性", "自我成长", "新鲜感"],
+  "copyrightStatus": "public_domain",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分级，结果不代表任何心理评估、能力评定或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "参考 CEI-II 好奇心与探索量表（Curiosity and Exploration Inventory-II, Kashdan et al., 2009，公开授权版本）与大五人格开放性（Openness to Experience）维度；本测题为基于上述公开理论框架的原创自编娱乐版。",
+    "sourceType": "public_domain",
+    "reference": "基于公开授权理论框架原创自编题面，不使用任何量表原题"
+  },
+  "description": "同样是周末、同样是一条路、同样一个陌生词，有人照旧，有人绕路，有人当场搜索半小时。10 道题测测你的好奇心浓度，看看你属于安稳守成还是探索狂人。",
+  "instructions": "共 10 题，按你真实的日常选择作答，别按理想中的自己回答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "threshold",
+  "bands": [
+    {"key": "steady", "name": "安稳守成型", "min": 10, "max": 17},
+    {"key": "mild", "name": "温和好奇型", "min": 18, "max": 25},
+    {"key": "active", "name": "主动探索型", "min": 26, "max": 32},
+    {"key": "maniac", "name": "探索狂人", "min": 33, "max": 40}
+  ],
+  "tieBreak": "分数落在档位边界时取高一级。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "遇到一个完全陌生的词，你会？",
+      "options": [
+        {"key": "A", "text": "跳过，反正大概率用不上", "score": {"points": 1}},
+        {"key": "B", "text": "大概猜一下意思就过去了", "score": {"points": 2}},
+        {"key": "C", "text": "马上搜一下搞清楚", "score": {"points": 3}},
+        {"key": "D", "text": "搜完还顺着链接继续看了半小时", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "去一个没去过的城市，你的行程是？",
+      "options": [
+        {"key": "A", "text": "严格跟着攻略走，别出错", "score": {"points": 1}},
+        {"key": "B", "text": "以攻略为主，偶尔随意转转", "score": {"points": 2}},
+        {"key": "C", "text": "只定住宿，其余随缘探索", "score": {"points": 3}},
+        {"key": "D", "text": "不做攻略，走到哪算哪", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "周末有一整天空闲时间，你更可能？",
+      "options": [
+        {"key": "A", "text": "重复熟悉的安排，舒服最重要", "score": {"points": 1}},
+        {"key": "B", "text": "一半熟悉，一半试试新东西", "score": {"points": 2}},
+        {"key": "C", "text": "去一个没去过的地方", "score": {"points": 3}},
+        {"key": "D", "text": "临时起意，坐上车再决定去哪", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "听到一个和自己常识相反的说法，你会？",
+      "options": [
+        {"key": "A", "text": "不太想深究，听着就好", "score": {"points": 1}},
+        {"key": "B", "text": "有点好奇，听完别人怎么说", "score": {"points": 2}},
+        {"key": "C", "text": "自己查证一下到底怎么回事", "score": {"points": 3}},
+        {"key": "D", "text": "查完还想拉个人讨论一轮", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "面对刚上线的新 App 或新功能，你的态度是？",
+      "options": [
+        {"key": "A", "text": "等大家都用熟了我再说", "score": {"points": 1}},
+        {"key": "B", "text": "看到推荐才会去试试", "score": {"points": 2}},
+        {"key": "C", "text": "第一时间下载体验", "score": {"points": 3}},
+        {"key": "D", "text": "主动找内测名额，抢先用上", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "一段路有熟路的近道和没走过的小路，你会？",
+      "options": [
+        {"key": "A", "text": "走熟路，省时间最要紧", "score": {"points": 1}},
+        {"key": "B", "text": "时间够的话可以试试新的", "score": {"points": 2}},
+        {"key": "C", "text": "走那条没走过的", "score": {"points": 3}},
+        {"key": "D", "text": "专挑没走过的小路绕一圈", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你的书架或收藏夹，更接近哪一种？",
+      "options": [
+        {"key": "A", "text": "几本反复读的老书", "score": {"points": 1}},
+        {"key": "B", "text": "老书为主，偶尔加几本新的", "score": {"points": 2}},
+        {"key": "C", "text": "不断加入新领域的内容", "score": {"points": 3}},
+        {"key": "D", "text": "同时在读五六本不同领域的书", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "别人聊到一个你完全不懂的话题，你会？",
+      "options": [
+        {"key": "A", "text": "安静听着，不插话", "score": {"points": 1}},
+        {"key": "B", "text": "问一两个基本问题", "score": {"points": 2}},
+        {"key": "C", "text": "当场搜资料，边聊边查", "score": {"points": 3}},
+        {"key": "D", "text": "聊完还要回去系统补一遍", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "学一样新东西，你的动力通常来自？",
+      "options": [
+        {"key": "A", "text": "用得上的时候才会去学", "score": {"points": 1}},
+        {"key": "B", "text": "别人推荐，觉得不错", "score": {"points": 2}},
+        {"key": "C", "text": "单纯想知道它到底怎么回事", "score": {"points": 3}},
+        {"key": "D", "text": "「我不知道」这件事本身就让我难受", "score": {"points": 4}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果给理想的生活打一个基调，你更希望它？",
+      "options": [
+        {"key": "A", "text": "稳定、可预期、少意外", "score": {"points": 1}},
+        {"key": "B", "text": "大体稳定，偶尔来点新鲜", "score": {"points": 2}},
+        {"key": "C", "text": "经常有新东西进来", "score": {"points": 3}},
+        {"key": "D", "text": "永远不知道下周会发生什么", "score": {"points": 4}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "steady",
+      "name": "安稳守成型",
+      "bands": [{"key": "steady", "name": "安稳守成型", "min": 10, "max": 17}],
+      "summary": "熟悉的路线最省心，意外能不来就别来。",
+      "detail": "你偏爱可预期的节奏：常去的那家店、走惯的那条路、用了三年的那个软件。这种稳定让你把精力集中在真正重要的事情上，也省去了大量选择的消耗。你的靠谱和专注是很多人缺的东西。想给生活加点料也不用大动干戈，只需要在已有习惯旁边开一条小岔路：换个口味的外卖、换条回家的路，新鲜感不必靠冒险获得。",
+      "traits": ["稳定可靠", "专注深入", "抗干扰强"],
+      "growthTip": "在原有习惯旁边开一条小岔路，用最低成本体验一点点新鲜。",
+      "shareCard": "好奇心人格鉴定：我是安稳守成型，熟路才是我的舒适区。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "mild",
+      "name": "温和好奇型",
+      "bands": [{"key": "mild", "name": "温和好奇型", "min": 18, "max": 25}],
+      "summary": "会好奇，但不会为了好奇打乱计划。",
+      "detail": "你处在舒服的中间地带：遇到有意思的东西会多看两眼，但不会一头扎进去；愿意尝试新事物，前提是别把生活弄得太乱。这种平衡让你既不会被变化吓到，也不会因为追逐新鲜而疲惫。稍稍需要注意的是，很多好东西只差一步就能变成长期爱好。下次遇到让你多看两眼的东西，给它一次完整的机会，而不只是路过。",
+      "traits": ["张弛有度", "接受新鲜", "节奏稳"],
+      "growthTip": "遇到让你多看两眼的东西，给它一次完整的机会，而不只是路过。",
+      "shareCard": "好奇心人格鉴定：我是温和好奇型，会好奇但不打乱计划。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "active",
+      "name": "主动探索型",
+      "bands": [{"key": "active", "name": "主动探索型", "min": 26, "max": 32}],
+      "summary": "好奇会直接变成行动，搜一下只是起步。",
+      "detail": "你不满足于「知道个大概」，遇到不懂的一定要查清楚，看到新东西就想亲手试一遍。这种把好奇变成行动的能力，让你的人生经验密度明显高于平均值，也常常能给别人提供新鲜视角。代价是兴趣点太多，容易样样都开了头。试着给探索加一个收尾动作：每季度挑一条线索深入下去，其他随它去，你的好奇心会开始产生复利。",
+      "traits": ["行动力强", "涉猎广", "学习快"],
+      "growthTip": "每季度挑一条线索深挖到底，让广泛的好奇沉淀出一两项长板。",
+      "shareCard": "好奇心人格鉴定：我是主动探索型，好奇在我这儿会自动变成行动。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "maniac",
+      "name": "探索狂人",
+      "bands": [{"key": "maniac", "name": "探索狂人", "min": 33, "max": 40}],
+      "summary": "「不知道」三个字，对你来说等于一个未读红点。",
+      "detail": "你的好奇心基本处于常开状态：一个问题能顺着链接查到凌晨三点，旅行可以没有任何计划，新东西不试一遍就浑身难受。这种高强度探索让你积累了大量跨界素材，也让你成为朋友眼里「什么都能聊两句」的人。唯一要小心的是精力被摊得太薄，以及开始的事情太多收不回来。给探索设一个「完成标准」，把一部分好奇从输入转成输出，你的能量就会变成作品。",
+      "traits": ["好奇爆表", "跨界玩家", "上手极快"],
+      "growthTip": "给每个新兴趣设一个完成标准，把一部分输入转化成看得见的产出。",
+      "shareCard": "好奇心人格鉴定：我是探索狂人，一个链接能查到凌晨三点。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

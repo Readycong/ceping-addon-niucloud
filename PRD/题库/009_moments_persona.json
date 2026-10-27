@@ -1,0 +1,191 @@
+{
+  "id": 9,
+  "title": "朋友圈人设鉴定",
+  "shortName": "朋友圈人设",
+  "category": "社交",
+  "tags": ["朋友圈", "社交", "人设", "内容偏好"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为社交内容偏好娱乐分类，不代表真实人格或生活状态评估。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从九宫格、定位、配文到发布频率，看看你的朋友圈最稳定输出哪一种互联网人设。",
+  "instructions": "共 10 题，请按你真实的朋友圈习惯作答；如果很少发布，就选最接近你想发的内容。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "parent", "name": "晒娃狂魔"},
+    {"key": "foodie", "name": "美食博主"},
+    {"key": "emo", "name": "深夜emo"},
+    {"key": "fitness", "name": "健身打卡"},
+    {"key": "invisible", "name": "潜水隐身"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "相册里哪类照片最容易攒满一屏？",
+      "options": [
+        {"key": "A", "text": "家里小朋友的可爱瞬间连拍", "score": {"cat": "parent", "points": 1}},
+        {"key": "B", "text": "每顿好吃的俯拍和特写", "score": {"cat": "foodie", "points": 1}},
+        {"key": "C", "text": "夜景、车窗和模糊路灯", "score": {"cat": "emo", "points": 1}},
+        {"key": "D", "text": "运动记录、步数和镜子自拍", "score": {"cat": "fitness", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "朋友圈右上角的小红点亮起时，你通常？",
+      "options": [
+        {"key": "A", "text": "看看就好，很少留下浏览痕迹", "score": {"cat": "invisible", "points": 1}},
+        {"key": "B", "text": "给熟人家的萌娃熟练点赞", "score": {"cat": "parent", "points": 1}},
+        {"key": "C", "text": "先看有没有值得收藏的新店", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "容易被一句深夜文案戳中", "score": {"cat": "emo", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "突然想发一条动态，最可能是因为？",
+      "options": [
+        {"key": "A", "text": "今天的运动目标终于完成", "score": {"cat": "fitness", "points": 1}},
+        {"key": "B", "text": "很久没出现，想证明账号还活着", "score": {"cat": "invisible", "points": 1}},
+        {"key": "C", "text": "小朋友刚说了一句天才童言", "score": {"cat": "parent", "points": 1}},
+        {"key": "D", "text": "新发现一家值得冲的馆子", "score": {"cat": "foodie", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "哪种配文最像你的手笔？",
+      "options": [
+        {"key": "A", "text": "晚风知道，今天没说完的话也知道", "score": {"cat": "emo", "points": 1}},
+        {"key": "B", "text": "今日训练完成，明天继续稳稳升级", "score": {"cat": "fitness", "points": 1}},
+        {"key": "C", "text": "无配文，或者只放一个句号", "score": {"cat": "invisible", "points": 1}},
+        {"key": "D", "text": "今日份可爱已送达，请查收", "score": {"cat": "parent", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "周末出门，你最可能顺手记录什么？",
+      "options": [
+        {"key": "A", "text": "排队也值得的招牌菜", "score": {"cat": "foodie", "points": 1}},
+        {"key": "B", "text": "傍晚天空和一首循环的歌", "score": {"cat": "emo", "points": 1}},
+        {"key": "C", "text": "骑行路线或公园跑步成绩", "score": {"cat": "fitness", "points": 1}},
+        {"key": "D", "text": "拍了不少，但最后一张也没发", "score": {"cat": "invisible", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "收到很多点赞时，你最可能因为什么开心？",
+      "options": [
+        {"key": "A", "text": "大家也看见了小朋友的成长瞬间", "score": {"cat": "parent", "points": 1}},
+        {"key": "B", "text": "精心挑的美食角度没有白拍", "score": {"cat": "foodie", "points": 1}},
+        {"key": "C", "text": "那句藏着心情的话被人读懂了", "score": {"cat": "emo", "points": 1}},
+        {"key": "D", "text": "坚持打卡终于有了阶段成果", "score": {"cat": "fitness", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "清理朋友圈历史内容时，你会？",
+      "options": [
+        {"key": "A", "text": "本来就没几条，几乎无需清理", "score": {"cat": "invisible", "points": 1}},
+        {"key": "B", "text": "舍不得删，每一条都是成长档案", "score": {"cat": "parent", "points": 1}},
+        {"key": "C", "text": "留下真心好吃的店，方便以后翻", "score": {"cat": "foodie", "points": 1}},
+        {"key": "D", "text": "删掉几条当时太有感觉的深夜动态", "score": {"cat": "emo", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "如果连续更新七天，你最能坚持哪种主题？",
+      "options": [
+        {"key": "A", "text": "每天一项运动或健康习惯", "score": {"cat": "fitness", "points": 1}},
+        {"key": "B", "text": "做不到更新，围观别人更轻松", "score": {"cat": "invisible", "points": 1}},
+        {"key": "C", "text": "每日一个家里小朋友的新鲜事", "score": {"cat": "parent", "points": 1}},
+        {"key": "D", "text": "每日一餐，不重复探店", "score": {"cat": "foodie", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "深夜十二点还没睡，你最可能在做什么？",
+      "options": [
+        {"key": "A", "text": "选一张夜景，配一句只可意会的话", "score": {"cat": "emo", "points": 1}},
+        {"key": "B", "text": "看明天训练安排，提醒自己早点睡", "score": {"cat": "fitness", "points": 1}},
+        {"key": "C", "text": "安静刷完一圈，继续保持隐身", "score": {"cat": "invisible", "points": 1}},
+        {"key": "D", "text": "翻看今天拍到的可爱小视频", "score": {"cat": "parent", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "朋友最可能从你的朋友圈获得什么？",
+      "options": [
+        {"key": "A", "text": "靠谱的餐厅菜单和点单参考", "score": {"cat": "foodie", "points": 1}},
+        {"key": "B", "text": "适合深夜慢慢读的一句心情", "score": {"cat": "emo", "points": 1}},
+        {"key": "C", "text": "一点坚持运动的动力", "score": {"cat": "fitness", "points": 1}},
+        {"key": "D", "text": "什么也获得不了，因为最近不可见", "score": {"cat": "invisible", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "parent",
+      "categoryKey": "parent",
+      "name": "晒娃狂魔",
+      "summary": "你的朋友圈像成长纪录片，可爱瞬间一集不落。",
+      "detail": "你擅长发现小朋友日常里那些转瞬即逝的可爱：一句童言、一个新动作、一次小进步，都值得进入九宫格。对你来说，发布不只是展示，更像随手保存一份家庭时间胶囊。只要注意保护隐私、尊重小朋友的意愿，这份热烈记录会成为很温暖的共同回忆。",
+      "traits": ["记录成长", "分享热情", "家庭感强"],
+      "growthTip": "发布前检查定位和隐私信息，让可爱被看见，也让边界被保护。",
+      "shareCard": "朋友圈人设鉴定：我是晒娃狂魔，可爱瞬间必须存档。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "foodie",
+      "categoryKey": "foodie",
+      "name": "美食博主",
+      "summary": "好友列表里的活菜单，饭点打开你主页容易加餐。",
+      "detail": "你的朋友圈自带香味，新店、家常菜、外卖隐藏吃法都可能成为内容。你不仅关心好不好吃，也懂角度、光线和一句让人立刻收藏的描述。朋友约饭前想到你，不只是因为你会吃，更因为你愿意把好体验分享出来。对你而言，认真吃饭就是生活的重要仪式。",
+      "traits": ["会吃会拍", "乐于分享", "生活有滋味"],
+      "growthTip": "偶尔把镜头放下，先趁热吃；真正的满足感不必每次都等点赞。",
+      "shareCard": "朋友圈人设鉴定：我是美食博主，好友圈的饭点导航。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "emo",
+      "categoryKey": "emo",
+      "name": "深夜emo",
+      "summary": "白天正常营业，夜里用一句文案给心情留灯。",
+      "detail": "你更容易在安静时捕捉细微感受，夜景、歌词和一句含蓄文案都能成为表达出口。你的动态不一定是在等谁解题，也可能只是给当天的心情存个档。你有把普通瞬间写出电影字幕感的能力；若愿意偶尔把真实需要说得更直接，关心你的人也会更容易接住。",
+      "traits": ["感受细腻", "文案有氛围", "夜间灵感"],
+      "growthTip": "含蓄很美，需要回应时也可以私聊可信的人，把需求说清楚。",
+      "shareCard": "朋友圈人设鉴定：我是深夜emo，路灯和歌词都能当配文。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "fitness",
+      "categoryKey": "fitness",
+      "name": "健身打卡",
+      "summary": "你的朋友圈有进度条，坚持本身就是内容。",
+      "detail": "跑步路线、训练数据和每日步数，是你记录生活节奏的方式。你享受把目标一点点完成，也愿意用公开打卡给自己增加行动动力。朋友看到你的动态，常会产生“我也该动一动”的念头。别把偶尔休息理解成掉级，稳定长期的节奏比连续刷屏更有力量。",
+      "traits": ["自律打卡", "目标清晰", "行动积极"],
+      "growthTip": "把休息日也纳入计划，记录感受而不只记录数字，过程会更耐久。",
+      "shareCard": "朋友圈人设鉴定：我是健身打卡，动态里藏着行动进度条。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "invisible",
+      "categoryKey": "invisible",
+      "name": "潜水隐身",
+      "summary": "你不是退网，只是把主要剧情设置成仅自己可见。",
+      "detail": "你会看、会笑、会默默收藏，但很少主动发布。比起把生活剪成公开片段，你更喜欢当面分享，或只留给少数熟悉的人。朋友圈对你来说是信息流，不是每日任务。你的低频出现反而很有辨识度，偶尔发一条，常让朋友产生“稀有账号更新了”的惊喜。",
+      "traits": ["低调观察", "重视私域", "发布随缘"],
+      "growthTip": "不发也完全可以；若想保持连接，偶尔给在意的人留个赞或一句问候。",
+      "shareCard": "朋友圈人设鉴定：我是潜水隐身，在线但不一定留下痕迹。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

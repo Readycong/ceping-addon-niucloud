@@ -1,0 +1,179 @@
+{
+  "id": 45,
+  "title": "追剧人格鉴定",
+  "shortName": "追剧人格",
+  "category": "生活",
+  "tags": ["追剧", "倍速", "片单", "弃剧", "会员"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "同样一部剧，有人一晚上刷完，有人看十分钟就弃，有人收藏了两年还没点开。10 道题鉴定你的追剧人格：倍速党、沉浸党、弃剧王还是囤剧党。",
+  "instructions": "共 10 题，按你真实的看剧习惯作答，别按你希望自己成为的那种观众回答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "speed", "name": "倍速党"},
+    {"key": "immersive", "name": "沉浸党"},
+    {"key": "quitter", "name": "弃剧王"},
+    {"key": "hoarder", "name": "囤剧党"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "新剧开播第一集，你会？",
+      "options": [
+        {"key": "A", "text": "直接 1.5 倍速，先看看值不值得看", "score": {"cat": "speed", "points": 1}},
+        {"key": "B", "text": "关灯戴耳机，连片头都不跳过", "score": {"cat": "immersive", "points": 1}},
+        {"key": "C", "text": "看十分钟，不行就立刻换一部", "score": {"cat": "quitter", "points": 1}},
+        {"key": "D", "text": "先加进片单，攒着以后一起看", "score": {"cat": "hoarder", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你的「待看片单」现状更像哪一种？",
+      "options": [
+        {"key": "A", "text": "攒了三十部，一部还没动", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "开过的比看完的多三倍", "score": {"cat": "quitter", "points": 1}},
+        {"key": "C", "text": "不多，但每一部都认真看完", "score": {"cat": "immersive", "points": 1}},
+        {"key": "D", "text": "边攒边看，进度永远在推进", "score": {"cat": "speed", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "弹幕刷过「前方高能」，你会？",
+      "options": [
+        {"key": "A", "text": "关掉弹幕，别打扰我入戏", "score": {"cat": "immersive", "points": 1}},
+        {"key": "B", "text": "记下来，等有空一起补", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "C", "text": "拖进度条，直接去看那段", "score": {"cat": "speed", "points": 1}},
+        {"key": "D", "text": "看完这段就有点想弃剧了", "score": {"cat": "quitter", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "一部剧看到第三集还没进入状态，你会？",
+      "options": [
+        {"key": "A", "text": "弃，立刻换下一部", "score": {"cat": "quitter", "points": 1}},
+        {"key": "B", "text": "开倍速快进，看看后面怎么样", "score": {"cat": "speed", "points": 1}},
+        {"key": "C", "text": "加回片单，等口碑出来再说", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "D", "text": "再给它两集，好剧都是慢热的", "score": {"cat": "immersive", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "周末追剧的正确姿势是？",
+      "options": [
+        {"key": "A", "text": "一天刷完一整季，然后找下一部", "score": {"cat": "speed", "points": 1}},
+        {"key": "B", "text": "中途弃了两部，又开了新的", "score": {"cat": "quitter", "points": 1}},
+        {"key": "C", "text": "固定一集，配点零食慢慢看", "score": {"cat": "immersive", "points": 1}},
+        {"key": "D", "text": "先把下周要追的下载好存着", "score": {"cat": "hoarder", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "被别人剧透了剧情，你的反应是？",
+      "options": [
+        {"key": "A", "text": "别说，我要自己感受", "score": {"cat": "immersive", "points": 1}},
+        {"key": "B", "text": "没关系，反正我还没开始看", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "C", "text": "那这部剧可以先放一放了", "score": {"cat": "quitter", "points": 1}},
+        {"key": "D", "text": "正好，我快进到那儿就行", "score": {"cat": "speed", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你的视频会员主要用在什么地方？",
+      "options": [
+        {"key": "A", "text": "收藏夹塞满，播放记录空白", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "B", "text": "倍速刷完一部，马上换下一部", "score": {"cat": "speed", "points": 1}},
+        {"key": "C", "text": "开了好几部，都没撑过第二集", "score": {"cat": "quitter", "points": 1}},
+        {"key": "D", "text": "反复重看那几部老剧", "score": {"cat": "immersive", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "一部剧口碑两极分化，你会？",
+      "options": [
+        {"key": "A", "text": "先看差评，太劝退就不看了", "score": {"cat": "quitter", "points": 1}},
+        {"key": "B", "text": "不看评论，自己看完再说", "score": {"cat": "immersive", "points": 1}},
+        {"key": "C", "text": "先收藏，等风评稳定了再开", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "D", "text": "倍速过一遍，自己判断", "score": {"cat": "speed", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "追剧时你最受不了什么？",
+      "options": [
+        {"key": "A", "text": "节奏拖沓，恨不得手动快进", "score": {"cat": "speed", "points": 1}},
+        {"key": "B", "text": "更新太慢，等得片单越堆越高", "score": {"cat": "hoarder", "points": 1}},
+        {"key": "C", "text": "中途人设崩了，立刻出戏", "score": {"cat": "quitter", "points": 1}},
+        {"key": "D", "text": "看到一半被打断，情绪断了", "score": {"cat": "immersive", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "年度追剧总结，你更像哪一句？",
+      "options": [
+        {"key": "A", "text": "一年看了 8 部，每部都能聊出细节", "score": {"cat": "immersive", "points": 1}},
+        {"key": "B", "text": "弃了 20 部，完结 1 部", "score": {"cat": "quitter", "points": 1}},
+        {"key": "C", "text": "全年刷完 50 部，倍速功不可没", "score": {"cat": "speed", "points": 1}},
+        {"key": "D", "text": "收藏 100 部，实际看完 2 部", "score": {"cat": "hoarder", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "speed",
+      "categoryKey": "speed",
+      "name": "倍速党",
+      "summary": "1.5 倍速是起步，3 倍速才是常态。",
+      "detail": "你对剧情的耐心极其有限，对节奏的敏感度却高得惊人：哪段是注水、哪段是关键，扫两眼就能判断。你的看剧效率让很多人自叹不如，朋友圈里你永远是最早聊结局的那个人。代价是，被你快进掉的常常不只是拖沓，还有那些值得停留的镜头和配乐。遇到真正喜欢的剧，试着调回原速看一集，你会发现有些东西只有慢下来才看得见。",
+      "traits": ["效率至上", "节奏敏感", "阅片量大"],
+      "growthTip": "遇到真正喜欢的剧调回原速，给好内容一点不被快进的尊重。",
+      "shareCard": "追剧人格鉴定：我是倍速党，1.5 倍速只是我的热身。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "immersive",
+      "categoryKey": "immersive",
+      "name": "沉浸党",
+      "summary": "片头不跳、弹幕关掉，看剧是我的专属仪式。",
+      "detail": "你把看剧当成一件正经事：关灯、戴耳机、不跳片头、关弹幕，甚至会为了一部剧专门留出一个不被打扰的晚上。你能记住角色的台词细节，也能为一集哭得稀里哗啦，这种投入本身就是一种享受。唯一的问题是，沉浸需要整块时间，而你常常等不到。提前把看剧时段写进日程，你的沉浸就不再是奢侈，而是每周固定的犒赏。",
+      "traits": ["投入度高", "感受力强", "有仪式感"],
+      "growthTip": "把看剧时间提前排进日程，让它成为固定奖励而不是临时插空。",
+      "shareCard": "追剧人格鉴定：我是沉浸党，看剧关弹幕不跳片头。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "quitter",
+      "categoryKey": "quitter",
+      "name": "弃剧王",
+      "summary": "开过的不计其数，完结的屈指可数。",
+      "detail": "你对烂剧零容忍：人设崩了、逻辑走了、节奏塌了，立刻出戏换台。这份果断让你省下大量时间，也从不在烂片上纠缠。可副作用也很真实——你的播放记录像一份弃剧清单，能完整聊到结局的剧没几部，朋友聊到后半段剧情时你常常插不上话。试试给每部剧一个「三集试用期」，过了试用期再决定去留，你的完结率会悄悄上升。",
+      "traits": ["果断止损", "眼光挑剔", "拒绝将就"],
+      "growthTip": "给新剧设一个三集试用期，熬过试用期再决定要不要弃。",
+      "shareCard": "追剧人格鉴定：我是弃剧王，开过的比看完的多三倍。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "hoarder",
+      "categoryKey": "hoarder",
+      "name": "囤剧党",
+      "summary": "收藏夹比片库还满，播放记录比脸还干净。",
+      "detail": "你是收藏夹的忠实囤积者：看到推荐就先码住，会员到期前疯狂下载，硬盘和片单一起膨胀。囤的过程本身就让你满足，仿佛收藏等于看过了。真相是，清单越长，开一部新剧的心理负担就越重。破局只需要一个动作：每次想收藏新剧，先删掉一部旧的。片单瘦下来，你反而更容易点开某一部，真正开始看。",
+      "traits": ["收藏狂魔", "未雨绸缪", "选择困难"],
+      "growthTip": "进一部先出一部，给片单做减法，看剧这件事才会真正开始。",
+      "shareCard": "追剧人格鉴定：我是囤剧党，收藏 100 部，看完 2 部。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

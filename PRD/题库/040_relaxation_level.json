@@ -1,0 +1,175 @@
+{
+  "id": 40,
+  "title": "松弛感等级测试（趣味版）",
+  "shortName": "松弛感等级",
+  "category": "自我成长/生活",
+  "tags": ["松弛感", "反内耗", "生活方式", "打工人", "自我成长"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分级，结果不代表任何心理评估或医学诊断，也不评价个人价值。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "松弛感不是躺平，是事情来了也不把自己绷断。从突发状况、别人的评价到周末安排，测一测你的松弛浓度落在哪一档。",
+  "instructions": "共 10 题，请按最近三个月的真实反应作答，别按你希望成为的样子选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "threshold",
+  "bands": [
+    {"key": "tense", "name": "紧绷大师", "min": 0, "max": 7},
+    {"key": "partly", "name": "间歇松弛", "min": 8, "max": 14},
+    {"key": "mostly", "name": "小有松弛", "min": 15, "max": 22},
+    {"key": "master", "name": "松弛天花板", "min": 23, "max": 30}
+  ],
+  "tieBreak": "总分按 bands 区间直接命中；若分数落在区间边界，取更高一档。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "计划好的周末被临时打乱，你会？",
+      "options": [
+        {"key": "A", "text": "很烦躁，一整天都回不来", "score": {"points": 0}},
+        {"key": "B", "text": "有点不爽，但会重新排一下", "score": {"points": 1}},
+        {"key": "C", "text": "看情况，说不定有意外惊喜", "score": {"points": 2}},
+        {"key": "D", "text": "正好，随它去", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "发了一条消息对方半天没回？",
+      "options": [
+        {"key": "A", "text": "反复看聊天记录，怀疑自己说错话", "score": {"points": 0}},
+        {"key": "B", "text": "有点在意，但忍住不追问", "score": {"points": 1}},
+        {"key": "C", "text": "大概在忙，等就是了", "score": {"points": 2}},
+        {"key": "D", "text": "完全没注意，手机放一边", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "有人对你的选择提出不同意见？",
+      "options": [
+        {"key": "A", "text": "会反复想，是不是自己真的错了", "score": {"points": 0}},
+        {"key": "B", "text": "听一听，但心里还是会纠结", "score": {"points": 1}},
+        {"key": "C", "text": "有道理的部分就吸收", "score": {"points": 2}},
+        {"key": "D", "text": "谢谢，但我清楚自己要什么", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "工作群里深夜弹出新需求？",
+      "options": [
+        {"key": "A", "text": "立刻爬起来处理，不然睡不着", "score": {"points": 0}},
+        {"key": "B", "text": "先看一眼，心里挂念着", "score": {"points": 1}},
+        {"key": "C", "text": "判断真不紧急，明天再说", "score": {"points": 2}},
+        {"key": "D", "text": "静音，明天是另一个我", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "出门前发现要迟到了？",
+      "options": [
+        {"key": "A", "text": "一路都在自责和焦虑", "score": {"points": 0}},
+        {"key": "B", "text": "有点急，但还在想办法", "score": {"points": 1}},
+        {"key": "C", "text": "先通知对方，路上保持平稳", "score": {"points": 2}},
+        {"key": "D", "text": "迟到几分钟而已，地球不爆炸", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "一件重要的事做完后，你？",
+      "options": [
+        {"key": "A", "text": "马上想哪里还能做得更好", "score": {"points": 0}},
+        {"key": "B", "text": "松一口气，但很快开始想下一步", "score": {"points": 1}},
+        {"key": "C", "text": "给自己安排一顿好的犒劳", "score": {"points": 2}},
+        {"key": "D", "text": "先彻底放空，什么都不想", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "别人过得比你好，你的反应？",
+      "options": [
+        {"key": "A", "text": "会对比，然后怀疑自己的节奏", "score": {"points": 0}},
+        {"key": "B", "text": "有点被刺激到，暗暗加码", "score": {"points": 1}},
+        {"key": "C", "text": "看一眼，然后回到自己的事", "score": {"points": 2}},
+        {"key": "D", "text": "真诚祝福，每个人的时区不同", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你的周末通常？",
+      "options": [
+        {"key": "A", "text": "排得很满，闲下来会不安", "score": {"points": 0}},
+        {"key": "B", "text": "一半安排一半休息", "score": {"points": 1}},
+        {"key": "C", "text": "基本休息，偶尔安排一件事", "score": {"points": 2}},
+        {"key": "D", "text": "不安排，醒来再说", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "犯了个小错被人指出来？",
+      "options": [
+        {"key": "A", "text": "反复回想，好几天放不下", "score": {"points": 0}},
+        {"key": "B", "text": "会有点尴尬，但能过去", "score": {"points": 1}},
+        {"key": "C", "text": "改掉就行，谁都会犯错", "score": {"points": 2}},
+        {"key": "D", "text": "笑一笑，顺便自嘲一句", "score": {"points": 3}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "面对不确定的未来，你通常？",
+      "options": [
+        {"key": "A", "text": "需要把所有可能都想清楚才安心", "score": {"points": 0}},
+        {"key": "B", "text": "会做计划，但还是有点悬着", "score": {"points": 1}},
+        {"key": "C", "text": "定个大方向，细节边走边看", "score": {"points": 2}},
+        {"key": "D", "text": "不确定本来就是常态", "score": {"points": 3}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "tense",
+      "name": "紧绷大师",
+      "summary": "全身都在用力，连休息都像在完成任务。",
+      "detail": "你对细节和他人感受的敏感度很高，这让你做事认真、很少出错，但也让你长期处于「随时待命」的状态。计划被打乱会烦躁，消息没回会复盘，做完一件事马上想哪里还能更好。你的紧绷不是缺点，而是责任心过载的结果。可以试着把「必须做好」降级成「先完成」，很多焦虑会在落地那一刻自动减轻。",
+      "traits": ["责任心强", "细节敏感", "自我要求高"],
+      "growthTip": "每天给自己留一件「做到六十分就交卷」的小事，练习放松肌肉。",
+      "shareCard": "松弛感等级：紧绷大师，连休息都像在完成任务。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "partly",
+      "name": "间歇松弛",
+      "summary": "能松一会儿，但很快又把自己绷回去。",
+      "detail": "你处在一种拉锯状态：道理都懂，也确实能放松一阵，但只要事情一来，紧绷感就会自动上线。你比完全紧绷的人多了一步觉察，只是还没建立稳定的缓冲机制。好消息是松弛是可以练的，先从物理层面入手——固定的睡眠、固定的放空时段，比说服自己「别想了」有效得多。",
+      "traits": ["有觉察", "认真但不极端", "容易回弹"],
+      "growthTip": "把放松写进日程而不是等有空，固定时段的松弛才不会被事情挤掉。",
+      "shareCard": "松弛感等级：间歇松弛，刚松下来又把自己绷回去了。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "mostly",
+      "name": "小有松弛",
+      "summary": "大事认真，小事随缘，分寸拿捏得不错。",
+      "detail": "你已经掌握了松弛的核心：分清哪些事值得用力，哪些事可以放手。被打乱的计划你能接住，别人的评价你能筛选，做错事也不会反复折磨自己。你的状态让身边的人也跟着放松，这是很稀缺的能力。要做的只是守住它：在特别忙的阶段里，也别把那点放空时间第一个牺牲掉。",
+      "traits": ["分寸感好", "能取舍", "不易内耗"],
+      "growthTip": "忙季也要守住那一段放空时间，它是你的续航来源而不是奖励。",
+      "shareCard": "松弛感等级：小有松弛，大事认真小事随缘。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "master",
+      "name": "松弛天花板",
+      "summary": "事情来了接住，接不住就放下，从不内耗。",
+      "detail": "你的松弛不是无所谓，而是分得清边界：别人的节奏是别人的，自己的时区自己做主。你能认真做事，也能在下班那一刻真正下班。这种状态让你很少被情绪拖着走，也让和你相处的人感到舒服。唯一需要留意的是：松弛过了头容易变成回避，该争取的事还是要开口，不然机会会默认跳过你。",
+      "traits": ["边界清晰", "不易内耗", "自带节奏"],
+      "growthTip": "松弛很好，遇到真正想要的东西记得主动伸手，别全靠随缘。",
+      "shareCard": "松弛感等级：松弛天花板，接不住的事我就放下。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

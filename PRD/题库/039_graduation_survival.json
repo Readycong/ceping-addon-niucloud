@@ -1,0 +1,191 @@
+{
+  "id": 39,
+  "title": "毕业生存图鉴",
+  "shortName": "毕业生存图鉴",
+  "category": "职场/学生",
+  "tags": ["毕业", "考研", "考公", "求职", "gap year"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味分类，结果不代表任何心理评估、能力评价或职业建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "毕业季一到，人生选项突然变多：考研、考公、搞钱、gap、出国。从你的焦虑来源、时间分配到深夜搜索记录，看看你属于哪一本生存图鉴。哪条路都不容易，选了就先走稳。",
+  "instructions": "共 10 题，按最近半年的真实想法作答，别按别人期待你的样子选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "postgrad", "name": "考研党"},
+    {"key": "civil_service", "name": "考公党"},
+    {"key": "hustler", "name": "搞钱派"},
+    {"key": "gapyear", "name": "gap year"},
+    {"key": "study_abroad", "name": "留学党"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "最近半年你深夜搜索最多的是？",
+      "options": [
+        {"key": "A", "text": "某某专业考研分数线", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "省考报名时间", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "什么副业能月入过万", "score": {"cat": "hustler", "points": 1}},
+        {"key": "D", "text": "雅思托福短期怎么提分", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "你的日历里最显眼的是什么？",
+      "options": [
+        {"key": "A", "text": "倒计时：距离初试还有多少天", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "各个考试的报名节点", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "面试、交付和结款日期", "score": {"cat": "hustler", "points": 1}},
+        {"key": "D", "text": "一大段空白，什么都没排", "score": {"cat": "gapyear", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "家人问「你以后打算怎么办」，你怎么答？",
+      "options": [
+        {"key": "A", "text": "先把学历提上去，路会宽一点", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "想考个稳定的，先有个着落", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "想先停一停，把方向想清楚", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "想先出去看看，回来再说", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "你最羡慕别人的哪一点？",
+      "options": [
+        {"key": "A", "text": "目标明确，说考就考上了", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "不靠家里，自己就能养活自己", "score": {"cat": "hustler", "points": 1}},
+        {"key": "C", "text": "说走就走，还能走得这么从容", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "在外头见过世面，说话都不一样", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你手机里置顶的群聊是？",
+      "options": [
+        {"key": "A", "text": "刷题交流群", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "B", "text": "接单和客户对接群", "score": {"cat": "hustler", "points": 1}},
+        {"key": "C", "text": "几个旅伴和搭子的小群", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "同校申请交流群", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "遇到瓶颈时，你更可能？",
+      "options": [
+        {"key": "A", "text": "换个方法继续啃，不能停", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "复盘错题，把流程再抠细", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "换条路试试，别在一棵树上吊着", "score": {"cat": "hustler", "points": 1}},
+        {"key": "D", "text": "换个环境，可能就没这个瓶颈了", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你这半年的钱主要花在哪儿？",
+      "options": [
+        {"key": "A", "text": "专业课、资料和网课", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "教材和线下班", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "设备、样品和各种试错成本", "score": {"cat": "hustler", "points": 1}},
+        {"key": "D", "text": "一趟长途和一个想学的手艺", "score": {"cat": "gapyear", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "朋友说「要不要一起做点什么」，你首先想到？",
+      "options": [
+        {"key": "A", "text": "那得看会不会耽误复习", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "看合不合规、稳不稳妥", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "C", "text": "听起来挺有意思，先去试试", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "能不能写进申请经历里", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "你对「稳定」的态度是？",
+      "options": [
+        {"key": "A", "text": "重要，但得先有更高的起点", "score": {"cat": "postgrad", "points": 1}},
+        {"key": "B", "text": "不太关注，能赚到就行", "score": {"cat": "hustler", "points": 1}},
+        {"key": "C", "text": "暂时不考虑，先把自己活明白", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "换个地方重新搭一份稳定", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "三年后的你，最希望是什么样的？",
+      "options": [
+        {"key": "A", "text": "有一份踏实的工作和生活节奏", "score": {"cat": "civil_service", "points": 1}},
+        {"key": "B", "text": "有自己的事业，收入不设上限", "score": {"cat": "hustler", "points": 1}},
+        {"key": "C", "text": "过得松弛，知道自己真正想要什么", "score": {"cat": "gapyear", "points": 1}},
+        {"key": "D", "text": "见过更大的世界，也更知道自己要什么", "score": {"cat": "study_abroad", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "postgrad",
+      "categoryKey": "postgrad",
+      "name": "考研党",
+      "summary": "自习室的常驻选手，倒计时比生日记得还清楚。",
+      "detail": "你选择用一段时间的高强度专注，换一个更高的起点。你的自制力和目标感都很强，能把一年的计划拆成每天的作息表。这条路最大的挑战不是难度，而是漫长过程中的自我怀疑。请记得：考研是一场长跑，状态起伏是正常的，别用某一天的低效否定整段努力，节奏比强度更重要。",
+      "traits": ["目标感强", "自律", "能熬"],
+      "growthTip": "给每周留半天彻底放松，长期战靠的是节奏而不是冲刺。",
+      "shareCard": "毕业生存图鉴：考研党，倒计时比生日记得还清楚。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "civil_service",
+      "categoryKey": "civil_service",
+      "name": "考公党",
+      "summary": "刷题刷到梦里都在做言语理解。",
+      "detail": "你把确定性放在很高的位置，愿意为此投入大量重复练习。你做事讲流程、讲复盘，错题本比笔记还厚。这种踏实是优势，但也要小心一条路走太久带来的视野收窄：给自己留一个备选方案不是动摇，而是风险控制。把备考当成项目来管理，效率会比硬熬高得多。",
+      "traits": ["耐得住重复", "求稳", "复盘能力强"],
+      "growthTip": "备考之外留一个备选方向，有兜底的心态反而更容易发挥。",
+      "shareCard": "毕业生存图鉴：考公党，梦里都在做言语理解。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "hustler",
+      "categoryKey": "hustler",
+      "name": "搞钱派",
+      "summary": "不等机会上门，自己先开一扇窗。",
+      "detail": "你对「先干起来」这件事有天然认同：别人还在投简历，你已经在接第一单。你的市场嗅觉和执行力是最大资产，也让你比同龄人更早理解真实世界的规则。要留意的是收入波动带来的不确定感：把零散的单子沉淀成可复用的能力和稳定的客户，搞钱才会从体力活变成事业。",
+      "traits": ["行动力强", "市场嗅觉好", "不怕试错"],
+      "growthTip": "把每次试错的流程记下来，能力沉淀比单笔收入更值钱。",
+      "shareCard": "毕业生存图鉴：搞钱派，不等机会上门，自己先开窗。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "gapyear",
+      "categoryKey": "gapyear",
+      "name": "gap year",
+      "summary": "先停下来，把方向想清楚再出发。",
+      "detail": "你拒绝在没想清楚的时候被推着走，愿意用一段时间换一个更明确的自己。这份勇气在当下的节奏里并不常见，也很珍贵。但空窗期最怕的是「既没休息好也没想清楚」：给这段时间设一个主题和大致期限，比如学一门技能、走一趟长途、做一次实习，回来时你会带着具体的收获而不是空白。",
+      "traits": ["敢于暂停", "自我觉察", "节奏自主"],
+      "growthTip": "给空窗期设一个主题和期限，结束时要能说清自己得到了什么。",
+      "shareCard": "毕业生存图鉴：gap year，先停下来把方向想清楚。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "study_abroad",
+      "categoryKey": "study_abroad",
+      "name": "留学党",
+      "summary": "行李还没收，脑子里已经在倒时差。",
+      "detail": "你愿意把生活整体搬到一个陌生的坐标系里，换取更大的视野和不同的可能性。你的准备过程繁琐而漫长：语言、材料、申请、签证，每一步都不轻松，你已经比很多人更能扛事。出发前请多准备一件事：想清楚你希望在那里得到什么，视野之外，具体的目标会让这一年值回票价。",
+      "traits": ["视野开阔", "准备充分", "适应力强"],
+      "growthTip": "在申请清单之外，也列一份「想在那边做成的事」清单。",
+      "shareCard": "毕业生存图鉴：留学党，行李没收，脑子已在倒时差。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

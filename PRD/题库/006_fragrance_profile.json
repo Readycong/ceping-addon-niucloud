@@ -1,0 +1,159 @@
+{
+  "id": 6,
+  "title": "你的气质香调",
+  "shortName": "气质香调",
+  "category": "审美",
+  "tags": ["香水", "审美", "气质", "氛围感"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为审美偏好娱乐分类，不构成专业选香或消费建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "香水行业调性分类，参考 Michael Edwards 香调轮",
+    "sourceType": "theory",
+    "reference": "依据公开香调分类概念原创编写生活化题目，非品牌或行业机构原题。"
+  },
+  "description": "从天气、穿搭、空间和日常偏好中提取你的氛围关键词，匹配一种最像你的气质香调。",
+  "instructions": "共 8 题，请选择第一眼最有感觉的选项，不必考虑自己是否真的拥有对应香水。",
+  "estimatedMinutes": 2,
+  "questionCount": 8,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "floral", "name": "花香调"},
+    {"key": "woody", "name": "木质调"},
+    {"key": "citrus", "name": "柑橘调"},
+    {"key": "oriental", "name": "东方调"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "哪种周末早晨最让你心动？",
+      "options": [
+        {"key": "A", "text": "窗边鲜花刚醒，空气柔柔的", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "走进安静树林，脚下有松针", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "切开橙子，阳光一下亮起来", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "拉开厚窗帘，房间还有暖香", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "朋友形容你的第一印象，更像哪一句？",
+      "options": [
+        {"key": "A", "text": "亲和温柔，很容易靠近", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "安静稳重，自带可靠感", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "清爽有活力，见面就提神", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "神秘有气场，让人想多看一眼", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "准备一套重要约会穿搭，你会选？",
+      "options": [
+        {"key": "A", "text": "轻盈面料和柔和颜色", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "利落剪裁和低调质感", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "干净基础款配一处亮色", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "深色单品加一点金属配饰", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "哪种饮品最像你今天的状态？",
+      "options": [
+        {"key": "A", "text": "带花香的轻甜气泡水", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "不加糖的手冲咖啡", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "冰块满杯的柠檬茶", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "加香料的热可可", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "如果给房间换一种氛围，你更想要？",
+      "options": [
+        {"key": "A", "text": "鲜花、薄纱和柔软靠垫", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "木色家具、旧书和安静光线", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "大白墙、绿植和通透阳光", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "暖灯、绒毯和异域纹样", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "哪种朋友圈照片最像你的审美？",
+      "options": [
+        {"key": "A", "text": "花影落在裙摆或桌面", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "雨后街道与深色建筑", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "蓝天、白云和一杯冰饮", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "夜色、烛光和浓郁色彩", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你更喜欢别人记住你哪种感觉？",
+      "options": [
+        {"key": "A", "text": "像收到花一样开心", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "像靠着树一样安心", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "像吹到晨风一样清醒", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "像看完夜场电影一样回味", "score": {"cat": "oriental", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "给生活加一个气味滤镜，你会选？",
+      "options": [
+        {"key": "A", "text": "盛开的玫瑰与白花", "score": {"cat": "floral", "points": 1}},
+        {"key": "B", "text": "雪松、苔藓与干燥木屑", "score": {"cat": "woody", "points": 1}},
+        {"key": "C", "text": "柚子、青柠与新鲜果皮", "score": {"cat": "citrus", "points": 1}},
+        {"key": "D", "text": "香草、琥珀与温暖香辛料", "score": {"cat": "oriental", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "floral",
+      "categoryKey": "floral",
+      "name": "花香调",
+      "summary": "你的气质像一束刚送到的花，柔软但很有存在感。",
+      "detail": "你给人的感觉亲和、细腻，擅长发现日常里值得被温柔对待的小事。你可能喜欢轻盈的颜色、自然的弧线和带故事感的浪漫细节。花香调并不等于甜腻，它也可以清透、明亮或带一点清冷，正像你温和外表下丰富又有层次的表达。",
+      "traits": ["温柔亲和", "浪漫细腻", "审美柔和"],
+      "growthTip": "不必总做氛围里的柔光，偶尔大胆表达偏好会让你更鲜明。",
+      "shareCard": "我的气质香调是花香调，像一束自带柔光的花。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "woody",
+      "categoryKey": "woody",
+      "name": "木质调",
+      "summary": "你的气质沉静可靠，像雨后树林里稳稳的呼吸。",
+      "detail": "你偏爱克制、耐看和经得住时间的东西，不太追逐一闪而过的热闹。别人和你相处，常能感到一种不慌不忙的稳定感。木质调有干燥书页般的理性，也有森林与土地般的温度；你的魅力往往不是第一秒抢镜，而是相处越久越有质感。",
+      "traits": ["沉稳可靠", "低调耐看", "内在坚定"],
+      "growthTip": "稳定之外也可以留一点新鲜变量，让熟悉的生活长出新枝。",
+      "shareCard": "我的气质香调是木质调，低调但越闻越有故事。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "citrus",
+      "categoryKey": "citrus",
+      "name": "柑橘调",
+      "summary": "你的气质像剥开橙子的瞬间，清爽又亮堂。",
+      "detail": "你给人的第一感受通常干净、轻快、有活力，不需要复杂铺垫就能拉近距离。你喜欢直截了当的快乐，也擅长给沉闷场面开一扇窗。柑橘调的魅力在于明亮但不喧闹，简单却不无聊；和你相处，就像忙碌下午喝到第一口冰柠檬茶。",
+      "traits": ["清爽明亮", "活力自然", "轻松直接"],
+      "growthTip": "保持轻盈，也允许自己偶尔慢下来，体验更深一层的回味。",
+      "shareCard": "我的气质香调是柑橘调，出现自带清新开场。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "oriental",
+      "categoryKey": "oriental",
+      "name": "东方调",
+      "summary": "你的气质浓郁有层次，像夜色里慢慢亮起的暖灯。",
+      "detail": "你容易被饱满色彩、温暖香料和带异域感的细节吸引，也愿意让个人风格留下记忆点。你不满足于一眼看尽，更喜欢有反转、有余韵的表达。东方调常把甜、暖、辛香与树脂感叠在一起，像你既有热度，也保留一块不急着向所有人解释的神秘地带。",
+      "traits": ["气场鲜明", "浓郁有层次", "神秘迷人"],
+      "growthTip": "风格强烈是优势，适当做减法会让最独特的部分更突出。",
+      "shareCard": "我的气质香调是东方调，夜色、暖香和神秘感都在线。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

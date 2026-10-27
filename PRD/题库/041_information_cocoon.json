@@ -1,0 +1,191 @@
+{
+  "id": 41,
+  "title": "信息茧房类型鉴定",
+  "shortName": "信息茧房类型",
+  "category": "网络/认知",
+  "tags": ["信息茧房", "算法推荐", "刷短视频", "热搜", "认知习惯"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性分类，结果不代表任何心理评估、能力评定或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "「信息茧房（Information Cocoons）」概念由 Cass Sunstein 于 2001 年在《Republic.com》中提出，用于描述人们只接触自己选择或令自己愉悦的信息、从而隔绝其他观点的现象；本测题为基于该概念的原创自编娱乐版。",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开理论概念的原创自编题面，不引用任何量表原题"
+  },
+  "description": "每天刷到的内容，其实早就悄悄划分了你的信息口味。10 道题鉴定你被困在哪一层茧里：是算法把你养得舒服，还是你自己主动剪开了一个口子。",
+  "instructions": "共 10 题，按你刷手机、看新闻、逛社区时的真实习惯作答，别按理想中的自己回答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "algo", "name": "算法投喂型"},
+    {"key": "comfort", "name": "同温层舒适圈"},
+    {"key": "breaker", "name": "主动破圈型"},
+    {"key": "hotspot", "name": "热点跟随型"},
+    {"key": "omnivore", "name": "信息杂食型"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "刷到一个和你观点完全相反的视频，你会？",
+      "options": [
+        {"key": "A", "text": "看完就划走，反正推荐流很快又会给我顺眼的", "score": {"cat": "algo", "points": 1}},
+        {"key": "B", "text": "转发到同好朋友群，大家一起吐槽", "score": {"cat": "comfort", "points": 1}},
+        {"key": "C", "text": "停下来搜一搜对立面到底怎么说", "score": {"cat": "breaker", "points": 1}},
+        {"key": "D", "text": "点进主页，把他历史内容翻一遍", "score": {"cat": "omnivore", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "早上通勤打开手机，你的第一站通常是？",
+      "options": [
+        {"key": "A", "text": "直接去读昨晚收藏的那篇长文", "score": {"cat": "breaker", "points": 1}},
+        {"key": "B", "text": "热搜前十条从上刷到下", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "C", "text": "常逛的那个小圈子和固定关注的博主", "score": {"cat": "comfort", "points": 1}},
+        {"key": "D", "text": "首页推荐，推什么就看什么", "score": {"cat": "algo", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "朋友转来一篇和你立场不同的长文，你会？",
+      "options": [
+        {"key": "A", "text": "先收藏，说不定哪天用得上", "score": {"cat": "omnivore", "points": 1}},
+        {"key": "B", "text": "扫一眼标题，感觉不太对我胃口就关了", "score": {"cat": "algo", "points": 1}},
+        {"key": "C", "text": "大家都在聊这个，我也得补一下", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "D", "text": "认真读完，还回去查了数据来源", "score": {"cat": "breaker", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "你手机里的信息源，更像哪种结构？",
+      "options": [
+        {"key": "A", "text": "几个聊得来的群和固定关注的博主", "score": {"cat": "comfort", "points": 1}},
+        {"key": "B", "text": "热榜、热搜、爆款话题聚合页", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "C", "text": "首页推荐流，基本不用自己搜", "score": {"cat": "algo", "points": 1}},
+        {"key": "D", "text": "公众号、播客、论文、短视频混着来", "score": {"cat": "omnivore", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "连续三天刷到同一类内容，你的反应是？",
+      "options": [
+        {"key": "A", "text": "说明算法懂我，继续刷", "score": {"cat": "algo", "points": 1}},
+        {"key": "B", "text": "主动去搜点完全不同领域的换换脑子", "score": {"cat": "breaker", "points": 1}},
+        {"key": "C", "text": "顺手看看别的平台这会儿在聊什么", "score": {"cat": "omnivore", "points": 1}},
+        {"key": "D", "text": "转给群里，大家应该也爱看", "score": {"cat": "comfort", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "一个陌生领域的词突然刷屏，你会？",
+      "options": [
+        {"key": "A", "text": "立刻搜词条，先搞懂大家为什么在聊", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "B", "text": "等群里有人解释完再决定要不要看", "score": {"cat": "comfort", "points": 1}},
+        {"key": "C", "text": "去找原始出处和完整背景来读", "score": {"cat": "breaker", "points": 1}},
+        {"key": "D", "text": "刷过去就算了，反正它还会再推给我", "score": {"cat": "algo", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "周末有两小时自由阅读时间，你更可能？",
+      "options": [
+        {"key": "A", "text": "一本杂志从头翻到尾，连广告页也不跳过", "score": {"cat": "omnivore", "points": 1}},
+        {"key": "B", "text": "打开本周热榜，看看世界又发生了什么", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "C", "text": "回到喜欢的博主更新，追更走起", "score": {"cat": "comfort", "points": 1}},
+        {"key": "D", "text": "挑一本一直想读、但完全陌生的领域的书", "score": {"cat": "breaker", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "上一次认真读完一篇反对意见，是因为？",
+      "options": [
+        {"key": "A", "text": "我想知道对方的推理到底哪里成立", "score": {"cat": "breaker", "points": 1}},
+        {"key": "B", "text": "它出现在推荐里，正好有空", "score": {"cat": "algo", "points": 1}},
+        {"key": "C", "text": "全网都在讨论，不看插不上话", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "D", "text": "我对这个话题本来就想多角度看", "score": {"cat": "omnivore", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "看到一条「震惊体」标题，你通常？",
+      "options": [
+        {"key": "A", "text": "点进去看看推荐算法又想让我看什么", "score": {"cat": "algo", "points": 1}},
+        {"key": "B", "text": "转到群里问一句「这是真的吗」", "score": {"cat": "comfort", "points": 1}},
+        {"key": "C", "text": "上热搜确认一下是不是全网都在说", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "D", "text": "顺手翻翻评论区里的各种补充说法", "score": {"cat": "omnivore", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "回顾这一年看过的内容，你更像哪一种？",
+      "options": [
+        {"key": "A", "text": "热搜上的大事我基本都没落下", "score": {"cat": "hotspot", "points": 1}},
+        {"key": "B", "text": "有几个冷门话题我反而钻得很深", "score": {"cat": "breaker", "points": 1}},
+        {"key": "C", "text": "各个平台都留下过我东看西看的痕迹", "score": {"cat": "omnivore", "points": 1}},
+        {"key": "D", "text": "常看的还是那几个熟悉的角落", "score": {"cat": "comfort", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "algo",
+      "categoryKey": "algo",
+      "name": "算法投喂型",
+      "summary": "推荐流说我是什么口味，我就是什么口味。",
+      "detail": "你把选择权大方交给了首页推荐：推什么看什么，划走什么很快就会淡忘。好处是省力气，坏处是世界被悄悄剪成刚好合你心意的尺寸。你不是不爱思考，只是很少主动点开陌生入口。想给生活加点意外，其实很简单：偶尔搜一个你从没搜过的词，让推荐算法重新认识你一次。",
+      "traits": ["被动接收", "推荐依赖", "省脑省力"],
+      "growthTip": "每天留五分钟主动搜索一个陌生词，把信息入口从「推给我」换成「我去找」。",
+      "shareCard": "信息茧房鉴定：我是算法投喂型，首页比我更懂我自己。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "comfort",
+      "categoryKey": "comfort",
+      "name": "同温层舒适圈",
+      "summary": "熟悉的人和熟悉的立场，才是你的信息主场。",
+      "detail": "你的信息世界由固定的群、常看的博主和聊得来的朋友构成，这里有共鸣、有默契，也几乎没有反驳。这种圈子让人安心，能快速获得情绪支持和归属感。只是当所有声音都朝着同一个方向时，你听到的「共识」，可能只是圈子里的回声。试着偶尔把一个圈外观点带进群里聊聊，你会收获新的视角，圈子本身也不会散。",
+      "traits": ["重视共鸣", "圈子稳定", "归属感强"],
+      "growthTip": "在熟悉的圈子里保留一个「不同意见位」，偶尔邀请外部视角进来坐坐。",
+      "shareCard": "信息茧房鉴定：我是同温层舒适圈，群里说的我都深有同感。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "breaker",
+      "categoryKey": "breaker",
+      "name": "主动破圈型",
+      "summary": "茧房？那是我自己拿剪刀剪开的。",
+      "detail": "你对被投喂天然警惕，遇到不熟悉甚至违背自己直觉的观点，第一反应不是划走而是查证。你会找原始出处、看完整背景、把对立面的推理认真读完，这份较真让你少踩很多坑。需要留意的是，破圈也会消耗精力，不必每条信息都追到底。把好奇心留给真正重要的问题，比什么都查更可持续。",
+      "traits": ["主动求证", "好奇心强", "独立判断"],
+      "growthTip": "给查证设个止损线，值得深挖的才深挖，其余交给时间验证。",
+      "shareCard": "信息茧房鉴定：我是主动破圈型，看到反对意见反而更想点开。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "hotspot",
+      "categoryKey": "hotspot",
+      "name": "热点跟随型",
+      "summary": "世界在聊什么，你就立刻补什么课。",
+      "detail": "热榜是你的每日早报，爆款话题一个都舍不得落下。你的信息更新速度极快，社交场上永远不缺谈资，也不会出现「这事我居然不知道」的尴尬。需要注意的是，热点的半衰期很短，今天的全民话题下周可能无人提起。在追热之外留一点长期关注，你会在热闹散场后依然有东西可聊。",
+      "traits": ["反应迅速", "话题感强", "紧跟节奏"],
+      "growthTip": "挑一两个真正感兴趣的领域长期追更，让谈资不只剩热搜。",
+      "shareCard": "信息茧房鉴定：我是热点跟随型，热搜更新比我起床还早。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "omnivore",
+      "categoryKey": "omnivore",
+      "name": "信息杂食型",
+      "summary": "什么都看一点，好奇是对你最准确的描述。",
+      "detail": "你的信息口味相当杂：长文、播客、短视频、论文、评论区，来者不拒。你享受那种东看西看、偶然撞见有趣东西的感觉，脑子里也因此装着不少跨界素材。唯一的小麻烦是收藏夹越堆越高、真正读完的却不多。给杂食配一个消化动作，比如每周挑一篇收藏认真读完并写下三句话，你的杂食就会变成真正的积累。",
+      "traits": ["涉猎广泛", "跨界素材多", "好奇心旺盛"],
+      "growthTip": "每周清一次收藏夹，把「看过」变成「消化过」，杂食也能长肌肉。",
+      "shareCard": "信息茧房鉴定：我是信息杂食型，收藏夹比我的人生还丰富。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

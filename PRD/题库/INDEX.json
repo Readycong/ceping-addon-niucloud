@@ -1,0 +1,942 @@
+{
+  "version": "1.0",
+  "total": 50,
+  "tests": [
+    {
+      "id": 1,
+      "title": "【商业版权·原题参考】16型人格速测（MBTI 精简版）",
+      "file": "001_mbti_commercial.json",
+      "category": "人格",
+      "copyrightStatus": "commercial",
+      "scoringModel": "dimension",
+      "questionCount": 12,
+      "resultCount": 16,
+      "estimatedMinutes": 2,
+      "status": "pending_rederive",
+      "tags": [
+        "人格",
+        "社交货币",
+        "最强裂变",
+        "双人可玩"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "恋爱依恋类型（安全/焦虑/回避/恐惧）",
+      "file": "002_love_attachment.json",
+      "category": "情感",
+      "copyrightStatus": "theory",
+      "scoringModel": "dimension",
+      "questionCount": 8,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "恋爱",
+        "依恋",
+        "关系模式",
+        "双人可玩"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "【商业版权·原题参考】你的灵魂色彩（四色人格）",
+      "file": "003_truecolors_commercial.json",
+      "category": "人格",
+      "copyrightStatus": "commercial",
+      "scoringModel": "category",
+      "questionCount": 6,
+      "resultCount": 4,
+      "estimatedMinutes": 3,
+      "status": "pending_rederive",
+      "tags": [
+        "人格",
+        "视觉",
+        "色彩卡片",
+        "易晒"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "前世身份鉴定",
+      "file": "004_past_life_identity.json",
+      "category": "玄学",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 12,
+      "resultCount": 6,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "玄学",
+        "脑洞",
+        "古风",
+        "趣味身份"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "职场人设鉴定",
+      "file": "005_workplace_persona.json",
+      "category": "职场",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "职场",
+        "打工人",
+        "办公室",
+        "人设"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "你的气质香调",
+      "file": "006_fragrance_profile.json",
+      "category": "审美",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 8,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "香水",
+        "审美",
+        "气质",
+        "氛围感"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "你和TA的契合度",
+      "file": "007_relationship_compatibility.json",
+      "category": "情感",
+      "copyrightStatus": "theory",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "恋爱",
+        "默契",
+        "契合度",
+        "双人"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "心态段位测试（趣味版）",
+      "file": "008_mindset_rank.json",
+      "category": "轻情绪",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 8,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "心态",
+        "段位",
+        "日常",
+        "趣味"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "朋友圈人设鉴定",
+      "file": "009_moments_persona.json",
+      "category": "社交",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "朋友圈",
+        "社交",
+        "人设",
+        "内容偏好"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "你的内在小孩类型",
+      "file": "010_inner_child.json",
+      "category": "心理概念娱乐化",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "内在小孩",
+        "自我观察",
+        "成长",
+        "趣味分类"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "恋爱脑等级测试",
+      "file": "011_love_brain_level.json",
+      "category": "情感",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "恋爱",
+        "恋爱脑",
+        "上头",
+        "趣味等级"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "【商业版权·原题参考】九型人格速测（核心动机）",
+      "file": "012_enneagram_commercial.json",
+      "category": "人格",
+      "copyrightStatus": "commercial",
+      "scoringModel": "category",
+      "questionCount": 12,
+      "resultCount": 9,
+      "estimatedMinutes": 4,
+      "status": "pending_rederive",
+      "tags": [
+        "人格",
+        "经典",
+        "社交货币",
+        "深度向"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "拖延症流派鉴定与破解",
+      "file": "013_procrastination_style.json",
+      "category": "自我成长",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "拖延",
+        "自我成长",
+        "效率",
+        "打工人",
+        "时间管理"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "今日运势与幸运色鉴定",
+      "file": "014_daily_fortune.json",
+      "category": "玄学",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "玄学",
+        "运势",
+        "幸运色",
+        "幸运数字",
+        "每日"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "你是哪种朋友",
+      "file": "015_friend_type.json",
+      "category": "社交",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "社交",
+        "朋友",
+        "朋友圈",
+        "人设",
+        "聚会"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "抗压体质类型鉴定",
+      "file": "016_stress_resilience_type.json",
+      "category": "轻职场/情绪",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "抗压",
+        "韧性",
+        "职场",
+        "情绪",
+        "打工人"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "你的审美人格",
+      "file": "017_aesthetic_persona.json",
+      "category": "审美",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "审美",
+        "穿搭",
+        "风格",
+        "生活方式",
+        "品味"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "决策风格测试",
+      "file": "018_decision_style.json",
+      "category": "职场",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "决策",
+        "职场",
+        "思维方式",
+        "选择困难",
+        "效率"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "孤独感画像（趣味版）",
+      "file": "019_loneliness_portrait.json",
+      "category": "轻情绪",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "孤独",
+        "独处",
+        "情绪",
+        "社交",
+        "自我观察"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "重启力与反脆弱等级鉴定",
+      "file": "020_reboot_resilience_level.json",
+      "category": "自我成长",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "重启力",
+        "反脆弱",
+        "韧性",
+        "自我成长",
+        "恢复力"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "网络人设鉴定",
+      "file": "021_online_persona.json",
+      "category": "社交/网络",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "网络",
+        "冲浪",
+        "评论区",
+        "表情包",
+        "社交"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "躺平指数测试（趣味版）",
+      "file": "022_lie_flat_index.json",
+      "category": "职场/生活",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "躺平",
+        "内卷",
+        "打工人",
+        "反内耗",
+        "生活方式"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "你是哪种恋人",
+      "file": "023_lover_type.json",
+      "category": "情感",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "恋爱",
+        "亲密关系",
+        "依恋",
+        "爱情三元论",
+        "情感"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "消费人格鉴定",
+      "file": "024_consumption_persona.json",
+      "category": "生活/消费",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "消费",
+        "剁手",
+        "双十一",
+        "省钱",
+        "生活方式"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "旅行人格鉴定",
+      "file": "025_travel_persona.json",
+      "category": "生活",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "旅行",
+        "小长假",
+        "特种兵",
+        "打卡",
+        "生活方式"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "你的睡眠类型",
+      "file": "026_sleep_type.json",
+      "category": "健康趣味（非诊断）",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "睡眠",
+        "作息",
+        "晨型",
+        "夜型",
+        "趣味"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "火锅性格测试",
+      "file": "027_hotpot_persona.json",
+      "category": "生活/美食",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "火锅",
+        "川渝",
+        "蘸料",
+        "麻酱",
+        "美食地域梗"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "饮品人格测试",
+      "file": "028_drink_persona.json",
+      "category": "生活",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "饮品",
+        "咖啡",
+        "奶茶",
+        "喝茶",
+        "打工人"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "猫狗主人人格测试",
+      "file": "029_pet_owner_persona.json",
+      "category": "宠物",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "宠物",
+        "猫系",
+        "狗系",
+        "云吸",
+        "铲屎官"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "二次元浓度测试",
+      "file": "030_otaku_density.json",
+      "category": "兴趣/二次元",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "二次元",
+        "追番",
+        "圈层",
+        "手办",
+        "兴趣爱好"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "知识焦虑等级测试（趣味版）",
+      "file": "031_knowledge_anxiety.json",
+      "category": "自我成长",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "知识焦虑",
+        "囤课",
+        "自我提升",
+        "网课",
+        "收藏夹"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "社恐社牛程度测试（娱乐版）",
+      "file": "032_social_battery.json",
+      "category": "社交",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "社恐",
+        "社牛",
+        "社交",
+        "电量",
+        "聚会"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "emo 频率与治愈方式图鉴",
+      "file": "033_emo_frequency.json",
+      "category": "轻情绪",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "emo",
+        "情绪",
+        "治愈",
+        "深夜",
+        "充电"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "你的人生 BGM 是哪一首",
+      "file": "034_life_bgm.json",
+      "category": "脑洞/音乐",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "音乐",
+        "BGM",
+        "脑洞",
+        "氛围感",
+        "歌单"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "你的幸运守护兽是哪一只",
+      "file": "035_guardian_beast.json",
+      "category": "玄学",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 12,
+      "resultCount": 6,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "玄学",
+        "守护兽",
+        "瑞兽",
+        "运势",
+        "脑洞"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "你的时间人格是什么",
+      "file": "036_time_persona.json",
+      "category": "生活/自我",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "时间管理",
+        "拖延",
+        "作息",
+        "效率",
+        "chronotype"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "【商业版权·原题参考】吵架风格测试（冲突处理模式）",
+      "file": "037_tki_commercial.json",
+      "category": "关系",
+      "copyrightStatus": "commercial",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 3,
+      "status": "pending_rederive",
+      "tags": [
+        "关系",
+        "职场",
+        "共鸣",
+        "实用向"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "饭局生存人格鉴定",
+      "file": "038_dinner_party_persona.json",
+      "category": "社交",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "饭局",
+        "聚餐",
+        "社交",
+        "职场",
+        "中国人情"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "毕业生存图鉴",
+      "file": "039_graduation_survival.json",
+      "category": "职场/学生",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "毕业",
+        "考研",
+        "考公",
+        "求职",
+        "gap year"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "松弛感等级测试（趣味版）",
+      "file": "040_relaxation_level.json",
+      "category": "自我成长/生活",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "松弛感",
+        "反内耗",
+        "生活方式",
+        "打工人",
+        "自我成长"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "信息茧房类型鉴定",
+      "file": "041_information_cocoon.json",
+      "category": "网络/认知",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "信息茧房",
+        "算法推荐",
+        "刷短视频",
+        "热搜",
+        "认知习惯"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "星际人格鉴定：你是哪个外星种族",
+      "file": "042_alien_species.json",
+      "category": "脑洞/玄学",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 5,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "脑洞",
+        "外星人",
+        "星际",
+        "人设",
+        "趣味"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "理财脑回路鉴定",
+      "file": "043_money_mindset.json",
+      "category": "生活/消费",
+      "copyrightStatus": "theory",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "消费观",
+        "存钱",
+        "打工人",
+        "记账",
+        "金钱态度"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "运动人格鉴定",
+      "file": "044_sport_persona.json",
+      "category": "健康趣味",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "运动",
+        "健身",
+        "办卡",
+        "躺平",
+        "朋友圈"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "追剧人格鉴定",
+      "file": "045_drama_watching.json",
+      "category": "生活",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "追剧",
+        "倍速",
+        "片单",
+        "弃剧",
+        "会员"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "【商业版权·原题参考】团队角色测试（贝尔宾九角色）",
+      "file": "046_belbin_commercial.json",
+      "category": "职场",
+      "copyrightStatus": "commercial",
+      "scoringModel": "category",
+      "questionCount": 3,
+      "resultCount": 9,
+      "estimatedMinutes": 5,
+      "status": "pending_rederive",
+      "tags": [
+        "职场",
+        "团队",
+        "自我认知",
+        "转发向"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "讨好人格指数（趣味版）",
+      "file": "047_pleaser_index.json",
+      "category": "关系",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "人际",
+        "拒绝",
+        "老好人",
+        "边界感",
+        "打工人"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "探索与好奇心人格鉴定",
+      "file": "048_curiosity_index.json",
+      "category": "自我成长",
+      "copyrightStatus": "public_domain",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "好奇心",
+        "探索",
+        "开放性",
+        "自我成长",
+        "新鲜感"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "手机依赖人格鉴定（娱乐版）",
+      "file": "049_phone_dependency.json",
+      "category": "网络",
+      "copyrightStatus": "theory",
+      "scoringModel": "threshold",
+      "questionCount": 10,
+      "resultCount": 4,
+      "estimatedMinutes": 2,
+      "status": "ready",
+      "tags": [
+        "手机",
+        "刷短视频",
+        "屏幕时间",
+        "微信",
+        "打工人"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "年度关键词生成",
+      "file": "050_year_keyword.json",
+      "category": "玄学/总结",
+      "copyrightStatus": "internet_native",
+      "scoringModel": "category",
+      "questionCount": 12,
+      "resultCount": 8,
+      "estimatedMinutes": 3,
+      "status": "ready",
+      "tags": [
+        "年终总结",
+        "年度关键词",
+        "朋友圈",
+        "仪式感",
+        "梗"
+      ]
+    }
+  ]
+}

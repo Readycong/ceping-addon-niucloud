@@ -1,0 +1,191 @@
+{
+  "id": 23,
+  "title": "你是哪种恋人",
+  "shortName": "恋人类型",
+  "category": "情感",
+  "tags": ["恋爱", "亲密关系", "依恋", "爱情三元论", "情感"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性情感风格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "Sternberg 爱情三元论（亲密/激情/承诺）与成人依恋类型框架",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开学术理论框架的原创自编，非任何量表的逐字题面"
+  },
+  "description": "同样是谈恋爱，有人把日子过成偶像剧，有人把关系经营成合伙制。从回应方式、吵架现场到未来规划，看看你在亲密关系里最稳定的那套打法。",
+  "instructions": "共 10 题，请按你在关系里的真实反应作答，别替理想中的自己代答。",
+  "estimatedMinutes": 3,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "romantic", "name": "浪漫型"},
+    {"key": "pragmatic", "name": "务实型"},
+    {"key": "free", "name": "自由型"},
+    {"key": "clingy", "name": "粘人型"},
+    {"key": "guardian", "name": "守护型"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "刚确认关系那天，你最想做的是？",
+      "options": [
+        {"key": "A", "text": "发一条朋友圈，把快乐昭告天下", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "认真聊聊以后打算在哪个城市", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "先约一顿饭，剩下的慢慢来", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "把他说过的每句话反复回味一遍", "score": {"cat": "clingy", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "对方突然一整天没回消息，你会？",
+      "options": [
+        {"key": "A", "text": "脑子里已经演完一部偶像剧", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "忍不住隔几分钟就看一次对话框", "score": {"cat": "clingy", "points": 1}},
+        {"key": "C", "text": "我也忙我的，晚上再说", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "先替他想好理由，等他回来", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "纪念日你会怎么安排？",
+      "options": [
+        {"key": "A", "text": "订一束花和一家有仪式感的餐厅", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "算好预算，选性价比最高的方案", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "天天见面就是纪念日，别折腾", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "悄悄买下他念叨过的那个东西", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "吵起来的时候，你通常？",
+      "options": [
+        {"key": "A", "text": "情绪先上来，今晚必须把话说开", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "先冷静，等能好好说话了再谈", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "反复追问他是不是生我气了", "score": {"cat": "clingy", "points": 1}},
+        {"key": "D", "text": "先确认他有没有吃饭、睡没睡", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "关于这段关系的未来，你最在意的是？",
+      "options": [
+        {"key": "A", "text": "两个人有没有一致的生活规划", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "B", "text": "各自的节奏能不能被保留", "score": {"cat": "free", "points": 1}},
+        {"key": "C", "text": "我们会不会一直这么亲密", "score": {"cat": "clingy", "points": 1}},
+        {"key": "D", "text": "他出事的时候我能不能兜住", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "秀恩爱这件事，你的态度是？",
+      "options": [
+        {"key": "A", "text": "忍不住，每天都想发点素材", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "会发，但只挑重要节点", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "基本不发，感情不必对外展示", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "他发的每条我都想去评论一下", "score": {"cat": "clingy", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "对方工作不顺那天，你会？",
+      "options": [
+        {"key": "A", "text": "给他发一段长长的鼓励", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "想一直陪着他，反复问他要不要聊聊", "score": {"cat": "clingy", "points": 1}},
+        {"key": "C", "text": "给他空间，让他自己消化", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "不多问，把热水和晚饭准备好", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你觉得恋爱里最重要的是？",
+      "options": [
+        {"key": "A", "text": "心动和新鲜感不能丢", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "三观匹配，沟通成本够低", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "被需要、被惦记的那种确定感", "score": {"cat": "clingy", "points": 1}},
+        {"key": "D", "text": "可靠，出事时有人站你这边", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "如果接下来要异地一段时间，你会？",
+      "options": [
+        {"key": "A", "text": "每天视频，仪式感一天都不能断", "score": {"cat": "romantic", "points": 1}},
+        {"key": "B", "text": "约好见面频率和结束的时间点", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "试试看，实在不行也不强求", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "先把他在那边的事安排好再走", "score": {"cat": "guardian", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "这段关系让你有点累的时候，你会？",
+      "options": [
+        {"key": "A", "text": "想聊聊我们是不是变淡了", "score": {"cat": "clingy", "points": 1}},
+        {"key": "B", "text": "把问题列出来，谈怎么调整", "score": {"cat": "pragmatic", "points": 1}},
+        {"key": "C", "text": "退后一步，先把自己找回来", "score": {"cat": "free", "points": 1}},
+        {"key": "D", "text": "什么都不说，悄悄把能扛的扛了", "score": {"cat": "guardian", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "romantic",
+      "categoryKey": "romantic",
+      "name": "浪漫型恋人",
+      "summary": "恋爱在你这儿是有 BGM 的，仪式感从不缺席。",
+      "detail": "你相信心动需要被表达，也确实很会制造记忆点：一束花、一条朋友圈、一句刚好落在情绪上的话，都是你的拿手好戏。和你恋爱不容易无聊，对方也很难怀疑自己被不在乎。只是浪漫的续航依赖回应，当对方不擅长接梗时，你容易误读成冷淡。把惊喜的频率降一点、把想要的回应直接说出来，你的热情会更容易被接住。",
+      "traits": ["仪式感满分", "表达欲强", "会制造惊喜"],
+      "growthTip": "想要什么直接说，比等对方猜更高效，也少很多委屈。",
+      "shareCard": "我是浪漫型恋人，恋爱自带背景音乐。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "pragmatic",
+      "categoryKey": "pragmatic",
+      "name": "务实型恋人",
+      "summary": "把恋爱当成长期项目经营，清醒又靠谱。",
+      "detail": "你在关系里看重沟通成本、三观匹配和可执行的规划，遇到矛盾更愿意先冷静再谈条款，而不是让情绪反复拉扯。你的稳定让对方很安心，很多潜在问题也被你提前拆掉了。需要注意的是，过度讲道理会显得疏离——对方有时候要的不是解决方案，而是一句“我懂你”。先回应情绪，再谈方案，效果会好很多。",
+      "traits": ["理性清醒", "会规划", "解决问题快"],
+      "growthTip": "讲道理之前先接一句情绪，理解比正确更先到才有用。",
+      "shareCard": "我是务实型恋人，恋爱讲究投入产出比。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "free",
+      "categoryKey": "free",
+      "name": "自由型恋人",
+      "summary": "爱得松弛，不捆绑也不想被捆绑。",
+      "detail": "你需要的关系是“两个完整的人并肩站着”，而不是互相填满彼此的空缺。你不查手机、不追问行踪，也期待对方给你同样的呼吸空间。这份分寸感让相处很轻松，但也可能被误读成不够在意。自由型的关键功课不是学着黏人，而是把在乎表达得更明确一点：一句主动的报备、一次主动的邀约，就能让对方安心不少。",
+      "traits": ["边界清晰", "独立松弛", "不喜束缚"],
+      "growthTip": "主动分享一次你的日常，成本很低，但对方会记很久。",
+      "shareCard": "我是自由型恋人，最好的关系是各自站得稳。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "clingy",
+      "categoryKey": "clingy",
+      "name": "粘人型恋人",
+      "summary": "喜欢就要贴贴，被惦记是你最大的安全感来源。",
+      "detail": "你投入得又快又满，消息的节奏、对方的语气，都能直接牵动你一整天的情绪。你愿意为关系付出很多，也期待同等的回应，这份热烈本身就很有感染力。需要留意的是，安全感如果全部押在对方身上，会让自己长期处在不确定里。试着把一部分注意力放回朋友、爱好和目标上，你的喜欢会更有底气，也更让人想靠近。",
+      "traits": ["投入度高", "需要回应", "情感细腻"],
+      "growthTip": "给自己保留固定日程，让生活不只有一个重心。",
+      "shareCard": "我是粘人型恋人，喜欢就是要贴贴。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "guardian",
+      "categoryKey": "guardian",
+      "name": "守护型恋人",
+      "summary": "话不多，但你永远是他那边的后盾。",
+      "detail": "你的爱很少用语言，更多落在行动上：记得他念叨过的东西、把晚饭和热水准备好、出事时第一个站出来兜底。你可靠、稳定、不轻易承诺但说到做到，是关系里最结实的那块地基。只是长期单方面扛事容易累，也会让对方习惯性忽略你的需要。偶尔示弱一次，说一句“这次我也需要你”，反而会让关系更近。",
+      "traits": ["可靠兜底", "行动派", "话少事多"],
+      "growthTip": "把需要说出口，被照顾也是关系里正当的权利。",
+      "shareCard": "我是守护型恋人，话不多但一直都在。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

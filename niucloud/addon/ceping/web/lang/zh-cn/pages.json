@@ -1,0 +1,9 @@
+{
+    "pages": {
+        "ceping": {
+            "hello_world": {
+                "index": "hello_world"
+            }
+        }
+    }
+}

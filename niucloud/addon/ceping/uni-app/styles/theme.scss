@@ -1,0 +1,112 @@
+/* 爱测评 ceping —— 8 套主题变量（全站直角，对应设计规范） */
+.cp-root {
+	--app: #f6f7fb;
+	--ink: #1c2233;
+	--sub: #8a90a0;
+	--line: #e8eaf2;
+	--brand: #3b5bdb;
+	--brand-soft: #eef1fe;
+	/* 当前主题默认值（被 .th-* 覆盖） */
+	--bg: #f6f7fb;
+	--bg2: #eef1f7;
+	--card: #ffffff;
+	--pri: #3b5bdb;
+	--pri2: #8aa4ff;
+	--acc: #eef1fe;
+	--tx: #1c2233;
+	--sub2: #8a90a0;
+	--bdr: #e8eaf2;
+	--serif: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+}
+
+.th-persona-archive {
+	--bg: #141826; --bg2: #0d1020; --card: #1e2538;
+	--pri: #d4af6a; --pri2: #8aa0c8; --acc: #f0d9a8;
+	--tx: #f4eede; --sub2: #98a2bd; --bdr: rgba(212, 175, 106, .28);
+	--serif: "Songti SC", "STSong", serif;
+}
+.th-love-letter {
+	--bg: #fff1f5; --bg2: #ffe3ec; --card: #ffffff;
+	--pri: #ef6d8c; --pri2: #ffb2c6; --acc: #ffe0e9;
+	--tx: #5c3845; --sub2: #b08293; --bdr: #ffd9e3;
+}
+.th-office-comic {
+	--bg: #ffd93d; --bg2: #ffc700; --card: #fffdf2;
+	--pri: #222222; --pri2: #ff5d2e; --acc: #ffffff;
+	--tx: #222222; --sub2: #777777; --bdr: #222222;
+}
+.th-chat-bubble {
+	--bg: #e8f7ee; --bg2: #d5f1e1; --card: #ffffff;
+	--pri: #17b85f; --pri2: #4fc3f7; --acc: #dcf7e7;
+	--tx: #173326; --sub2: #6f8a7b; --bdr: #cdeedd;
+}
+.th-wave-healing {
+	--bg: #e8f5fb; --bg2: #cfeaf6; --card: #ffffff;
+	--pri: #2b86b8; --pri2: #6fc0dd; --acc: #d8effa;
+	--tx: #1e3f50; --sub2: #6c8fa1; --bdr: #d2e8f4;
+}
+.th-zine-collage {
+	--bg: #f5ede1; --bg2: #efe2cf; --card: #fffdf7;
+	--pri: #e04833; --pri2: #1f1f22; --acc: #f2c230;
+	--tx: #29251f; --sub2: #8b7e6e; --bdr: #e3d6c2;
+}
+.th-gallery-aesthetic {
+	--bg: #f1eef5; --bg2: #e3dcef; --card: #ffffff;
+	--pri: #6f5d9c; --pri2: #a99cc6; --acc: #e7e0f4;
+	--tx: #2b2636; --sub2: #7e7690; --bdr: #ddd4ec;
+}
+.th-tarot-night {
+	--bg: #171133; --bg2: #0e0a24; --card: #241a49;
+	--pri: #e7c272; --pri2: #9a7ae0; --acc: #c9a9ff;
+	--tx: #f4ecff; --sub2: #a99bd2; --bdr: rgba(231, 194, 114, .3);
+	--serif: "Songti SC", "STSong", serif;
+}
+
+/* 通用件（全部直角） */
+.cp-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 28rpx 24rpx;
+	border: 0;
+	border-radius: 0;
+	font-size: 34rpx;
+	font-weight: 800;
+	line-height: 1;
+	background: var(--pri);
+	color: var(--card);
+}
+.cp-btn::after { border: 0; }
+.cp-btn[disabled] { opacity: .45; }
+.cp-btn-ghost {
+	background: transparent;
+	color: var(--sub2);
+	border: 2rpx solid var(--bdr);
+	font-weight: 700;
+	font-size: 30rpx;
+}
+.th-office-comic .cp-btn-primary {
+	border: 4rpx solid #222;
+	box-shadow: 6rpx 6rpx 0 #222;
+}
+.cp-chip {
+	display: inline-block;
+	padding: 8rpx 20rpx;
+	border-radius: 0;
+	font-size: 24rpx;
+	background: rgba(0, 0, 0, .05);
+	color: var(--sub2);
+	margin: 0 12rpx 12rpx 0;
+}
+.th-persona-archive .cp-chip,
+.th-tarot-night .cp-chip { background: rgba(255, 255, 255, .1); }
+.cp-card {
+	background: var(--card);
+	border-radius: 0;
+}
+.cp-disclaimer {
+	font-size: 22rpx;
+	line-height: 1.7;
+	color: var(--sub2);
+}

@@ -1,0 +1,179 @@
+{
+  "id": 28,
+  "title": "饮品人格测试",
+  "shortName": "饮品人格",
+  "category": "生活",
+  "tags": ["饮品", "咖啡", "奶茶", "喝茶", "打工人"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性饮品偏好分类，结果不代表任何心理评估或医学诊断，也不构成饮食建议。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "咖啡、茶、奶茶还是白开水——你手里那杯东西，基本写明了你是怎么过一天的。四杯见人格，测完看看你办公室里的队友都是哪一派。",
+  "instructions": "共 10 题，请按你最近三个月的真实饮品习惯作答。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "coffee", "name": "咖啡党"},
+    {"key": "tea", "name": "茶党"},
+    {"key": "milktea", "name": "奶茶党"},
+    {"key": "water", "name": "白水派"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "早上开工，你的第一杯是？",
+      "options": [
+        {"key": "A", "text": "美式，开机必备", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "一杯热茶，慢慢醒过来", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "奶茶，一天从甜的开始", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "白开水，纯粹就好", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "下午三点困到眼神失焦，你会？",
+      "options": [
+        {"key": "A", "text": "再来一杯拿铁续上", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "泡杯茶，配点小零食", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "奶茶加珍珠，快乐能顶两小时", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "起身接杯水，顺便走两步", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "你的包里常年躺着的是？",
+      "options": [
+        {"key": "A", "text": "挂耳咖啡或者几瓶即饮", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "保温杯和一小罐茶叶", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "奶茶店的会员码", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "一个普通水杯", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "朋友说“找地方坐坐”，你会挑？",
+      "options": [
+        {"key": "A", "text": "精品咖啡馆，顺便聊豆子", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "茶馆或者新式茶饮店", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "奶茶店，然后开始选择困难", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "随便，有座位就行", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "点单时你最常说的一句话是？",
+      "options": [
+        {"key": "A", "text": "“少冰，浓缩加一份”", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "“不要糖，茶味重一点”", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "“三分糖少冰，加珍珠”", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "“一杯温水，谢谢”", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "如果真要戒点什么，你最难戒的是？",
+      "options": [
+        {"key": "A", "text": "每天那杯咖啡", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "饭后的那口茶", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "周末的奶茶", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "好像没什么需要戒的", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "你在这件事上的花钱态度是？",
+      "options": [
+        {"key": "A", "text": "豆子和器具值得认真投资", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "好茶叶不贵，喝着舒服就行", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "新品上市总想试一试", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "白水免费，性价比无敌", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "加班到深夜，你桌上的杯子是？",
+      "options": [
+        {"key": "A", "text": "已经冷掉的咖啡", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "续了三遍水的茶杯", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "喝了一半的奶茶", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "一大杯白水", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "别人评价你的饮品习惯，最常说的是？",
+      "options": [
+        {"key": "A", "text": "“你今天第几杯了？”", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "“你怎么这么养生”", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "“你又点奶茶了”", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "“你喝水也太规律了”", "score": {"cat": "water", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果余生只能留一种饮品，你选？",
+      "options": [
+        {"key": "A", "text": "咖啡", "score": {"cat": "coffee", "points": 1}},
+        {"key": "B", "text": "茶", "score": {"cat": "tea", "points": 1}},
+        {"key": "C", "text": "奶茶", "score": {"cat": "milktea", "points": 1}},
+        {"key": "D", "text": "白水", "score": {"cat": "water", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "coffee",
+      "categoryKey": "coffee",
+      "name": "咖啡党",
+      "summary": "没有那杯咖啡，你的系统启动不了。",
+      "detail": "咖啡对你来说不只是饮料，而是一天开始的仪式和效率开关。你做事讲节奏、重状态，也愿意为了更好的体验研究和投入，从豆子到器具都有自己的坚持。你的专注力常常在上午达到峰值，重要的事排在那会儿最划算。唯一的小提醒是，靠咖啡续命的前提是底子没被透支——再忙也别忘了给自己留一段真正的休息时间。",
+      "traits": ["效率导向", "有仪式感", "专注力强"],
+      "growthTip": "把咖啡当成仪式而不是燃料，留出真正停下来的一段空档。",
+      "shareCard": "我是咖啡党，开机全靠这一杯。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "tea",
+      "categoryKey": "tea",
+      "name": "茶党",
+      "summary": "保温杯常伴左右，慢一点也没关系。",
+      "detail": "你喜欢那种不急不躁的清醒：水烧开、茶叶舒展、第一口下去整个人都松下来。你做事稳，不追求瞬间的爆发力，更相信持续输出比猛冲一阵更靠得住。你的耐心和分寸感让周围人觉得舒服，也让你不太容易被情绪带着跑。偶尔也允许自己来点刺激的新口味，换换节奏，生活未必只有一种温度。",
+      "traits": ["节奏平稳", "有耐心", "注重长期"],
+      "growthTip": "稳定之外偶尔试试新东西，换节奏也是一种充电。",
+      "shareCard": "我是茶党，保温杯里泡着我的节奏。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "milktea",
+      "categoryKey": "milktea",
+      "name": "奶茶党",
+      "summary": "快乐可以加珍珠，甜度三分刚刚好。",
+      "detail": "你很清楚自己要什么：一杯奶茶就能把普通的一天变成还不错的一天。你对新鲜事物接受度高，新品上市总想去试试，也乐于把喜欢的东西分享给朋友。你的情绪调节方式简单直接，这份会取悦自己的能力其实很珍贵。只要别把奶茶当成唯一的加油站，偶尔换个水源，快乐来源会更丰富一些。",
+      "traits": ["会取悦自己", "乐于尝新", "情绪调节快"],
+      "growthTip": "给快乐多留几个来源，别把好心情全押在糖分上。",
+      "shareCard": "我是奶茶党，三分糖少冰加珍珠。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "water",
+      "categoryKey": "water",
+      "name": "白水派",
+      "summary": "不折腾，一杯水解决所有问题。",
+      "detail": "你在饮品这件事上务实得让人敬佩：不排队、不纠结甜度、不花冤枉钱，渴了就喝，喝完继续干活。你不容易被营销牵着走，也不依赖外物调节状态，靠的是自己的节奏和作息。你这种低消耗的活法其实省下了大量注意力和预算。偶尔给自己一点小奖励也没什么不好，毕竟生活还是需要一点滋味的。",
+      "traits": ["务实简单", "不被种草", "自律"],
+      "growthTip": "偶尔奖励自己一杯特别的，简单生活也需要一点滋味。",
+      "shareCard": "我是白水派，一杯水解决所有问题。你呢？",
+      "adSlot": "result_page"
+    }
+  ]
+}

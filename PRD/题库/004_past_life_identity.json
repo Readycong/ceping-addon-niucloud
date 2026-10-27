@@ -1,0 +1,223 @@
+{
+  "id": 4,
+  "title": "前世身份鉴定",
+  "shortName": "前世身份",
+  "category": "玄学",
+  "tags": ["玄学", "脑洞", "古风", "趣味身份"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为纯娱乐脑洞，不构成任何现实判断或专业评估。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "把你的日常偏好投进一台古风时光机，看看哪种前世身份最像你的隐藏设定。纯属娱乐，主打一个有画面感。",
+  "instructions": "共 12 题，请凭第一直觉选择最有感觉的选项，不必考虑现实条件。",
+  "estimatedMinutes": 3,
+  "questionCount": 12,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "musician", "name": "宫廷乐师"},
+    {"key": "swordsman", "name": "江湖剑客"},
+    {"key": "scholar", "name": "书斋学者"},
+    {"key": "healer", "name": "山野药师"},
+    {"key": "traveler", "name": "商队旅人"},
+    {"key": "weaver", "name": "织坊匠人"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "误入一座古城，你最先被什么吸引？",
+      "options": [
+        {"key": "A", "text": "阁楼里飘出的琴声", "score": {"cat": "musician", "points": 1}},
+        {"key": "B", "text": "城门边闪过的佩剑身影", "score": {"cat": "swordsman", "points": 1}},
+        {"key": "C", "text": "旧书摊上的残卷", "score": {"cat": "scholar", "points": 1}},
+        {"key": "D", "text": "巷口晒着的草药", "score": {"cat": "healer", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "如果古代也有朋友圈，你最可能发什么？",
+      "options": [
+        {"key": "A", "text": "今日行至关外，落日绝了", "score": {"cat": "traveler", "points": 1}},
+        {"key": "B", "text": "新做的纹样，细节请放大看", "score": {"cat": "weaver", "points": 1}},
+        {"key": "C", "text": "一段新曲，戴耳机更佳", "score": {"cat": "musician", "points": 1}},
+        {"key": "D", "text": "路见不平，今日战绩加一", "score": {"cat": "swordsman", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "突然多出一个完全自由的下午，你会？",
+      "options": [
+        {"key": "A", "text": "泡杯茶，把想看的书看完", "score": {"cat": "scholar", "points": 1}},
+        {"key": "B", "text": "去公园认花草、吹吹风", "score": {"cat": "healer", "points": 1}},
+        {"key": "C", "text": "随便坐上一班车去没去过的地方", "score": {"cat": "traveler", "points": 1}},
+        {"key": "D", "text": "做手账、拼模型或改造旧物", "score": {"cat": "weaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "朋友聚会冷场时，你通常怎么救场？",
+      "options": [
+        {"key": "A", "text": "放首歌，顺手接管背景音乐", "score": {"cat": "musician", "points": 1}},
+        {"key": "B", "text": "直接提议换个地方继续玩", "score": {"cat": "swordsman", "points": 1}},
+        {"key": "C", "text": "抛出一个有意思的话题", "score": {"cat": "scholar", "points": 1}},
+        {"key": "D", "text": "先给大家添水递零食", "score": {"cat": "healer", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "收到一笔意外奖金，你最想怎么花？",
+      "options": [
+        {"key": "A", "text": "来一趟说走就走的小旅行", "score": {"cat": "traveler", "points": 1}},
+        {"key": "B", "text": "买套趁手工具做点东西", "score": {"cat": "weaver", "points": 1}},
+        {"key": "C", "text": "看演出或升级音响耳机", "score": {"cat": "musician", "points": 1}},
+        {"key": "D", "text": "体验一项带点挑战的新运动", "score": {"cat": "swordsman", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "打工遇到复杂任务，你的自然解法是？",
+      "options": [
+        {"key": "A", "text": "先查资料，把逻辑彻底理清", "score": {"cat": "scholar", "points": 1}},
+        {"key": "B", "text": "先看每个人状态，再慢慢协调", "score": {"cat": "healer", "points": 1}},
+        {"key": "C", "text": "边走边看，快速适应变化", "score": {"cat": "traveler", "points": 1}},
+        {"key": "D", "text": "拆成步骤，逐个打磨完成", "score": {"cat": "weaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "哪种声音最容易让你停下脚步？",
+      "options": [
+        {"key": "A", "text": "雨声里若有若无的旋律", "score": {"cat": "musician", "points": 1}},
+        {"key": "B", "text": "球场上干脆利落的击打声", "score": {"cat": "swordsman", "points": 1}},
+        {"key": "C", "text": "有人把冷知识讲得特别明白", "score": {"cat": "scholar", "points": 1}},
+        {"key": "D", "text": "风吹树叶和小动物的动静", "score": {"cat": "healer", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "你心里的理想住处更像？",
+      "options": [
+        {"key": "A", "text": "交通方便，随时可以出发", "score": {"cat": "traveler", "points": 1}},
+        {"key": "B", "text": "有一间能放满材料的工作室", "score": {"cat": "weaver", "points": 1}},
+        {"key": "C", "text": "采光很好，还能摆下乐器", "score": {"cat": "musician", "points": 1}},
+        {"key": "D", "text": "地方不必大，但要自由无拘", "score": {"cat": "swordsman", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "旅行纪念品里，你最容易带回什么？",
+      "options": [
+        {"key": "A", "text": "一本当地旧书或博物馆图录", "score": {"cat": "scholar", "points": 1}},
+        {"key": "B", "text": "香草、花茶或自然气味的小物", "score": {"cat": "healer", "points": 1}},
+        {"key": "C", "text": "车票、地图和一路拍下的照片", "score": {"cat": "traveler", "points": 1}},
+        {"key": "D", "text": "当地手工制作的实用器物", "score": {"cat": "weaver", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "如果能点亮一项古代技能，你会选？",
+      "options": [
+        {"key": "A", "text": "听一遍就能复刻曲调", "score": {"cat": "musician", "points": 1}},
+        {"key": "B", "text": "身手利落，遇事不慌", "score": {"cat": "swordsman", "points": 1}},
+        {"key": "C", "text": "过目不忘，出口成章", "score": {"cat": "scholar", "points": 1}},
+        {"key": "D", "text": "熟识草木，照料万物", "score": {"cat": "healer", "points": 1}}
+      ]
+    },
+    {
+      "no": 11,
+      "stem": "面对一张空白地图，你的第一反应是？",
+      "options": [
+        {"key": "A", "text": "想标出下一条未知路线", "score": {"cat": "traveler", "points": 1}},
+        {"key": "B", "text": "想把边角装饰得精细好看", "score": {"cat": "weaver", "points": 1}},
+        {"key": "C", "text": "想给每个地方配一段主题旋律", "score": {"cat": "musician", "points": 1}},
+        {"key": "D", "text": "想看看哪里藏着江湖故事", "score": {"cat": "swordsman", "points": 1}}
+      ]
+    },
+    {
+      "no": 12,
+      "stem": "别人最常夸你的哪一面？",
+      "options": [
+        {"key": "A", "text": "懂得多，聊天总有新视角", "score": {"cat": "scholar", "points": 1}},
+        {"key": "B", "text": "细心温和，和你待着很舒服", "score": {"cat": "healer", "points": 1}},
+        {"key": "C", "text": "见识广，适应新环境很快", "score": {"cat": "traveler", "points": 1}},
+        {"key": "D", "text": "手巧靠谱，做事有质感", "score": {"cat": "weaver", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "musician",
+      "categoryKey": "musician",
+      "name": "宫廷乐师",
+      "summary": "你的隐藏技能，是给生活配一段恰到好处的背景乐。",
+      "detail": "传说中的你，可能坐在宫墙深处调弦试音，也可能悄悄把心事写进曲子。放到今天，你对氛围、节奏和微妙情绪仍很敏感，聚会冷不冷场、歌单合不合拍都逃不过你的耳朵。你不一定抢镜，却很会让普通时刻突然有电影感。",
+      "traits": ["氛围感", "感受细腻", "审美在线"],
+      "growthTip": "灵感别只存在收藏夹，偶尔把喜欢的声音和想法真正做出来。",
+      "shareCard": "前世身份鉴定：我是宫廷乐师，人生自带背景音乐。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "swordsman",
+      "categoryKey": "swordsman",
+      "name": "江湖剑客",
+      "summary": "你的前世关键词，是自由、利落和路见不平。",
+      "detail": "你像那种不爱绕弯、背上行囊就能出发的江湖人物。面对麻烦，你往往先行动再复盘；遇到不公，也容易挺身而出。你珍惜朋友，却不喜欢被规则层层捆住。现代生活里的你，可能嘴上说随便，心里其实一直守着自己的原则和边界。",
+      "traits": ["行动果断", "重情重义", "向往自由"],
+      "growthTip": "拔剑之前先看清地图，三秒钟的计划不会削弱你的洒脱。",
+      "shareCard": "前世身份鉴定：我是江湖剑客，自由比攻略重要。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "scholar",
+      "categoryKey": "scholar",
+      "name": "书斋学者",
+      "summary": "你靠好奇心开地图，知识就是随身装备。",
+      "detail": "你的前世大概常与书卷、墨香和长夜相伴。你享受把事情想明白，也擅长从细节里找到线索；朋友圈刷到陌生概念，可能顺手就查到凌晨。比起抢着发言，你更愿意先观察和整理，再给出有分量的答案。你的安静不是离线，而是大脑正在加载。",
+      "traits": ["求知欲", "逻辑清晰", "观察入微"],
+      "growthTip": "别等完全想透才开始，把知识变成一次小行动会更有趣。",
+      "shareCard": "前世身份鉴定：我是书斋学者，脑内藏书阁持续扩建。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "healer",
+      "categoryKey": "healer",
+      "name": "山野药师",
+      "summary": "你自带温柔结界，擅长照料人与日常。",
+      "detail": "你像住在山野小院里的药师，熟悉季节、草木和每个人不同的节奏。现实中的你通常细心、有耐心，能注意到朋友没说出口的小需求。你相信很多事情不能硬催，需要一点时间和合适的方法。和你相处，常有一种被稳稳接住的松弛感。",
+      "traits": ["温和细心", "耐心照料", "亲近自然"],
+      "growthTip": "照顾大家时也给自己留一份，把休息排进今日清单。",
+      "shareCard": "前世身份鉴定：我是山野药师，温柔也有自己的配方。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "traveler",
+      "categoryKey": "traveler",
+      "name": "商队旅人",
+      "summary": "你的人生偏好移动视角，下一站永远值得期待。",
+      "detail": "前世的你可能跟着商队穿过山口与集市，把沿途见闻装进行囊。今天的你依旧对新地方、新朋友和新体验充满兴趣，计划临时变化也能迅速接住。你擅长在陌生环境里找到办法，还能把普通旅程讲成精彩故事，是朋友圈里的移动地图。",
+      "traits": ["适应力强", "见多识广", "乐于探索"],
+      "growthTip": "出发很重要，偶尔停下来整理收获，也能让旅程更有重量。",
+      "shareCard": "前世身份鉴定：我是商队旅人，人生地图拒绝只点亮一格。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "weaver",
+      "categoryKey": "weaver",
+      "name": "织坊匠人",
+      "summary": "你把耐心织进细节，普通材料也能做出质感。",
+      "detail": "你的前世设定像一位手艺扎实的织坊匠人，懂材料，也懂时间的价值。现实中的你做事讲究手感和完成度，愿意为一个小细节反复调整。别人觉得差不多就行时，你还能看见提升空间。你不靠大声宣传证明自己，成品就是最稳的名片。",
+      "traits": ["动手能力", "耐心专注", "注重质感"],
+      "growthTip": "给作品设一个完成线，适时交付也属于手艺的一部分。",
+      "shareCard": "前世身份鉴定：我是织坊匠人，细节控从上辈子延续至今。你呢？",
+      "adSlot": "info_feed"
+    }
+  ]
+}

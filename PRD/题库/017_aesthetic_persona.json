@@ -1,0 +1,191 @@
+{
+  "id": 17,
+  "title": "你的审美人格",
+  "shortName": "审美人格",
+  "category": "审美",
+  "tags": ["审美", "穿搭", "风格", "生活方式", "品味"],
+  "copyrightStatus": "theory",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性风格分类，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "时尚风格 archetypes（极简、法式、街头、学院、波西米亚）",
+    "sourceType": "theory",
+    "reference": "本测题为基于公开风格理论框架的原创自编"
+  },
+  "description": "从衣柜、手机壳到朋友圈的构图，你的审美其实早就有固定答案了。十道题，测出你属于哪一种风格人格，顺便看看你的审美基因长什么样。",
+  "instructions": "共 10 题，请按你真实的选择习惯作答，别按“我希望别人怎么看我”选。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "minimal", "name": "极简主义"},
+    {"key": "french", "name": "法式松弛"},
+    {"key": "street", "name": "街头潮流"},
+    {"key": "preppy", "name": "学院复古"},
+    {"key": "boho", "name": "波西米亚"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "打开衣柜，你最常穿的那一套是？",
+      "options": [
+        {"key": "A", "text": "黑白灰基础款，版型干净", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "针织衫配直筒裤，看着很随意", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "宽松卫衣配球鞋，主打一个自在", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "衬衫加针织背心，整齐利落", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "买新衣服时，你第一个看的是？",
+      "options": [
+        {"key": "A", "text": "版型和面料，能不能搭十件", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "穿上是否松弛、有气质", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "设计够不够有态度", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "颜色和图案能不能打动我", "score": {"cat": "boho", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "你的手机壳或随身包更可能是？",
+      "options": [
+        {"key": "A", "text": "纯色无装饰，越简单越好", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "低饱和的皮质感，旧一点更有味道", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "带刺绣、流苏或民族图腾", "score": {"cat": "boho", "points": 1}},
+        {"key": "D", "text": "格纹或带字母标识的经典款", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "理想的周末穿搭场景是？",
+      "options": [
+        {"key": "A", "text": "咖啡馆里一身素色，安静待一下午", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "逛市集，长裙配草编包", "score": {"cat": "boho", "points": 1}},
+        {"key": "C", "text": "看展或滑板，宽松叠穿出层次", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "图书馆，毛衣配格子裙", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "你发的朋友圈照片更像哪种风格？",
+      "options": [
+        {"key": "A", "text": "随手拍的街角，不修也好看", "score": {"cat": "french", "points": 1}},
+        {"key": "B", "text": "旅行风景和花草特写", "score": {"cat": "boho", "points": 1}},
+        {"key": "C", "text": "涂鸦墙、球鞋、霓虹夜景", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "书桌、书本和摆整齐的早餐", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "你的购物原则更接近哪一条？",
+      "options": [
+        {"key": "A", "text": "少而精，一件顶三件", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "不选最贵的，只选最像自己的", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "限量款和联名款必须冲", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "经典款优先，耐穿耐看", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "房间的布置你更偏好？",
+      "options": [
+        {"key": "A", "text": "白墙加充足收纳，尽量空", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "几件旧木家具，配一束干花", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "海报、滑板、手办摆满一整墙", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "挂毯、绿植和民族风地毯", "score": {"cat": "boho", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "能形容你审美的三个词是？",
+      "options": [
+        {"key": "A", "text": "克制、干净、留白", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "松弛、自然、毫不费力", "score": {"cat": "french", "points": 1}},
+        {"key": "C", "text": "自由、浪漫、有故事感", "score": {"cat": "boho", "points": 1}},
+        {"key": "D", "text": "整洁、规矩、有书卷气", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "看到一件很花哨的单品，你的反应是？",
+      "options": [
+        {"key": "A", "text": "好看但不实穿，算了", "score": {"cat": "minimal", "points": 1}},
+        {"key": "B", "text": "可以小面积点缀一下", "score": {"cat": "boho", "points": 1}},
+        {"key": "C", "text": "正好，叠穿出层次感", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "不太适合我，还是经典点好", "score": {"cat": "preppy", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "你最想听到的那句赞美是？",
+      "options": [
+        {"key": "A", "text": "“你怎么这么随意还这么好看”", "score": {"cat": "french", "points": 1}},
+        {"key": "B", "text": "“你身上有一种自由的气息”", "score": {"cat": "boho", "points": 1}},
+        {"key": "C", "text": "“你这身搭配很会啊”", "score": {"cat": "street", "points": 1}},
+        {"key": "D", "text": "“你看起来好干净利落”", "score": {"cat": "preppy", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "minimal",
+      "categoryKey": "minimal",
+      "name": "极简主义",
+      "summary": "少即是多，你信奉“留白才是高级”。",
+      "detail": "你的审美核心是减法：颜色收敛、线条干净、物件能少一件就少一件。你不追逐流行，更在意一件东西能不能长期陪伴，能不能和衣柜里其他单品无缝搭配。这种克制让你看起来永远得体，也让你在信息过载的时代保住了一份清爽。偶尔加一点材质上的变化，会让你的极简更有温度。",
+      "traits": ["克制干净", "重质感", "长期主义"],
+      "growthTip": "在配色不变的前提下，试试不同材质的混搭（如棉麻配金属），用细节制造层次，避免整体过于冷淡。",
+      "shareCard": "你的审美人格：我是极简主义，少即是多。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "french",
+      "categoryKey": "french",
+      "name": "法式松弛",
+      "summary": "看起来毫不费力，其实每处都刚刚好。",
+      "detail": "你追求的是 effortless：衣服像随手一穿，发型像随手一扎，但整体就是顺眼。你偏爱低饱和色、合身不紧绷的剪裁、有点旧感的皮具，也不太爱显眼的 logo。你的审美哲学是“风格要服务于人，而不是人服务于风格”。这份松弛感很迷人，也很容易被模仿得过头——记住，随意的前提是舒服，不是真的随便。",
+      "traits": ["松弛自然", "低饱和控", "气质优先"],
+      "growthTip": "保留松弛基调的同时，用一件有存在感的配饰（丝巾、耳饰）做视觉落点，让“随意”显得更有章法。",
+      "shareCard": "你的审美人格：我是法式松弛，随意但有分寸。你呢？",
+      "adSlot": "share_card"
+    },
+    {
+      "key": "street",
+      "categoryKey": "street",
+      "name": "街头潮流",
+      "summary": "你的穿搭有自己的观点，不打算和别人撞。",
+      "detail": "你对潮流敏感，也愿意为态度和设计买单。宽松廓形、叠穿层次、球鞋和联名款是你的常用词汇，你享受把不同元素重组出个人标识的过程。你的审美带着一股鲜活劲儿，能在千篇一律的通勤穿搭里跳出来。要注意的是，风格不等于堆砌单品，主次分清才不会用力过猛。",
+      "traits": ["敢穿敢搭", "潮流敏锐", "强调个性"],
+      "growthTip": "每次造型只留一个视觉主角，其余单品退为背景；同时建立自己的“基础款底盘”，让亮点串得起来。",
+      "shareCard": "你的审美人格：我是街头潮流，穿搭自带观点。你呢？",
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "preppy",
+      "categoryKey": "preppy",
+      "name": "学院复古",
+      "summary": "干净、规矩，还带着一点书卷气。",
+      "detail": "你偏爱格纹、针织、衬衫这类经得起时间考验的经典元素，讲究整洁、合身和细节到位。你的审美里有一种秩序感，让人一看就觉得可靠、清爽、有教养。这种风格的好处是从不出错、适配场合广；挑战在于容易显得过于规矩。加一点复古小物或跳脱的配色，就能让经典变得年轻。",
+      "traits": ["经典耐看", "整洁得体", "细节讲究"],
+      "growthTip": "在经典框架里加入一件有年代感的小物（复古表、旧书包），或用一双亮色鞋打破整体的规整感。",
+      "shareCard": "你的审美人格：我是学院复古，干净利落还带点书卷气。你呢？",
+      "adSlot": "result_page"
+    },
+    {
+      "key": "boho",
+      "categoryKey": "boho",
+      "name": "波西米亚",
+      "summary": "自由浪漫，你身上总像带着一段旅程。",
+      "detail": "你被色彩、图案和手作质感吸引：长裙、刺绣、流苏、绿植和各地淘来的小物，构成了你独有的审美叙事。你不追求整齐划一，而喜欢层层叠叠的生活痕迹，每一件东西背后都像有个故事。这种风格热情又有生命力，只要控制好色彩数量，就能既丰富又不杂乱。",
+      "traits": ["浪漫自由", "热爱色彩", "故事感强"],
+      "growthTip": "给造型定一个主色调，其余颜色都围绕它展开；配饰再多，也留一处“空白”让视觉有地方休息。",
+      "shareCard": "你的审美人格：我是波西米亚，身上总带着一段旅程。你呢？",
+      "adSlot": "share_card"
+    }
+  ]
+}

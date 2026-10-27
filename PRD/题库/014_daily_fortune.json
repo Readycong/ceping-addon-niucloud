@@ -1,0 +1,201 @@
+{
+  "id": 14,
+  "title": "今日运势与幸运色鉴定",
+  "shortName": "今日运势",
+  "category": "玄学",
+  "tags": ["玄学", "运势", "幸运色", "幸运数字", "每日"],
+  "copyrightStatus": "internet_native",
+  "entertainment": true,
+  "compliance": {
+    "nonDiagnostic": true,
+    "note": "本测试为娱乐性趣味测算，结果不代表任何心理评估或医学诊断。",
+    "minorProtected": false
+  },
+  "source": {
+    "theory": "无权威来源，互联网原生趣味测评",
+    "sourceType": "internet_native",
+    "reference": "本测题为原创自编"
+  },
+  "description": "从起床状态、外卖手气到睡前心情，给今天算一笔流水账，顺带领取你的专属幸运色和幸运数字。玄学仅供娱乐，好运还得靠自己出门。",
+  "instructions": "共 10 题，请按今天的真实体感作答，凭第一直觉选，别回头改。",
+  "estimatedMinutes": 2,
+  "questionCount": 10,
+  "scoringModel": "category",
+  "categories": [
+    {"key": "great", "name": "大吉"},
+    {"key": "good", "name": "小吉"},
+    {"key": "steady", "name": "平稳"},
+    {"key": "bumpy", "name": "小波折"},
+    {"key": "recharge", "name": "需充电"}
+  ],
+  "tieBreak": "分类分数平票时按 results 数组顺序优先。",
+  "questions": [
+    {
+      "no": 1,
+      "stem": "今天早上醒来的第一感觉是？",
+      "options": [
+        {"key": "A", "text": "神清气爽，像提前充满电", "score": {"cat": "great", "points": 1}},
+        {"key": "B", "text": "还不错，感觉今天会挺顺", "score": {"cat": "good", "points": 1}},
+        {"key": "C", "text": "就那样，一个普通的日子", "score": {"cat": "steady", "points": 1}},
+        {"key": "D", "text": "有点沉，哪里不太对劲", "score": {"cat": "bumpy", "points": 1}}
+      ]
+    },
+    {
+      "no": 2,
+      "stem": "出门前挑衣服，你今天的手气是？",
+      "options": [
+        {"key": "A", "text": "随手一抓就是最搭的一套", "score": {"cat": "great", "points": 1}},
+        {"key": "B", "text": "试了两套，第二套很满意", "score": {"cat": "good", "points": 1}},
+        {"key": "C", "text": "穿了最常穿的那件", "score": {"cat": "steady", "points": 1}},
+        {"key": "D", "text": "纠结半天，最后想早点睡觉", "score": {"cat": "recharge", "points": 1}}
+      ]
+    },
+    {
+      "no": 3,
+      "stem": "上午第一件事的进展如何？",
+      "options": [
+        {"key": "A", "text": "出奇顺利，还提前完成", "score": {"cat": "great", "points": 1}},
+        {"key": "B", "text": "顺手搞定，心情不错", "score": {"cat": "good", "points": 1}},
+        {"key": "C", "text": "磨蹭了一会儿才进入状态", "score": {"cat": "recharge", "points": 1}},
+        {"key": "D", "text": "卡住了，来回返工好几遍", "score": {"cat": "bumpy", "points": 1}}
+      ]
+    },
+    {
+      "no": 4,
+      "stem": "今天的午饭或外卖体验更像？",
+      "options": [
+        {"key": "A", "text": "出餐神速，还多送了一份小食", "score": {"cat": "great", "points": 1}},
+        {"key": "B", "text": "味道正常，没什么惊喜", "score": {"cat": "steady", "points": 1}},
+        {"key": "C", "text": "纠结半天，随便点了一份", "score": {"cat": "recharge", "points": 1}},
+        {"key": "D", "text": "送错了，还等了很久", "score": {"cat": "bumpy", "points": 1}}
+      ]
+    },
+    {
+      "no": 5,
+      "stem": "下午的精力条还剩多少？",
+      "options": [
+        {"key": "A", "text": "稳稳在线，效率不错", "score": {"cat": "good", "points": 1}},
+        {"key": "B", "text": "有点犯困，需要一杯咖啡", "score": {"cat": "recharge", "points": 1}},
+        {"key": "C", "text": "不好不坏，按部就班", "score": {"cat": "steady", "points": 1}},
+        {"key": "D", "text": "被临时会议切得七零八落", "score": {"cat": "bumpy", "points": 1}}
+      ]
+    },
+    {
+      "no": 6,
+      "stem": "今天收到的那条消息更可能是？",
+      "options": [
+        {"key": "A", "text": "一个需要重新沟通的意外状况", "score": {"cat": "bumpy", "points": 1}},
+        {"key": "B", "text": "一个等了很久的好消息", "score": {"cat": "great", "points": 1}},
+        {"key": "C", "text": "朋友发来的约饭邀约", "score": {"cat": "good", "points": 1}},
+        {"key": "D", "text": "微信群里刷屏的日常通知", "score": {"cat": "steady", "points": 1}}
+      ]
+    },
+    {
+      "no": 7,
+      "stem": "傍晚时分，你的心情指数是？",
+      "options": [
+        {"key": "A", "text": "平淡收尾，也算完整", "score": {"cat": "steady", "points": 1}},
+        {"key": "B", "text": "有点小开心，想记一笔", "score": {"cat": "good", "points": 1}},
+        {"key": "C", "text": "只想早点回家躺平", "score": {"cat": "recharge", "points": 1}},
+        {"key": "D", "text": "好事连连，想发个朋友圈", "score": {"cat": "great", "points": 1}}
+      ]
+    },
+    {
+      "no": 8,
+      "stem": "今天的人际互动更像哪一种？",
+      "options": [
+        {"key": "A", "text": "聊得很开心，还被夸了一句", "score": {"cat": "good", "points": 1}},
+        {"key": "B", "text": "有个小误会需要解释一下", "score": {"cat": "bumpy", "points": 1}},
+        {"key": "C", "text": "能省则省，几乎没怎么说话", "score": {"cat": "recharge", "points": 1}},
+        {"key": "D", "text": "意外遇到很久没联系的人", "score": {"cat": "great", "points": 1}}
+      ]
+    },
+    {
+      "no": 9,
+      "stem": "今天的消费运如何？",
+      "options": [
+        {"key": "A", "text": "抢到了一张很划算的优惠券", "score": {"cat": "great", "points": 1}},
+        {"key": "B", "text": "临时多出一笔计划外开销", "score": {"cat": "bumpy", "points": 1}},
+        {"key": "C", "text": "冲动下单了其实不需要的东西", "score": {"cat": "recharge", "points": 1}},
+        {"key": "D", "text": "正常消费，没什么波动", "score": {"cat": "steady", "points": 1}}
+      ]
+    },
+    {
+      "no": 10,
+      "stem": "睡前回看今天，你的总结是？",
+      "options": [
+        {"key": "A", "text": "踩了几个坑，明天得小心点", "score": {"cat": "bumpy", "points": 1}},
+        {"key": "B", "text": "平平淡淡，也算过关", "score": {"cat": "steady", "points": 1}},
+        {"key": "C", "text": "有几个还不错的小瞬间", "score": {"cat": "good", "points": 1}},
+        {"key": "D", "text": "电量耗尽，需要早点睡", "score": {"cat": "recharge", "points": 1}}
+      ]
+    }
+  ],
+  "results": [
+    {
+      "key": "great",
+      "categoryKey": "great",
+      "name": "大吉",
+      "summary": "今天的运气像开了加速，宜主动出击。",
+      "detail": "今天的你像是被好运追着跑：事情推进顺、消息来得及时，连外卖都比平时快一步。这种日子最怕浪费在犹豫上，适合把一直拖着的那件事摆上台面，去谈、去问、去提交。运气只是顺风，真正让今天变成好日子的，是你敢顺着这股风往前迈了一大步。",
+      "traits": ["运势在线", "行动力满格", "贵人缘旺"],
+      "growthTip": "趁手气好，把最难开口的那件事今天说出口；顺手给久未联系的人发句问候，说不定就接上了新机会。",
+      "shareCard": "今日运势：我是大吉，今天适合主动出击。你呢？",
+      "luckyColor": "正红",
+      "luckyNumber": 8,
+      "adSlot": "share_card"
+    },
+    {
+      "key": "good",
+      "categoryKey": "good",
+      "name": "小吉",
+      "summary": "稳中有喜，小确幸来得刚刚好。",
+      "detail": "今天不算惊天动地的好，但处处有点甜：事情按计划走，偶尔冒出一句夸奖、一个邀约、一顿合口的饭。这种运势最养人，因为它不靠运气爆棚，而是靠你把普通的一天过得有滋有味。别小看这些小确幸，攒起来就是一个很不错的月份。",
+      "traits": ["小确幸不断", "节奏舒服", "人和气顺"],
+      "growthTip": "把今天让你开心的小事记下来，攒成一份“好运清单”；状态不错的话，可以顺手推进一件中等难度的事。",
+      "shareCard": "今日运势：我是小吉，稳中有喜的一天。你呢？",
+      "luckyColor": "暖橙",
+      "luckyNumber": 6,
+      "adSlot": "result_page"
+    },
+    {
+      "key": "steady",
+      "categoryKey": "steady",
+      "name": "平稳",
+      "summary": "没有大风大浪，就是最好的一天。",
+      "detail": "今天的关键词是“正常”：没有惊喜，也没有意外，事情一件件按序完成，情绪像一条平缓的线。很多人嫌平淡，但平稳其实是稀缺资源——它意味着没有坑要填、没有火要救，你可以把注意力留给真正想做的事。把今天当成攒弹药的日子，一点都不亏。",
+      "traits": ["节奏稳定", "无惊无喜", "适合沉淀"],
+      "growthTip": "给自己安排一件“慢而有回报”的事，比如读几十页书、整理一份资料；平稳日最适合打地基。",
+      "shareCard": "今日运势：我是平稳，风平浪静也是好日子。你呢？",
+      "luckyColor": "米白",
+      "luckyNumber": 3,
+      "adSlot": "info_feed"
+    },
+    {
+      "key": "bumpy",
+      "categoryKey": "bumpy",
+      "name": "小波折",
+      "summary": "有点磕绊，但都是能绕过去的小坎。",
+      "detail": "今天时不时冒出点小状况：返工、误解、临时插单，节奏被打得有点碎。好在这些都不是大事，多半是沟通误差或时间撞车造成的。处理这种日子的诀窍是别硬刚——先分清哪些必须今天解决、哪些可以明天再说，把力气留给真正紧急的那一件。",
+      "traits": ["偶有返工", "节奏被打断", "需要耐心"],
+      "growthTip": "遇到卡点先停十秒再回应，避免情绪上头；把今天没解决的问题写清楚，明天一早状态好时优先处理。",
+      "shareCard": "今日运势：我是小波折，今天的小坑我绕过去了。你呢？",
+      "luckyColor": "雾霾蓝",
+      "luckyNumber": 4,
+      "adSlot": "result_page"
+    },
+    {
+      "key": "recharge",
+      "categoryKey": "recharge",
+      "name": "需充电",
+      "summary": "电量偏低，今天的主线任务是照顾好自己。",
+      "detail": "今天你的电池可能只剩百分之十几：提不起劲、容易犯困、做决定也格外费劲。这不是你不行，是你真的需要休息。硬撑着冲效率，往往换来更差的产出和更差的心情。把今天的目标调低一档，完成最低限度的事，剩下的时间用来补觉、吃点好的、早点收工。",
+      "traits": ["电量偏低", "需要休息", "不宜硬撑"],
+      "growthTip": "今晚提前半小时放下手机，喝杯热水早点睡；明天只安排三件最重要的事，其余全部往后排。",
+      "shareCard": "今日运势：我是需充电，今天先把自己充满。你呢？",
+      "luckyColor": "薄荷绿",
+      "luckyNumber": 2,
+      "adSlot": "share_card"
+    }
+  ]
+}
